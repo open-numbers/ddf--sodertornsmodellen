@@ -16210,6 +16210,7 @@ basomrade,year,mean_income_aged_gt_20,gender
 1320330_lindhagensplan,2012,555927.47,male
 1320330_lindhagensplan,2013,658185.66,male
 1320330_lindhagensplan,2014,707325.91,male
+3710150,2014,414525.56,male
 4111110_norra_runby,2000,170209.45,female
 4111110_norra_runby,2001,178326.08,female
 4111110_norra_runby,2002,185454.83,female
@@ -32421,3 +32422,4 @@ basomrade,year,mean_income_aged_gt_20,gender
 1320330_lindhagensplan,2012,414980.95,female
 1320330_lindhagensplan,2013,412020.84,female
 1320330_lindhagensplan,2014,440677.07,female
+3710150,2014,294973.88,female

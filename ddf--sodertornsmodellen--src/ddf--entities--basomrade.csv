@@ -48,7 +48,7 @@ basomrade,name,municipality,is--basomrade,size,baskod2010
 4270100_karby,Karby,0115_vallentuna,TRUE,big,4270100
 4270200_brottby,Brottby,0115_vallentuna,TRUE,mini,4270200
 4270501_ovr_osseby_garns_glesbygd,Övr Össeby-Garns glesbygd,0115_vallentuna,TRUE,big,4270501
-4270502_algeby_garns_ekskogen,Älgeby/Garns-Ekskogen,0115_vallentuna,TRUE,big,4270502
+4270502_algeby_garns_ekskogen,Älgeby/Garns-Ekskogen,0115_vallentuna,TRUE,mini,4270502
 4280000_angarns_forsamling,Angarns församling,0115_vallentuna,TRUE,big,4280000
 4440110_ljustero,Ljusterö,0117_osteraker,TRUE,big,4440110
 4440120_ingmarso_mfl_oar,Ingmarsö mfl öar,0117_osteraker,TRUE,mini,4440120
@@ -100,7 +100,7 @@ basomrade,name,municipality,is--basomrade,size,baskod2010
 5630400_kopparmora,Kopparmora,0120_varmdo,TRUE,big,5630400
 5630510,5630510 ,0120_varmdo,TRUE,big,5630510
 5630520,5630520 ,0120_varmdo,TRUE,big,5630520
-5630600_varmdo_norra_skargard,Värmdö norra skärgård,0120_varmdo,TRUE,big,5630600
+5630600_varmdo_norra_skargard,Värmdö norra skärgård,0120_varmdo,TRUE,mini,5630600
 5640100_djurhamn,Djurhamn,0120_varmdo,TRUE,big,5640100
 5640200_stavsnas,Stavsnäs,0120_varmdo,TRUE,big,5640200
 5640510_stavsnas_glesbygd,Stavsnäs glesbygd,0120_varmdo,TRUE,big,5640510
@@ -147,7 +147,7 @@ basomrade,name,municipality,is--basomrade,size,baskod2010
 3220212_brunna,Brunna,0125_ekero,TRUE,big,3220212
 3220230_knalleborg,Knalleborg,0125_ekero,TRUE,big,3220230
 3220261_ostra_trakvista,Östra Träkvista,0125_ekero,TRUE,big,3220261
-3220262_gallsta_o,Gällsta Ö,0125_ekero,TRUE,big,3220262
+3220262_gallsta_o,Gällsta Ö,0125_ekero,TRUE,mini,3220262
 3220270_sandudden,Sandudden,0125_ekero,TRUE,big,3220270
 3220500_ekero_glesbygd,Ekerö glesbygd,0125_ekero,TRUE,big,3220500
 3230000_munso_forsamling,Munsö församling,0125_ekero,TRUE,big,3230000
@@ -223,7 +223,7 @@ basomrade,name,municipality,is--basomrade,size,baskod2010
 5120930_kommunalhuset,Kommunalhuset,0127_botkyrka,TRUE,big,5120930
 5120940_tuna,Tuna,0127_botkyrka,TRUE,big,5120940
 5120950_nackdala,Nackdala,0127_botkyrka,TRUE,big,5120950
-5120970_loviseberg,Loviseberg,0127_botkyrka,TRUE,big,5120970
+5120970_loviseberg,Loviseberg,0127_botkyrka,TRUE,mini,5120970
 5130810_uttran,Uttran,0127_botkyrka,TRUE,big,5130810
 5130820_varsta,Vårsta,0127_botkyrka,TRUE,big,5130820
 5130830_grodinge_glesbygd,Grödinge glesbygd,0127_botkyrka,TRUE,big,5130830
@@ -237,7 +237,7 @@ basomrade,name,municipality,is--basomrade,size,baskod2010
 5140711_tullinge_skog,Tullinge skog,0127_botkyrka,TRUE,big,5140711
 5140712_lanthem_s,Lanthem S,0127_botkyrka,TRUE,big,5140712
 5711010_soderby_garde,Söderby Gärde,0128_salem,TRUE,big,5711010
-5711020_soderby_park,Söderby Park,0128_salem,TRUE,big,5711020
+5711020_soderby_park,Söderby Park,0128_salem,TRUE,mini,5711020
 5711110_skyttorp,Skyttorp,0128_salem,TRUE,big,5711110
 5711120_skogsang,Skogsäng,0128_salem,TRUE,big,5711120
 5711130_soderby,Söderby,0128_salem,TRUE,big,5711130
@@ -611,7 +611,7 @@ basomrade,name,municipality,is--basomrade,size,baskod2010
 2120900_orby_slott,Örby Slott,0180_stockholm,TRUE,big,2120900
 2121020,2121020 ,0180_stockholm,TRUE,big,2121020
 2130100_bandhagen,Bandhagen,0180_stockholm,TRUE,big,2130100
-2130210_hogdalens_centrum,Högdalens Centrum,0180_stockholm,TRUE,big,2130210
+2130210_hogdalens_centrum,Högdalens Centrum,0180_stockholm,TRUE,mini,2130210
 2130220_ostra_hogdalen,Östra Högdalen,0180_stockholm,TRUE,big,2130220
 2130230_vastra_hogdalen,Västra Högdalen,0180_stockholm,TRUE,big,2130230
 2130240_skebokvarnsvagen,Skebokvarnsvägen,0180_stockholm,TRUE,big,2130240
@@ -693,7 +693,7 @@ basomrade,name,municipality,is--basomrade,size,baskod2010
 2210830_runstensplan,Runstensplan,0180_stockholm,TRUE,big,2210830
 2210840_angbylunden,Ängbylunden,0180_stockholm,TRUE,big,2210840
 2210850_attehagen,Ättehagen,0180_stockholm,TRUE,big,2210850
-2210860_akeshovsbadet,Åkeshovsbadet,0180_stockholm,TRUE,big,2210860
+2210860_akeshovsbadet,Åkeshovsbadet,0180_stockholm,TRUE,mini,2210860
 2210920_sodra_riksby,Södra Riksby,0180_stockholm,TRUE,big,2210920
 2211121_farjestadsvagen_v,Färjestadsvägen V,0180_stockholm,TRUE,big,2211121
 2211130_angbyhojden,Ängbyhöjden,0180_stockholm,TRUE,big,2211130
@@ -722,7 +722,7 @@ basomrade,name,municipality,is--basomrade,size,baskod2010
 2230440_racksta_sjukhus,Råcksta sjukhus,0180_stockholm,TRUE,big,2230440
 2230520_norra_vinsta,Norra Vinsta,0180_stockholm,TRUE,big,2230520
 2230560_sodra_vinsta,Södra Vinsta,0180_stockholm,TRUE,mini,2230560
-2230610_vallingby_centrum,Vällingby Centrum,0180_stockholm,TRUE,big,2230610
+2230610_vallingby_centrum,Vällingby Centrum,0180_stockholm,TRUE,mini,2230610
 2230620_sodra_vallingby,Södra Vällingby,0180_stockholm,TRUE,big,2230620
 2230630_norra_vallingby,Norra Vällingby,0180_stockholm,TRUE,big,2230630
 2240121_sodra_bromsten_n,Södra Bromsten N,0180_stockholm,TRUE,big,2240121
@@ -1018,10 +1018,10 @@ basomrade,name,municipality,is--basomrade,size,baskod2010
 6154500_ununge_glesbygd,Ununge glesbygd,0188_norrtalje,TRUE,big,6154500
 6161000_singo_forsamling,Singö församling,0188_norrtalje,TRUE,big,6161000
 6162100_almsta,Älmsta,0188_norrtalje,TRUE,big,6162100
-6162200_grisslehamn,Grisslehamn,0188_norrtalje,TRUE,big,6162200
+6162200_grisslehamn,Grisslehamn,0188_norrtalje,TRUE,mini,6162200
 6162510_vaddo_fastland,Väddö fastland,0188_norrtalje,TRUE,big,6162510
 6162520_vaddo,Väddö,0188_norrtalje,TRUE,big,6162520
-6163500_bjorko,Björkö,0188_norrtalje,TRUE,big,6163500
+6163500_bjorko,Björkö,0188_norrtalje,TRUE,mini,6163500
 6164100_soderby_karl,Söderby-Karl,0188_norrtalje,TRUE,mini,6164100
 6164500_soderby_karls_glesbygd,Söderby-Karls glesbygd,0188_norrtalje,TRUE,big,6164500
 3510110_gamla_marsta,Gamla Märsta,0191_sigtuna,TRUE,big,3510110
@@ -1084,3 +1084,4 @@ basomrade,name,municipality,is--basomrade,size,baskod2010
 4010120,4010120 ,0139_upplands_bro,TRUE,mini,4010120
 1120132_norra_bantorget_v,Norra Bantorget V,0180_stockholm,TRUE,big,1120132
 1320330_lindhagensplan,Lindhagensplan,0180_stockholm,TRUE,mini,1320330
+3710150,3710150 ,0184_solna,TRUE,big,3710150
