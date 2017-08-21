@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[149]:
+# In[122]:
 
 import pandas as pd
 import numpy as np
@@ -12,7 +12,7 @@ from ddf_utils.str import to_concept_id
 
 # ## Files & Dirs
 
-# In[150]:
+# In[123]:
 
 # Directories
 out_dir = os.path.join(os.pardir, os.pardir,"ddf--sodertornsmodellen--src")
@@ -22,11 +22,13 @@ src = os.path.join(os.pardir, "source")
 entities_file_1 = os.path.join(src, "161115 A7 utan formler.xlsx") # Basomrande from Statistics Sweden
 entities_file_2 = os.path.join(src, "kommunlankod.xls") # Municipalities from Statistics Sweden
 datapoints_file = os.path.join(src, "Slutgiltig basområdetsdata hela länet170706.xlsx") # Municipality data
+muncipMap_file = os.path.join(src, "municipalitiesWithMap.xlsx")
+tag_file = os.path.join(src, "tag.xlsx")
 
 
 # ## Translation dict for column names
 
-# In[151]:
+# In[124]:
 
 column_names = {    
     "År": "year",
@@ -135,23 +137,23 @@ column_names = {
 
 # ## Excel sheets' config
 
-# In[152]:
+# In[125]:
 
 sheet_config = [
     
     {
         "sheetname": 0,
         "skiprows": [0,1,2],
-        "parse_cols": "A:J",
+        "parse_cols": "A:P",
         "no_headers": 2,
-        "name": "employment"
+        "name": "education"
     },
     {
         "sheetname": 1,
         "skiprows": [0,1,2],
-        "parse_cols": "A:P",
+        "parse_cols": "A:J",
         "no_headers": 2,
-        "name": "education"
+        "name": "employment"
     },
     {   
         "sheetname": 2,
@@ -186,7 +188,7 @@ sheet_config = [
 
 # ## Helpers
 
-# In[153]:
+# In[126]:
 
 def map_to_id(x):
     if x == str("Stockholms län"):
@@ -197,7 +199,7 @@ def map_to_id(x):
         return to_concept_id(x)
 
 
-# In[154]:
+# In[127]:
 
 def generate_code_dict(df):
     
@@ -213,7 +215,7 @@ def generate_code_dict(df):
 
 # ## Process data
 
-# In[155]:
+# In[128]:
 
 def process_data(data, b_names, column_names, no_headers, sheetname):
 
@@ -256,7 +258,7 @@ def process_data(data, b_names, column_names, no_headers, sheetname):
 
 # ## Entities
 
-# In[156]:
+# In[129]:
 
 def extract_entities_basomraden(data, names):
 
@@ -267,7 +269,7 @@ def extract_entities_basomraden(data, names):
     
     # Rename columns
     basomraden = basomraden[basomraden["basomrade"] != ""]
-    basomraden = basomraden[["basomrade", "geo", "population_aged_20_64"]]
+    basomraden = basomraden[["basomrade", "geo", "population_aged_25_64"]]
     basomraden.rename(columns={"geo": "municipality"}, inplace=True)
     basomraden.drop_duplicates("basomrade", inplace=True)
     names.rename(columns={2010: "basomrade", "namn": "name"}, inplace=True)
@@ -282,7 +284,7 @@ def extract_entities_basomraden(data, names):
     
     basomraden["basomrade"] = basomraden["basomrade"].map(to_concept_id)
     basomraden["is--basomrade"] = "TRUE"
-    basomraden["size"] = basomraden["population_aged_20_64"].apply(lambda x: "big" if x > 150 else 'mini')
+    basomraden["size"] = basomraden["population_aged_25_64"].apply(lambda x: "big" if x > 150 else 'mini')
     
     #print(pd.DataFrame(basomraden["basomrade"].str.split('_',1).tolist()))
     df = pd.DataFrame(basomraden["basomrade"].str.split('_',1).tolist(),
@@ -292,23 +294,38 @@ def extract_entities_basomraden(data, names):
     return basomraden[["basomrade", "name", "municipality", "is--basomrade", "size", "baskod2010"]]
 
 
-# In[157]:
+# In[130]:
 
 def extract_entities_municipalities(data):
 
-    muni = data.copy()
-    muni.rename(columns = {"Code": "municipality", "Name": "name"}, inplace=True)
-    muni = muni[muni["municipality"].str.startswith("01")] # Select only municipalities in Stockholm county
-    muni = muni.ix[1:] # Remove county row
-    muni["county"] = "01_stockholms_l_n"
-    muni["is--municipality"] = "TRUE"
-    muni["municipality"] = muni["municipality"] + " " + muni["name"]
-    muni["municipality"] = muni["municipality"].map(to_concept_id)
+    muncip = pd.read_excel(muncipMap_file)
     
-    return muni
+    #print(muncip)
+    
+#     muni = data.copy()
+#     muni.rename(columns = {"Code": "municipality", "Name": "name"}, inplace=True)
+#     muni = muni[muni["municipality"].str.startswith("01")] # Select only municipalities in Stockholm county
+#     muni = muni.ix[1:] # Remove county row
+#     muni["county"] = "01_stockholms_l_n"
+#     muni["is--municipality"] = "TRUE"
+#     muni["municipality"] = muni["municipality"] + " " + muni["name"]
+    
+    muncip["is--municipality"] = "TRUE"
+    muncip["municipality"] = muncip["municipality"].map(to_concept_id)
+    
+    return muncip
 
 
-# In[158]:
+# In[131]:
+
+def extract_entities_tag():
+    tag = pd.read_excel(tag_file)
+    tag['tag'] = tag['tag'].map(to_concept_id)
+    return tag
+    
+
+
+# In[132]:
 
 def extract_entities_counties(data):
     
@@ -323,7 +340,7 @@ def extract_entities_counties(data):
     return counties
 
 
-# In[159]:
+# In[133]:
 
 def extract_entities_county_region():
     
@@ -332,7 +349,7 @@ def extract_entities_county_region():
     return county_regions
 
 
-# In[160]:
+# In[134]:
 
 def extract_entities_countries():
     
@@ -344,7 +361,7 @@ def extract_entities_countries():
 
 # ## Datapoints
 
-# In[161]:
+# In[135]:
 
 def extract_datapoints(data, basomraden, municipalities, counties, county_regions, countries):
     
@@ -362,7 +379,7 @@ def extract_datapoints(data, basomraden, municipalities, counties, county_region
 
 # ## Concepts
 
-# In[162]:
+# In[136]:
 
 def extract_concepts(measures, column_names):
     
@@ -388,7 +405,7 @@ def extract_concepts(measures, column_names):
     return data
 
 
-# In[163]:
+# In[137]:
 
 def datapoints_by_basomrade_gender():
     """create datapoints by basomrade/gender/year and copy datapoints for
@@ -439,7 +456,7 @@ def datapoints_by_basomrade_gender():
 
 # ## Main
 
-# In[ ]:
+# In[138]:
 
 if __name__ == "__main__":
     
@@ -496,6 +513,15 @@ if __name__ == "__main__":
         
 #         code_to_id = generate_code_dict(df_basomraden)
         
+        #print(data.dtypes)
+        
+        #d<-d[!(d$A=="B" & d$E==0),]
+        data = data[~data["basomrade"].isin(['4210450','5630511','5630512','5630513',
+                                             '5630514','5630522','5630523','5630524',
+                                             '5515121','5515122','5515123','4010150',
+                                             '4010502','4010503','3710421','3710422',
+                                             '3710423','2240531','2240532'])]
+    
         data["basomrade"] = data["basomrade"].apply(lambda x: code_to_id[str(x)] if x != "" else "")
         
         print (" ------ Datapoints from sheet " + config["name"] + " ------ ")
@@ -555,6 +581,18 @@ if __name__ == "__main__":
             df_concepts = df_concepts.append({'concept':"gender",
                             'name':"gender",
                             'concept_type':"entity_domain",
+                           'domain':''}, ignore_index=True)
+            df_concepts = df_concepts.append({'concept':"map_id",
+                            'name':"map_id",
+                            'concept_type':"string",
+                           'domain':''}, ignore_index=True)
+            df_concepts = df_concepts.append({'concept':"rank",
+                            'name':"rank",
+                            'concept_type':"string",
+                           'domain':''}, ignore_index=True)
+            df_concepts = df_concepts.append({'concept':"shape_lores_svg",
+                            'name':"shape_lores_svg",
+                            'concept_type':"string",
                            'domain':''}, ignore_index=True)
         #df_concepts.append({"","","measure"}, ignore_index=True)
         path = os.path.join(out_dir, "ddf--concepts.csv")
