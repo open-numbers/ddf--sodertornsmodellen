@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[122]:
+# In[1]:
 
 import pandas as pd
 import numpy as np
@@ -12,7 +12,7 @@ from ddf_utils.str import to_concept_id
 
 # ## Files & Dirs
 
-# In[123]:
+# In[2]:
 
 # Directories
 out_dir = os.path.join(os.pardir, os.pardir,"ddf--sodertornsmodellen--src")
@@ -28,7 +28,7 @@ tag_file = os.path.join(src, "tag.xlsx")
 
 # ## Translation dict for column names
 
-# In[124]:
+# In[37]:
 
 column_names = {    
     "År": "year",
@@ -37,34 +37,51 @@ column_names = {
     # Education sheet
     "Förgymnasial, Män": "educational_level_pre_secondary_school_aged_25_64_male",
     "Förgymnasial, Kvinnor": "educational_level_pre_secondary_school_aged_25_64_female",
+    "Förgymnasial, Totalt": "educational_level_pre_secondary_school_aged_25_64",
     "Gymnasial, Män": "educational_level_secondary_school_aged_25_64_male",
     "Gymnasial, Kvinnor": "educational_level_secondary_school_aged_25_64_female",
+    "Gymnasial, Totalt": "educational_level_secondary_school_aged_25_64",
     "EfterGymnasial <= 3 år, Män": "educational_level_higher_education_max_3_years_aged_25_64_male",
     "EfterGymnasial <= 3 år, Kvinnor": "educational_level_higher_education_max_3_years_aged_25_64_female",
+    "EfterGymnasial <= 3 år, Totalt": "educational_level_higher_education_max_3_years_aged_25_64",
     "EfterGymnasial > 3 år, Män": "educational_level_higher_education_min_3_years_aged_25_64_male",
     "EfterGymnasial > 3 år, Kvinnor": "educational_level_higher_education_min_3_years_aged_25_64_female",
+    "EfterGymnasial > 3 år, Totalt": "educational_level_higher_education_min_3_years_aged_25_64",
     "Uppgift saknas, Män": "missing_data_male",
     "Uppgift saknas, Kvinnor": "missing_data_female",
+    "Uppgift saknas, Totalt": "missing_data",
     "Totalt antal personer 25-64 år, Män": "population_aged_25_64_male",
     "Totalt antal personer 25-64 år, Kvinnor": "population_aged_25_64_female",
     "Totalt antal personer 25-64 år, Totalt": "population_aged_25_64",
+    "Andel med minst 3 år eftergymnasial utbildning, Män":"post_secondary_education_min_3_years_aged_25_64_male",
+    "Andel med minst 3 år eftergymnasial utbildning, Kvinnor":"post_secondary_education_min_3_years_aged_25_64_female",
+    "Andel med minst 3 år eftergymnasial utbildning, Totalt":"post_secondary_education_min_3_years_aged_25_64",
     # Employment sheet
     "Antal förvärvsarbetande, Män": "employed_aged_20_64_male",
     "Antal förvärvsarbetande, Kvinnor": "employed_aged_20_64_female",
+    "Antal förvärvsarbetande, Totalt": "employed_aged_20_64",
     "Antal ej förvärvsarbetande, Män": "unemployed_aged_20_64_male",
     "Antal ej förvärvsarbetande, Kvinnor": "unemployed_aged_20_64_female",
+    "Antal ej förvärvsarbetande, Totalt": "unemployed_aged_20_64",
     "Totalt antal personer 20-64 år, Män": "population_aged_20_64_male",
     "Totalt antal personer 20-64 år, Kvinnor": "population_aged_20_64_female",
     "Totalt antal personer 20-64 år, Totalt": "population_aged_20_64",
+    "Sysselsättningsgrad, Män":"employment_rate_20_64_male",
+    "Sysselsättningsgrad, Kvinnor":"employment_rate_20_64_female",
+    "Sysselsättningsgrad, Totalt":"employment_rate_20_64",
     # Income sheet
     "Låg inkomst, Män": "low_income_aged_gt_20_male",
     "Låg inkomst, Kvinnor": "low_income_aged_gt_20_female",
+    "Låg inkomst, Totalt": "low_income_aged_gt_20",
     "Medellåg inkomst, Män": "lower_middle_income_aged_gt_20_male",
     "Medellåg inkomst, Kvinnor": "lower_middle_income_aged_gt_20_female",
+    "Medellåg inkomst, Totalt": "lower_middle_income_aged_gt_20",
     "Medelhög inkomst, Män": "upper_middle_income_aged_gt_20_male",
     "Medelhög inkomst, Kvinnor": "upper_middle_income_aged_gt_20_female",
+    "Medelhög inkomst, Totalt": "upper_middle_income_aged_gt_20",
     "Hög inkomst, Män": "high_income_aged_gt_20_male",
     "Hög inkomst, Kvinnor": "high_income_aged_gt_20_female",
+    "Hög inkomst, Totalt": "high_income_aged_gt_20",
     "Totalt antal personer 20+ år, Män": "population_aged_gt_20_male",
     "Totalt antal personer 20+ år, Kvinnor": "population_aged_gt_20_female",
     "Totalt antal personer 20+ år, Totalt": "population_aged_gt_20",
@@ -77,14 +94,14 @@ column_names = {
     "Summa inkomst, Män": "sum_income_aged_gt_20_male",
     "Summa inkomst, Kvinnor": "sum_income_aged_gt_20_female",
     "Summa inkomst, Totalt": "sum_income_aged_gt_20",
-#     "mean_income_aged_gt_20_gender":"Medelinkomst, gender",
-#     "emigration_min_3_years_of_higher_education_aged_25_64_gender":"Antal, Utflyttade 25-64 år som har minst 3-årig högskoleutbildning,  gender",
     # Work sheets
     # 1
     "Antal, Inflyttade, Män": "immigration_male",
     "Antal, Inflyttade, Kvinnor": "immigration_female",
+    "Antal, Inflyttade, Totalt": "immigration",
     "Antal, Utflyttade, Män": "emigration_male",
     "Antal, Utflyttade, Kvinnor": "emigration_female",
+    "Antal, Utflyttade, Totalt": "emigration",
     "Antal, Befolkning 20XX-12-31, Män": "population_20xx_12_31_male",
     "Antal, Befolkning 20XX-12-31, Kvinnor": "population_20xx_12_31_female",
     "Antal, Befolkning 20XX-12-31, Totalt": "population_20xx_12_31",
@@ -94,32 +111,47 @@ column_names = {
     "Andelar, Utflyttade, Män": "share_emigration_male",
     "Andelar, Utflyttade, Kvinnor": "share_emigration_female",
     "Andelar, Utflyttade, Totalt": "share_emigration",
+    "Flyttöverskott, Flyttöverskott, Män": "immigration_surplus_male",
+    "Flyttöverskott, Flyttöverskott, Kvinnor": "immigration_surplus_female",
+    "Flyttöverskott, Flyttöverskott, totalt": "immigration_surplus",
     # 2
     "Antal, Inflyttade 20-64 år \nsom förvärvsarbetar, Män": "immigration_employed_aged_20_64_male",
     "Antal, Inflyttade 20-64 år \nsom förvärvsarbetar, Kvinnor": "immigration_employed_aged_20_64_female",
+    "Antal, Inflyttade 20-64 år \nsom förvärvsarbetar, Totalt": "immigration_employed_aged_20_64",
     "Antal, Utflyttade 20-64 år \nsom förvärvsarbetar, Män": "emigration_employed_aged_20_64_male",
     "Antal, Utflyttade 20-64 år \nsom förvärvsarbetar, Kvinnor": "emigration_employed_aged_20_64_female",
+    "Antal, Utflyttade 20-64 år \nsom förvärvsarbetar, Totalt": "emigration_employed_aged_20_64",
     "Antal, Befolkning 20-64 år 2000-12-31 som förvärvsarbetar, Män": "population_20xx_12_31_employed_aged_20_64_male",
     "Antal, Befolkning 20-64 år 2000-12-31 som förvärvsarbetar, Kvinnor": "population_20xx_12_31_employed_aged_20_64_female",
+    "Antal, Befolkning 20-64 år 2000-12-31 som förvärvsarbetar, Totalt": "population_20xx_12_31_employed_aged_20_64",
     "Andelar, Inflyttade 20-64 år \nsom förvärvsarbetar, Män": "share_immigration_employed_aged_20_64_male",
     "Andelar, Inflyttade 20-64 år \nsom förvärvsarbetar, Kvinnor": "share_immigration_employed_aged_20_64_female",
     "Andelar, Inflyttade 20-64 år \nsom förvärvsarbetar, Totalt": "share_immigration_employed_aged_20_64",
     "Andelar, Utflyttade 20-64 år \nsom förvärvsarbetar, Män": "share_emigration_employed_aged_20_64_male",
     "Andelar, Utflyttade 20-64 år \nsom förvärvsarbetar, Kvinnor": "share_emigration_employed_aged_20_64_female",
     "Andelar, Utflyttade 20-64 år \nsom förvärvsarbetar, Totalt": "share_emigration_employed_aged_20_64",
+    "Flyttöverskott, förvärvsarbete, Män": "immigration_surplus_employed_aged_20_64_male",
+    "Flyttöverskott, förvärvsarbete, Kvinnor": "immigration_surplus_employed_aged_20_64_female",
+    "Flyttöverskott, förvärvsarbete, Totalt": "immigration_surplus_employed_aged_20_64",
     # 3
     "Antal, Inflyttade 25-64 år som har minst 3-årig högskoleutbildning, Män": \
     "immigration_min_3_years_of_higher_education_aged_25_64_male",
     "Antal, Inflyttade 25-64 år som har minst 3-årig högskoleutbildning, Kvinnor": \
     "immigration_min_3_years_of_higher_education_aged_25_64_female",
+    "Antal, Inflyttade 25-64 år som har minst 3-årig högskoleutbildning, Totalt": \
+    "immigration_min_3_years_of_higher_education_aged_25_64",
     "Antal, Utflyttade 25-64 år som har minst 3-årig högskoleutbildning, Män": \
     "emigration_min_3_years_of_higher_education_aged_25_64_male",
     "Antal, Utflyttade 25-64 år som har minst 3-årig högskoleutbildning, Kvinnor": \
     "emigration_min_3_years_of_higher_education_aged_25_64_female",
+    "Antal, Utflyttade 25-64 år som har minst 3-årig högskoleutbildning, Totalt": \
+    "emigration_min_3_years_of_higher_education_aged_25_64",
     "Antal, Befolkning 25-64 år, 2000-12-31 som har minst 3-årig högskoleutbildning 25-64 år, Män": \
     "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_male",
     "Antal, Befolkning 25-64 år, 2000-12-31 som har minst 3-årig högskoleutbildning 25-64 år, Kvinnor": \
     "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_female",
+    "Antal, Befolkning 25-64 år, 2000-12-31 som har minst 3-årig högskoleutbildning 25-64 år, Totalt": \
+    "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64",
     "Andelar, Inflyttade 25-64 år som har minst 3-årig högskoleutbildning, Män": \
     "share_immigration_min_3_years_of_higher_education_aged_25_64_male",
     "Andelar, Inflyttade 25-64 år som har minst 3-årig högskoleutbildning, Kvinnor": \
@@ -131,55 +163,58 @@ column_names = {
     "Andelar, Utflyttade 25-64 år som har minst 3-årig högskoleutbildning, Kvinnor": \
     "share_emigration_min_3_years_of_higher_education_aged_25_64_female",
     "Andelar, Utflyttade 25-64 år som har minst 3-årig högskoleutbildning, Totalt": \
-    "share_emigration_min_3_years_of_higher_education_aged_25_64"
+    "share_emigration_min_3_years_of_higher_education_aged_25_64",
+    "Flyttöverskott, högutbildade, Män": "immigration_surplus_min_3_years_of_higher_education_aged_25_64_male",
+    "Flyttöverskott, högutbildade, Kvinnor": "immigration_surplus_min_3_years_of_higher_education_aged_25_64_female",
+    "Flyttöverskott, högutbildade, Totalt": "immigration_surplus_min_3_years_of_higher_education_aged_25_64"
 }
 
 
 # ## Excel sheets' config
 
-# In[125]:
+# In[21]:
 
 sheet_config = [
     
     {
         "sheetname": 0,
         "skiprows": [0,1,2],
-        "parse_cols": "A:P",
+        "parse_cols": "A:X",
         "no_headers": 2,
         "name": "education"
     },
     {
         "sheetname": 1,
         "skiprows": [0,1,2],
-        "parse_cols": "A:J",
+        "parse_cols": "A:O",
         "no_headers": 2,
         "name": "employment"
     },
     {   
         "sheetname": 2,
         "skiprows": [0,1,2,4,5,6],
-        "parse_cols": "A:W",
+        "parse_cols": "A:AA",
         "no_headers": 2,
         "name": "income"
     },
     {
         "sheetname": 3,
         "skiprows": [0,1,2,4,5,6],
-        "parse_cols": "A:P",
+        "parse_cols": "A:U",
         "no_headers": 3,
         "name": "total migration"
     },
     {
         "sheetname": 4,
         "skiprows": [0,1,2,4,5,6],
-        "parse_cols": "A:O",
+        "parse_cols": "A:U",
         "no_headers": 3,
         "name": "migration employment"
     },
     {
         "sheetname": 5,
         "skiprows": [0,1,2,4,5,6],
-        "parse_cols": "A:O",
+        "parse_cols": "A:U",
         "no_headers": 3,
         "name": "migration education"
     }
@@ -188,7 +223,7 @@ sheet_config = [
 
 # ## Helpers
 
-# In[126]:
+# In[22]:
 
 def map_to_id(x):
     if x == str("Stockholms län"):
@@ -199,7 +234,7 @@ def map_to_id(x):
         return to_concept_id(x)
 
 
-# In[127]:
+# In[23]:
 
 def generate_code_dict(df):
     
@@ -215,7 +250,7 @@ def generate_code_dict(df):
 
 # ## Process data
 
-# In[128]:
+# In[24]:
 
 def process_data(data, b_names, column_names, no_headers, sheetname):
 
@@ -258,7 +293,7 @@ def process_data(data, b_names, column_names, no_headers, sheetname):
 
 # ## Entities
 
-# In[129]:
+# In[25]:
 
 def extract_entities_basomraden(data, names):
 
@@ -294,7 +329,7 @@ def extract_entities_basomraden(data, names):
     return basomraden[["basomrade", "name", "municipality", "is--basomrade", "size", "baskod2010"]]
 
 
-# In[130]:
+# In[26]:
 
 def extract_entities_municipalities(data):
 
@@ -316,7 +351,7 @@ def extract_entities_municipalities(data):
     return muncip
 
 
-# In[131]:
+# In[27]:
 
 def extract_entities_tag():
     tag = pd.read_excel(tag_file)
@@ -325,7 +360,7 @@ def extract_entities_tag():
     
 
 
-# In[132]:
+# In[28]:
 
 def extract_entities_counties(data):
     
@@ -340,7 +375,7 @@ def extract_entities_counties(data):
     return counties
 
 
-# In[133]:
+# In[29]:
 
 def extract_entities_county_region():
     
@@ -349,7 +384,7 @@ def extract_entities_county_region():
     return county_regions
 
 
-# In[134]:
+# In[30]:
 
 def extract_entities_countries():
     
@@ -361,7 +396,7 @@ def extract_entities_countries():
 
 # ## Datapoints
 
-# In[135]:
+# In[31]:
 
 def extract_datapoints(data, basomraden, municipalities, counties, county_regions, countries):
     
@@ -379,7 +414,7 @@ def extract_datapoints(data, basomraden, municipalities, counties, county_region
 
 # ## Concepts
 
-# In[136]:
+# In[32]:
 
 def extract_concepts(measures, column_names):
     
@@ -405,7 +440,7 @@ def extract_concepts(measures, column_names):
     return data
 
 
-# In[137]:
+# In[33]:
 
 def datapoints_by_basomrade_gender():
     """create datapoints by basomrade/gender/year and copy datapoints for
@@ -414,7 +449,9 @@ def datapoints_by_basomrade_gender():
     res = list()
     
     indicators = ["mean_income_aged_gt_20",
-                  "share_emigration_min_3_years_of_higher_education_aged_25_64"]
+                  "share_emigration_min_3_years_of_higher_education_aged_25_64",
+                  "post_secondary_education_min_3_years_aged_25_64",
+                  "employment_rate_20_64"]
     
     for indicator in indicators:
 
@@ -456,7 +493,7 @@ def datapoints_by_basomrade_gender():
 
 # ## Main
 
-# In[138]:
+# In[39]:
 
 if __name__ == "__main__":
     
@@ -476,7 +513,6 @@ if __name__ == "__main__":
         
         # PROCESS DATA
         data = process_data(data, b_names, column_names, config["no_headers"], config["sheetname"])
-        
         # ENTITIES
         if (first_run):
             print (" ------ Entities ------ ")
@@ -562,14 +598,14 @@ if __name__ == "__main__":
         #print(measures)
         df_concepts = extract_concepts(measures, column_names)
         if (first_run):
-            df_concepts = df_concepts.append({'concept':"mean_income_aged_gt_20_gender",
-                            'name':"Medelinkomst, gender",
-                            'concept_type':"measure",
-                           'domain':''}, ignore_index=True)
-            df_concepts = df_concepts.append({'concept':"emigration_min_3_years_of_higher_education_aged_25_64_gender",
-                            'name':"Antal, Utflyttade 25-64 år som har minst 3-årig högskoleutbildning,  gender",
-                            'concept_type':"measure",
-                           'domain':''}, ignore_index=True)
+#             df_concepts = df_concepts.append({'concept':"mean_income_aged_gt_20_gender",
+#                             'name':"Medelinkomst, gender",
+#                             'concept_type':"measure",
+#                            'domain':''}, ignore_index=True)
+#             df_concepts = df_concepts.append({'concept':"emigration_min_3_years_of_higher_education_aged_25_64_gender",
+#                             'name':"Antal, Utflyttade 25-64 år som har minst 3-årig högskoleutbildning,  gender",
+#                             'concept_type':"measure",
+#                            'domain':''}, ignore_index=True)
             df_concepts = df_concepts.append({'concept':"size",
                             'name':"",
                             'concept_type':"string",
@@ -600,15 +636,6 @@ if __name__ == "__main__":
         df_concepts.to_csv(path, index=False, encoding="utf-8")
         first_run = False
     
-    # out put basomrade file now in the end instead in first step.
-#     entities = [df_basomraden_all]
-#     entity_name = ["basomrade"]
-    
-#     for i, entity in enumerate(entities):
-#         path = os.path.join(out_dir, "ddf--entities--{}.csv".format(entity_name[i]))
-#         print ("Printing " + path)
-#         entity.to_csv(path, index=False, encoding="utf-8")
-    # CLEANUP
     datapoints_by_basomrade_gender()
     
     del data, df_basomraden, df_municipalities, df_counties, df_county_regions, df_countries, df_concepts,        df_dps_bas, df_dps_muni, df_dps_county, df_dps_county_r, df_dps_country, e_data, df_datapoints, b_names
