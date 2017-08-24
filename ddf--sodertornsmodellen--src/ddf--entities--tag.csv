@@ -9,6 +9,6 @@ income,Income,
 migration_by_gender,by gender,migration
 migration,Migration,
 migration_by_employment_by_gender,by gender,migration_by_employment
-migration_by_employment,Employed,
+migration_by_employment,Migration — employed,
 migration_by_education_by_gender,by gender,migration_by_education
-migration_by_education,Educated,
+migration_by_education,Migration — educated,
