@@ -28,7 +28,7 @@ tag_file = os.path.join(src, "tag.xlsx")
 
 # ## Translation dict for column names
 
-# In[37]:
+# In[23]:
 
 column_names = {    
     "År": "year",
@@ -114,6 +114,10 @@ column_names = {
     "Flyttöverskott, Flyttöverskott, Män": "immigration_surplus_male",
     "Flyttöverskott, Flyttöverskott, Kvinnor": "immigration_surplus_female",
     "Flyttöverskott, Flyttöverskott, totalt": "immigration_surplus",
+    "Flyttöverskott, Kumulativt, Män": "cumulative_immigration_surplus_male",
+    "Flyttöverskott, Kumulativt, Kvinnor": "cumulative_immigration_surplus_female",
+    "Flyttöverskott, Kumulativt, totalt": "cumulative_immigration_surplus",
+    
     # 2
     "Antal, Inflyttade 20-64 år \nsom förvärvsarbetar, Män": "immigration_employed_aged_20_64_male",
     "Antal, Inflyttade 20-64 år \nsom förvärvsarbetar, Kvinnor": "immigration_employed_aged_20_64_female",
@@ -133,6 +137,9 @@ column_names = {
     "Flyttöverskott, förvärvsarbete, Män": "immigration_surplus_employed_aged_20_64_male",
     "Flyttöverskott, förvärvsarbete, Kvinnor": "immigration_surplus_employed_aged_20_64_female",
     "Flyttöverskott, förvärvsarbete, Totalt": "immigration_surplus_employed_aged_20_64",
+    "Flyttöverskott, förvärvsarbete Kumulativt, Män": "cumulative_immigration_surplus_employed_aged_20_64_male",
+    "Flyttöverskott, förvärvsarbete Kumulativt, Kvinnor": "cumulative_immigration_surplus_employed_aged_20_64_female",
+    "Flyttöverskott, förvärvsarbete Kumulativt, Totalt": "cumulative_immigration_surplus_employed_aged_20_64",
     # 3
     "Antal, Inflyttade 25-64 år som har minst 3-årig högskoleutbildning, Män": \
     "immigration_min_3_years_of_higher_education_aged_25_64_male",
@@ -166,13 +173,16 @@ column_names = {
     "share_emigration_min_3_years_of_higher_education_aged_25_64",
     "Flyttöverskott, högutbildade, Män": "immigration_surplus_min_3_years_of_higher_education_aged_25_64_male",
     "Flyttöverskott, högutbildade, Kvinnor": "immigration_surplus_min_3_years_of_higher_education_aged_25_64_female",
-    "Flyttöverskott, högutbildade, Totalt": "immigration_surplus_min_3_years_of_higher_education_aged_25_64"
+    "Flyttöverskott, högutbildade, Totalt": "immigration_surplus_min_3_years_of_higher_education_aged_25_64",
+    "Kumulativt, flyttöverskott högutbildade, Män": "cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_male",
+    "Kumulativt, flyttöverskott högutbildade, Kvinnor": "cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_female",
+    "Kumulativt, flyttöverskott högutbildade, Totalt": "cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64"
 }
 
 
 # ## Excel sheets' config
 
-# In[21]:
+# In[19]:
 
 sheet_config = [
     
@@ -200,21 +210,21 @@ sheet_config = [
     {
         "sheetname": 3,
         "skiprows": [0,1,2,4,5,6],
-        "parse_cols": "A:U",
+        "parse_cols": "A:X",
         "no_headers": 3,
         "name": "total migration"
     },
     {
         "sheetname": 4,
         "skiprows": [0,1,2,4,5,6],
-        "parse_cols": "A:U",
+        "parse_cols": "A:X",
         "no_headers": 3,
         "name": "migration employment"
     },
     {
         "sheetname": 5,
         "skiprows": [0,1,2,4,5,6],
-        "parse_cols": "A:U",
+        "parse_cols": "A:X",
         "no_headers": 3,
         "name": "migration education"
     }
@@ -223,7 +233,7 @@ sheet_config = [
 
 # ## Helpers
 
-# In[22]:
+# In[6]:
 
 def map_to_id(x):
     if x == str("Stockholms län"):
@@ -234,7 +244,7 @@ def map_to_id(x):
         return to_concept_id(x)
 
 
-# In[23]:
+# In[7]:
 
 def generate_code_dict(df):
     
@@ -250,7 +260,7 @@ def generate_code_dict(df):
 
 # ## Process data
 
-# In[24]:
+# In[8]:
 
 def process_data(data, b_names, column_names, no_headers, sheetname):
 
@@ -293,7 +303,7 @@ def process_data(data, b_names, column_names, no_headers, sheetname):
 
 # ## Entities
 
-# In[25]:
+# In[9]:
 
 def extract_entities_basomraden(data, names):
 
@@ -329,7 +339,7 @@ def extract_entities_basomraden(data, names):
     return basomraden[["basomrade", "name", "municipality", "is--basomrade", "size", "baskod2010"]]
 
 
-# In[26]:
+# In[10]:
 
 def extract_entities_municipalities(data):
 
@@ -351,7 +361,7 @@ def extract_entities_municipalities(data):
     return muncip
 
 
-# In[27]:
+# In[11]:
 
 def extract_entities_tag():
     tag = pd.read_excel(tag_file)
@@ -360,7 +370,7 @@ def extract_entities_tag():
     
 
 
-# In[28]:
+# In[12]:
 
 def extract_entities_counties(data):
     
@@ -375,7 +385,7 @@ def extract_entities_counties(data):
     return counties
 
 
-# In[29]:
+# In[13]:
 
 def extract_entities_county_region():
     
@@ -384,7 +394,7 @@ def extract_entities_county_region():
     return county_regions
 
 
-# In[30]:
+# In[14]:
 
 def extract_entities_countries():
     
@@ -396,7 +406,7 @@ def extract_entities_countries():
 
 # ## Datapoints
 
-# In[31]:
+# In[15]:
 
 def extract_datapoints(data, basomraden, municipalities, counties, county_regions, countries):
     
@@ -414,7 +424,7 @@ def extract_datapoints(data, basomraden, municipalities, counties, county_region
 
 # ## Concepts
 
-# In[32]:
+# In[16]:
 
 def extract_concepts(measures, column_names):
     
@@ -440,7 +450,7 @@ def extract_concepts(measures, column_names):
     return data
 
 
-# In[33]:
+# In[17]:
 
 def datapoints_by_basomrade_gender():
     """create datapoints by basomrade/gender/year and copy datapoints for
@@ -493,7 +503,7 @@ def datapoints_by_basomrade_gender():
 
 # ## Main
 
-# In[39]:
+# In[24]:
 
 if __name__ == "__main__":
     
