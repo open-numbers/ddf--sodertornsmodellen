@@ -1,18 +1,23 @@
 {
-  "name": "ddf--sodertornsmodellen--src",
-  "title": "ddf--sodertornsmodellen--src",
+  "name": "ddf--sodertornsmodellen",
+  "title": "ddf--sodertornsmodellen",
   "description": "",
   "version": "0.0.1",
   "language": {
     "id": "en",
     "name": "English"
   },
-  "translations": [],
+  "translations": [
+    {
+      "id": "sv-SE",
+      "name": "Svenska"
+    }
+  ],
   "license": "",
   "author": "",
   "resources": [
     {
-      "path": "ddf--concepts.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--concepts.csv",
       "name": "ddf--concepts",
       "schema": {
         "fields": [
@@ -45,7 +50,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--cumulative_immigration_surplus--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cumulative_immigration_surplus--by--basomrade--year.csv",
       "name": "cumulative_immigration_surplus--by--basomrade--year",
       "schema": {
         "fields": [
@@ -66,7 +71,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--cumulative_immigration_surplus--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cumulative_immigration_surplus--by--county--year.csv",
       "name": "cumulative_immigration_surplus--by--county--year",
       "schema": {
         "fields": [
@@ -87,7 +92,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--cumulative_immigration_surplus--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cumulative_immigration_surplus--by--municipality--year.csv",
       "name": "cumulative_immigration_surplus--by--municipality--year",
       "schema": {
         "fields": [
@@ -108,7 +113,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--cumulative_immigration_surplus_employed_aged_20_64--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cumulative_immigration_surplus_employed_aged_20_64--by--basomrade--year.csv",
       "name": "cumulative_immigration_surplus_employed_aged_20_64--by--basomrade--year",
       "schema": {
         "fields": [
@@ -129,7 +134,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--cumulative_immigration_surplus_employed_aged_20_64--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cumulative_immigration_surplus_employed_aged_20_64--by--county--year.csv",
       "name": "cumulative_immigration_surplus_employed_aged_20_64--by--county--year",
       "schema": {
         "fields": [
@@ -150,7 +155,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--cumulative_immigration_surplus_employed_aged_20_64--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cumulative_immigration_surplus_employed_aged_20_64--by--municipality--year.csv",
       "name": "cumulative_immigration_surplus_employed_aged_20_64--by--municipality--year",
       "schema": {
         "fields": [
@@ -171,7 +176,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--cumulative_immigration_surplus_employed_aged_20_64_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cumulative_immigration_surplus_employed_aged_20_64_female--by--basomrade--year.csv",
       "name": "cumulative_immigration_surplus_employed_aged_20_64_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -192,7 +197,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--cumulative_immigration_surplus_employed_aged_20_64_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cumulative_immigration_surplus_employed_aged_20_64_female--by--county--year.csv",
       "name": "cumulative_immigration_surplus_employed_aged_20_64_female--by--county--year",
       "schema": {
         "fields": [
@@ -213,7 +218,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--cumulative_immigration_surplus_employed_aged_20_64_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cumulative_immigration_surplus_employed_aged_20_64_female--by--municipality--year.csv",
       "name": "cumulative_immigration_surplus_employed_aged_20_64_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -234,7 +239,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--cumulative_immigration_surplus_employed_aged_20_64_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cumulative_immigration_surplus_employed_aged_20_64_male--by--basomrade--year.csv",
       "name": "cumulative_immigration_surplus_employed_aged_20_64_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -255,7 +260,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--cumulative_immigration_surplus_employed_aged_20_64_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cumulative_immigration_surplus_employed_aged_20_64_male--by--county--year.csv",
       "name": "cumulative_immigration_surplus_employed_aged_20_64_male--by--county--year",
       "schema": {
         "fields": [
@@ -276,7 +281,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--cumulative_immigration_surplus_employed_aged_20_64_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cumulative_immigration_surplus_employed_aged_20_64_male--by--municipality--year.csv",
       "name": "cumulative_immigration_surplus_employed_aged_20_64_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -297,7 +302,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--cumulative_immigration_surplus_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cumulative_immigration_surplus_female--by--basomrade--year.csv",
       "name": "cumulative_immigration_surplus_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -318,7 +323,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--cumulative_immigration_surplus_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cumulative_immigration_surplus_female--by--county--year.csv",
       "name": "cumulative_immigration_surplus_female--by--county--year",
       "schema": {
         "fields": [
@@ -339,7 +344,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--cumulative_immigration_surplus_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cumulative_immigration_surplus_female--by--municipality--year.csv",
       "name": "cumulative_immigration_surplus_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -360,7 +365,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--cumulative_immigration_surplus_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cumulative_immigration_surplus_male--by--basomrade--year.csv",
       "name": "cumulative_immigration_surplus_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -381,7 +386,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--cumulative_immigration_surplus_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cumulative_immigration_surplus_male--by--county--year.csv",
       "name": "cumulative_immigration_surplus_male--by--county--year",
       "schema": {
         "fields": [
@@ -402,7 +407,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--cumulative_immigration_surplus_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cumulative_immigration_surplus_male--by--municipality--year.csv",
       "name": "cumulative_immigration_surplus_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -423,7 +428,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64--by--basomrade--year.csv",
       "name": "cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64--by--basomrade--year",
       "schema": {
         "fields": [
@@ -444,7 +449,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64--by--county--year.csv",
       "name": "cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64--by--county--year",
       "schema": {
         "fields": [
@@ -465,7 +470,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64--by--municipality--year.csv",
       "name": "cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64--by--municipality--year",
       "schema": {
         "fields": [
@@ -486,7 +491,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_female--by--basomrade--year.csv",
       "name": "cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -507,7 +512,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_female--by--county--year.csv",
       "name": "cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_female--by--county--year",
       "schema": {
         "fields": [
@@ -528,7 +533,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_female--by--municipality--year.csv",
       "name": "cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -549,7 +554,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_male--by--basomrade--year.csv",
       "name": "cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -570,7 +575,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_male--by--county--year.csv",
       "name": "cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_male--by--county--year",
       "schema": {
         "fields": [
@@ -591,7 +596,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_male--by--municipality--year.csv",
       "name": "cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -612,7 +617,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_higher_education_max_3_years_aged_25_64--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_higher_education_max_3_years_aged_25_64--by--basomrade--year.csv",
       "name": "educational_level_higher_education_max_3_years_aged_25_64--by--basomrade--year",
       "schema": {
         "fields": [
@@ -633,7 +638,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_higher_education_max_3_years_aged_25_64--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_higher_education_max_3_years_aged_25_64--by--country--year.csv",
       "name": "educational_level_higher_education_max_3_years_aged_25_64--by--country--year",
       "schema": {
         "fields": [
@@ -654,7 +659,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_higher_education_max_3_years_aged_25_64--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_higher_education_max_3_years_aged_25_64--by--county--year.csv",
       "name": "educational_level_higher_education_max_3_years_aged_25_64--by--county--year",
       "schema": {
         "fields": [
@@ -675,7 +680,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_higher_education_max_3_years_aged_25_64--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_higher_education_max_3_years_aged_25_64--by--municipality--year.csv",
       "name": "educational_level_higher_education_max_3_years_aged_25_64--by--municipality--year",
       "schema": {
         "fields": [
@@ -696,7 +701,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_higher_education_max_3_years_aged_25_64_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_higher_education_max_3_years_aged_25_64_female--by--basomrade--year.csv",
       "name": "educational_level_higher_education_max_3_years_aged_25_64_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -717,7 +722,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_higher_education_max_3_years_aged_25_64_female--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_higher_education_max_3_years_aged_25_64_female--by--country--year.csv",
       "name": "educational_level_higher_education_max_3_years_aged_25_64_female--by--country--year",
       "schema": {
         "fields": [
@@ -738,7 +743,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_higher_education_max_3_years_aged_25_64_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_higher_education_max_3_years_aged_25_64_female--by--county--year.csv",
       "name": "educational_level_higher_education_max_3_years_aged_25_64_female--by--county--year",
       "schema": {
         "fields": [
@@ -759,7 +764,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_higher_education_max_3_years_aged_25_64_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_higher_education_max_3_years_aged_25_64_female--by--municipality--year.csv",
       "name": "educational_level_higher_education_max_3_years_aged_25_64_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -780,7 +785,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_higher_education_max_3_years_aged_25_64_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_higher_education_max_3_years_aged_25_64_male--by--basomrade--year.csv",
       "name": "educational_level_higher_education_max_3_years_aged_25_64_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -801,7 +806,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_higher_education_max_3_years_aged_25_64_male--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_higher_education_max_3_years_aged_25_64_male--by--country--year.csv",
       "name": "educational_level_higher_education_max_3_years_aged_25_64_male--by--country--year",
       "schema": {
         "fields": [
@@ -822,7 +827,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_higher_education_max_3_years_aged_25_64_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_higher_education_max_3_years_aged_25_64_male--by--county--year.csv",
       "name": "educational_level_higher_education_max_3_years_aged_25_64_male--by--county--year",
       "schema": {
         "fields": [
@@ -843,7 +848,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_higher_education_max_3_years_aged_25_64_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_higher_education_max_3_years_aged_25_64_male--by--municipality--year.csv",
       "name": "educational_level_higher_education_max_3_years_aged_25_64_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -864,7 +869,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_higher_education_min_3_years_aged_25_64--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_higher_education_min_3_years_aged_25_64--by--basomrade--year.csv",
       "name": "educational_level_higher_education_min_3_years_aged_25_64--by--basomrade--year",
       "schema": {
         "fields": [
@@ -885,7 +890,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_higher_education_min_3_years_aged_25_64--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_higher_education_min_3_years_aged_25_64--by--country--year.csv",
       "name": "educational_level_higher_education_min_3_years_aged_25_64--by--country--year",
       "schema": {
         "fields": [
@@ -906,7 +911,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_higher_education_min_3_years_aged_25_64--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_higher_education_min_3_years_aged_25_64--by--county--year.csv",
       "name": "educational_level_higher_education_min_3_years_aged_25_64--by--county--year",
       "schema": {
         "fields": [
@@ -927,7 +932,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_higher_education_min_3_years_aged_25_64--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_higher_education_min_3_years_aged_25_64--by--municipality--year.csv",
       "name": "educational_level_higher_education_min_3_years_aged_25_64--by--municipality--year",
       "schema": {
         "fields": [
@@ -948,7 +953,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_higher_education_min_3_years_aged_25_64_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_higher_education_min_3_years_aged_25_64_female--by--basomrade--year.csv",
       "name": "educational_level_higher_education_min_3_years_aged_25_64_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -969,7 +974,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_higher_education_min_3_years_aged_25_64_female--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_higher_education_min_3_years_aged_25_64_female--by--country--year.csv",
       "name": "educational_level_higher_education_min_3_years_aged_25_64_female--by--country--year",
       "schema": {
         "fields": [
@@ -990,7 +995,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_higher_education_min_3_years_aged_25_64_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_higher_education_min_3_years_aged_25_64_female--by--county--year.csv",
       "name": "educational_level_higher_education_min_3_years_aged_25_64_female--by--county--year",
       "schema": {
         "fields": [
@@ -1011,7 +1016,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_higher_education_min_3_years_aged_25_64_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_higher_education_min_3_years_aged_25_64_female--by--municipality--year.csv",
       "name": "educational_level_higher_education_min_3_years_aged_25_64_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -1032,7 +1037,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_higher_education_min_3_years_aged_25_64_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_higher_education_min_3_years_aged_25_64_male--by--basomrade--year.csv",
       "name": "educational_level_higher_education_min_3_years_aged_25_64_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -1053,7 +1058,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_higher_education_min_3_years_aged_25_64_male--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_higher_education_min_3_years_aged_25_64_male--by--country--year.csv",
       "name": "educational_level_higher_education_min_3_years_aged_25_64_male--by--country--year",
       "schema": {
         "fields": [
@@ -1074,7 +1079,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_higher_education_min_3_years_aged_25_64_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_higher_education_min_3_years_aged_25_64_male--by--county--year.csv",
       "name": "educational_level_higher_education_min_3_years_aged_25_64_male--by--county--year",
       "schema": {
         "fields": [
@@ -1095,7 +1100,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_higher_education_min_3_years_aged_25_64_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_higher_education_min_3_years_aged_25_64_male--by--municipality--year.csv",
       "name": "educational_level_higher_education_min_3_years_aged_25_64_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -1116,7 +1121,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_pre_secondary_school_aged_25_64--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_pre_secondary_school_aged_25_64--by--basomrade--year.csv",
       "name": "educational_level_pre_secondary_school_aged_25_64--by--basomrade--year",
       "schema": {
         "fields": [
@@ -1137,7 +1142,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_pre_secondary_school_aged_25_64--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_pre_secondary_school_aged_25_64--by--country--year.csv",
       "name": "educational_level_pre_secondary_school_aged_25_64--by--country--year",
       "schema": {
         "fields": [
@@ -1158,7 +1163,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_pre_secondary_school_aged_25_64--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_pre_secondary_school_aged_25_64--by--county--year.csv",
       "name": "educational_level_pre_secondary_school_aged_25_64--by--county--year",
       "schema": {
         "fields": [
@@ -1179,7 +1184,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_pre_secondary_school_aged_25_64--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_pre_secondary_school_aged_25_64--by--municipality--year.csv",
       "name": "educational_level_pre_secondary_school_aged_25_64--by--municipality--year",
       "schema": {
         "fields": [
@@ -1200,7 +1205,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_pre_secondary_school_aged_25_64_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_pre_secondary_school_aged_25_64_female--by--basomrade--year.csv",
       "name": "educational_level_pre_secondary_school_aged_25_64_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -1221,7 +1226,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_pre_secondary_school_aged_25_64_female--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_pre_secondary_school_aged_25_64_female--by--country--year.csv",
       "name": "educational_level_pre_secondary_school_aged_25_64_female--by--country--year",
       "schema": {
         "fields": [
@@ -1242,7 +1247,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_pre_secondary_school_aged_25_64_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_pre_secondary_school_aged_25_64_female--by--county--year.csv",
       "name": "educational_level_pre_secondary_school_aged_25_64_female--by--county--year",
       "schema": {
         "fields": [
@@ -1263,7 +1268,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_pre_secondary_school_aged_25_64_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_pre_secondary_school_aged_25_64_female--by--municipality--year.csv",
       "name": "educational_level_pre_secondary_school_aged_25_64_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -1284,7 +1289,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_pre_secondary_school_aged_25_64_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_pre_secondary_school_aged_25_64_male--by--basomrade--year.csv",
       "name": "educational_level_pre_secondary_school_aged_25_64_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -1305,7 +1310,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_pre_secondary_school_aged_25_64_male--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_pre_secondary_school_aged_25_64_male--by--country--year.csv",
       "name": "educational_level_pre_secondary_school_aged_25_64_male--by--country--year",
       "schema": {
         "fields": [
@@ -1326,7 +1331,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_pre_secondary_school_aged_25_64_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_pre_secondary_school_aged_25_64_male--by--county--year.csv",
       "name": "educational_level_pre_secondary_school_aged_25_64_male--by--county--year",
       "schema": {
         "fields": [
@@ -1347,7 +1352,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_pre_secondary_school_aged_25_64_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_pre_secondary_school_aged_25_64_male--by--municipality--year.csv",
       "name": "educational_level_pre_secondary_school_aged_25_64_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -1368,7 +1373,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_secondary_school_aged_25_64--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_secondary_school_aged_25_64--by--basomrade--year.csv",
       "name": "educational_level_secondary_school_aged_25_64--by--basomrade--year",
       "schema": {
         "fields": [
@@ -1389,7 +1394,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_secondary_school_aged_25_64--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_secondary_school_aged_25_64--by--country--year.csv",
       "name": "educational_level_secondary_school_aged_25_64--by--country--year",
       "schema": {
         "fields": [
@@ -1410,7 +1415,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_secondary_school_aged_25_64--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_secondary_school_aged_25_64--by--county--year.csv",
       "name": "educational_level_secondary_school_aged_25_64--by--county--year",
       "schema": {
         "fields": [
@@ -1431,7 +1436,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_secondary_school_aged_25_64--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_secondary_school_aged_25_64--by--municipality--year.csv",
       "name": "educational_level_secondary_school_aged_25_64--by--municipality--year",
       "schema": {
         "fields": [
@@ -1452,7 +1457,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_secondary_school_aged_25_64_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_secondary_school_aged_25_64_female--by--basomrade--year.csv",
       "name": "educational_level_secondary_school_aged_25_64_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -1473,7 +1478,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_secondary_school_aged_25_64_female--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_secondary_school_aged_25_64_female--by--country--year.csv",
       "name": "educational_level_secondary_school_aged_25_64_female--by--country--year",
       "schema": {
         "fields": [
@@ -1494,7 +1499,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_secondary_school_aged_25_64_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_secondary_school_aged_25_64_female--by--county--year.csv",
       "name": "educational_level_secondary_school_aged_25_64_female--by--county--year",
       "schema": {
         "fields": [
@@ -1515,7 +1520,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_secondary_school_aged_25_64_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_secondary_school_aged_25_64_female--by--municipality--year.csv",
       "name": "educational_level_secondary_school_aged_25_64_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -1536,7 +1541,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_secondary_school_aged_25_64_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_secondary_school_aged_25_64_male--by--basomrade--year.csv",
       "name": "educational_level_secondary_school_aged_25_64_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -1557,7 +1562,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_secondary_school_aged_25_64_male--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_secondary_school_aged_25_64_male--by--country--year.csv",
       "name": "educational_level_secondary_school_aged_25_64_male--by--country--year",
       "schema": {
         "fields": [
@@ -1578,7 +1583,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_secondary_school_aged_25_64_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_secondary_school_aged_25_64_male--by--county--year.csv",
       "name": "educational_level_secondary_school_aged_25_64_male--by--county--year",
       "schema": {
         "fields": [
@@ -1599,7 +1604,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--educational_level_secondary_school_aged_25_64_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--educational_level_secondary_school_aged_25_64_male--by--municipality--year.csv",
       "name": "educational_level_secondary_school_aged_25_64_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -1620,7 +1625,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--emigration--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--emigration--by--basomrade--year.csv",
       "name": "emigration--by--basomrade--year",
       "schema": {
         "fields": [
@@ -1641,7 +1646,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--emigration--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--emigration--by--county--year.csv",
       "name": "emigration--by--county--year",
       "schema": {
         "fields": [
@@ -1662,7 +1667,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--emigration--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--emigration--by--municipality--year.csv",
       "name": "emigration--by--municipality--year",
       "schema": {
         "fields": [
@@ -1683,7 +1688,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--emigration_employed_aged_20_64--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--emigration_employed_aged_20_64--by--basomrade--year.csv",
       "name": "emigration_employed_aged_20_64--by--basomrade--year",
       "schema": {
         "fields": [
@@ -1704,7 +1709,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--emigration_employed_aged_20_64--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--emigration_employed_aged_20_64--by--county--year.csv",
       "name": "emigration_employed_aged_20_64--by--county--year",
       "schema": {
         "fields": [
@@ -1725,7 +1730,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--emigration_employed_aged_20_64--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--emigration_employed_aged_20_64--by--municipality--year.csv",
       "name": "emigration_employed_aged_20_64--by--municipality--year",
       "schema": {
         "fields": [
@@ -1746,7 +1751,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--emigration_employed_aged_20_64_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--emigration_employed_aged_20_64_female--by--basomrade--year.csv",
       "name": "emigration_employed_aged_20_64_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -1767,7 +1772,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--emigration_employed_aged_20_64_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--emigration_employed_aged_20_64_female--by--county--year.csv",
       "name": "emigration_employed_aged_20_64_female--by--county--year",
       "schema": {
         "fields": [
@@ -1788,7 +1793,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--emigration_employed_aged_20_64_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--emigration_employed_aged_20_64_female--by--municipality--year.csv",
       "name": "emigration_employed_aged_20_64_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -1809,7 +1814,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--emigration_employed_aged_20_64_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--emigration_employed_aged_20_64_male--by--basomrade--year.csv",
       "name": "emigration_employed_aged_20_64_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -1830,7 +1835,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--emigration_employed_aged_20_64_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--emigration_employed_aged_20_64_male--by--county--year.csv",
       "name": "emigration_employed_aged_20_64_male--by--county--year",
       "schema": {
         "fields": [
@@ -1851,7 +1856,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--emigration_employed_aged_20_64_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--emigration_employed_aged_20_64_male--by--municipality--year.csv",
       "name": "emigration_employed_aged_20_64_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -1872,7 +1877,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--emigration_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--emigration_female--by--basomrade--year.csv",
       "name": "emigration_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -1893,7 +1898,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--emigration_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--emigration_female--by--county--year.csv",
       "name": "emigration_female--by--county--year",
       "schema": {
         "fields": [
@@ -1914,7 +1919,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--emigration_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--emigration_female--by--municipality--year.csv",
       "name": "emigration_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -1935,7 +1940,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--emigration_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--emigration_male--by--basomrade--year.csv",
       "name": "emigration_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -1956,7 +1961,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--emigration_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--emigration_male--by--county--year.csv",
       "name": "emigration_male--by--county--year",
       "schema": {
         "fields": [
@@ -1977,7 +1982,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--emigration_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--emigration_male--by--municipality--year.csv",
       "name": "emigration_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -1998,7 +2003,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--emigration_min_3_years_of_higher_education_aged_25_64--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--emigration_min_3_years_of_higher_education_aged_25_64--by--basomrade--year.csv",
       "name": "emigration_min_3_years_of_higher_education_aged_25_64--by--basomrade--year",
       "schema": {
         "fields": [
@@ -2019,7 +2024,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--emigration_min_3_years_of_higher_education_aged_25_64--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--emigration_min_3_years_of_higher_education_aged_25_64--by--county--year.csv",
       "name": "emigration_min_3_years_of_higher_education_aged_25_64--by--county--year",
       "schema": {
         "fields": [
@@ -2040,7 +2045,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--emigration_min_3_years_of_higher_education_aged_25_64--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--emigration_min_3_years_of_higher_education_aged_25_64--by--municipality--year.csv",
       "name": "emigration_min_3_years_of_higher_education_aged_25_64--by--municipality--year",
       "schema": {
         "fields": [
@@ -2061,7 +2066,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--emigration_min_3_years_of_higher_education_aged_25_64_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--emigration_min_3_years_of_higher_education_aged_25_64_female--by--basomrade--year.csv",
       "name": "emigration_min_3_years_of_higher_education_aged_25_64_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -2082,7 +2087,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--emigration_min_3_years_of_higher_education_aged_25_64_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--emigration_min_3_years_of_higher_education_aged_25_64_female--by--county--year.csv",
       "name": "emigration_min_3_years_of_higher_education_aged_25_64_female--by--county--year",
       "schema": {
         "fields": [
@@ -2103,7 +2108,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--emigration_min_3_years_of_higher_education_aged_25_64_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--emigration_min_3_years_of_higher_education_aged_25_64_female--by--municipality--year.csv",
       "name": "emigration_min_3_years_of_higher_education_aged_25_64_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -2124,7 +2129,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--emigration_min_3_years_of_higher_education_aged_25_64_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--emigration_min_3_years_of_higher_education_aged_25_64_male--by--basomrade--year.csv",
       "name": "emigration_min_3_years_of_higher_education_aged_25_64_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -2145,7 +2150,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--emigration_min_3_years_of_higher_education_aged_25_64_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--emigration_min_3_years_of_higher_education_aged_25_64_male--by--county--year.csv",
       "name": "emigration_min_3_years_of_higher_education_aged_25_64_male--by--county--year",
       "schema": {
         "fields": [
@@ -2166,7 +2171,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--emigration_min_3_years_of_higher_education_aged_25_64_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--emigration_min_3_years_of_higher_education_aged_25_64_male--by--municipality--year.csv",
       "name": "emigration_min_3_years_of_higher_education_aged_25_64_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -2187,7 +2192,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--employed_aged_20_64--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--employed_aged_20_64--by--basomrade--year.csv",
       "name": "employed_aged_20_64--by--basomrade--year",
       "schema": {
         "fields": [
@@ -2208,7 +2213,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--employed_aged_20_64--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--employed_aged_20_64--by--country--year.csv",
       "name": "employed_aged_20_64--by--country--year",
       "schema": {
         "fields": [
@@ -2229,7 +2234,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--employed_aged_20_64--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--employed_aged_20_64--by--county--year.csv",
       "name": "employed_aged_20_64--by--county--year",
       "schema": {
         "fields": [
@@ -2250,7 +2255,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--employed_aged_20_64--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--employed_aged_20_64--by--municipality--year.csv",
       "name": "employed_aged_20_64--by--municipality--year",
       "schema": {
         "fields": [
@@ -2271,7 +2276,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--employed_aged_20_64_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--employed_aged_20_64_female--by--basomrade--year.csv",
       "name": "employed_aged_20_64_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -2292,7 +2297,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--employed_aged_20_64_female--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--employed_aged_20_64_female--by--country--year.csv",
       "name": "employed_aged_20_64_female--by--country--year",
       "schema": {
         "fields": [
@@ -2313,7 +2318,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--employed_aged_20_64_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--employed_aged_20_64_female--by--county--year.csv",
       "name": "employed_aged_20_64_female--by--county--year",
       "schema": {
         "fields": [
@@ -2334,7 +2339,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--employed_aged_20_64_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--employed_aged_20_64_female--by--municipality--year.csv",
       "name": "employed_aged_20_64_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -2355,7 +2360,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--employed_aged_20_64_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--employed_aged_20_64_male--by--basomrade--year.csv",
       "name": "employed_aged_20_64_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -2376,7 +2381,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--employed_aged_20_64_male--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--employed_aged_20_64_male--by--country--year.csv",
       "name": "employed_aged_20_64_male--by--country--year",
       "schema": {
         "fields": [
@@ -2397,7 +2402,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--employed_aged_20_64_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--employed_aged_20_64_male--by--county--year.csv",
       "name": "employed_aged_20_64_male--by--county--year",
       "schema": {
         "fields": [
@@ -2418,7 +2423,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--employed_aged_20_64_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--employed_aged_20_64_male--by--municipality--year.csv",
       "name": "employed_aged_20_64_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -2439,7 +2444,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--employment_rate_20_64--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--employment_rate_20_64--by--basomrade--year.csv",
       "name": "employment_rate_20_64--by--basomrade--year",
       "schema": {
         "fields": [
@@ -2460,7 +2465,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--employment_rate_20_64--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--employment_rate_20_64--by--country--year.csv",
       "name": "employment_rate_20_64--by--country--year",
       "schema": {
         "fields": [
@@ -2481,7 +2486,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--employment_rate_20_64--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--employment_rate_20_64--by--county--year.csv",
       "name": "employment_rate_20_64--by--county--year",
       "schema": {
         "fields": [
@@ -2502,7 +2507,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--employment_rate_20_64--by--gender--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--employment_rate_20_64--by--gender--basomrade--year.csv",
       "name": "employment_rate_20_64--by--gender--basomrade--year",
       "schema": {
         "fields": [
@@ -2527,7 +2532,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--employment_rate_20_64--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--employment_rate_20_64--by--municipality--year.csv",
       "name": "employment_rate_20_64--by--municipality--year",
       "schema": {
         "fields": [
@@ -2548,7 +2553,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--employment_rate_20_64_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--employment_rate_20_64_female--by--basomrade--year.csv",
       "name": "employment_rate_20_64_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -2569,7 +2574,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--employment_rate_20_64_female--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--employment_rate_20_64_female--by--country--year.csv",
       "name": "employment_rate_20_64_female--by--country--year",
       "schema": {
         "fields": [
@@ -2590,7 +2595,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--employment_rate_20_64_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--employment_rate_20_64_female--by--county--year.csv",
       "name": "employment_rate_20_64_female--by--county--year",
       "schema": {
         "fields": [
@@ -2611,7 +2616,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--employment_rate_20_64_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--employment_rate_20_64_female--by--municipality--year.csv",
       "name": "employment_rate_20_64_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -2632,7 +2637,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--employment_rate_20_64_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--employment_rate_20_64_male--by--basomrade--year.csv",
       "name": "employment_rate_20_64_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -2653,7 +2658,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--employment_rate_20_64_male--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--employment_rate_20_64_male--by--country--year.csv",
       "name": "employment_rate_20_64_male--by--country--year",
       "schema": {
         "fields": [
@@ -2674,7 +2679,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--employment_rate_20_64_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--employment_rate_20_64_male--by--county--year.csv",
       "name": "employment_rate_20_64_male--by--county--year",
       "schema": {
         "fields": [
@@ -2695,7 +2700,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--employment_rate_20_64_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--employment_rate_20_64_male--by--municipality--year.csv",
       "name": "employment_rate_20_64_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -2716,7 +2721,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--high_income_aged_gt_20--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--high_income_aged_gt_20--by--basomrade--year.csv",
       "name": "high_income_aged_gt_20--by--basomrade--year",
       "schema": {
         "fields": [
@@ -2737,7 +2742,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--high_income_aged_gt_20--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--high_income_aged_gt_20--by--country--year.csv",
       "name": "high_income_aged_gt_20--by--country--year",
       "schema": {
         "fields": [
@@ -2758,7 +2763,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--high_income_aged_gt_20--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--high_income_aged_gt_20--by--county--year.csv",
       "name": "high_income_aged_gt_20--by--county--year",
       "schema": {
         "fields": [
@@ -2779,7 +2784,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--high_income_aged_gt_20--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--high_income_aged_gt_20--by--municipality--year.csv",
       "name": "high_income_aged_gt_20--by--municipality--year",
       "schema": {
         "fields": [
@@ -2800,7 +2805,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--high_income_aged_gt_20_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--high_income_aged_gt_20_female--by--basomrade--year.csv",
       "name": "high_income_aged_gt_20_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -2821,7 +2826,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--high_income_aged_gt_20_female--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--high_income_aged_gt_20_female--by--country--year.csv",
       "name": "high_income_aged_gt_20_female--by--country--year",
       "schema": {
         "fields": [
@@ -2842,7 +2847,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--high_income_aged_gt_20_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--high_income_aged_gt_20_female--by--county--year.csv",
       "name": "high_income_aged_gt_20_female--by--county--year",
       "schema": {
         "fields": [
@@ -2863,7 +2868,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--high_income_aged_gt_20_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--high_income_aged_gt_20_female--by--municipality--year.csv",
       "name": "high_income_aged_gt_20_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -2884,7 +2889,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--high_income_aged_gt_20_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--high_income_aged_gt_20_male--by--basomrade--year.csv",
       "name": "high_income_aged_gt_20_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -2905,7 +2910,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--high_income_aged_gt_20_male--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--high_income_aged_gt_20_male--by--country--year.csv",
       "name": "high_income_aged_gt_20_male--by--country--year",
       "schema": {
         "fields": [
@@ -2926,7 +2931,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--high_income_aged_gt_20_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--high_income_aged_gt_20_male--by--county--year.csv",
       "name": "high_income_aged_gt_20_male--by--county--year",
       "schema": {
         "fields": [
@@ -2947,7 +2952,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--high_income_aged_gt_20_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--high_income_aged_gt_20_male--by--municipality--year.csv",
       "name": "high_income_aged_gt_20_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -2968,7 +2973,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration--by--basomrade--year.csv",
       "name": "immigration--by--basomrade--year",
       "schema": {
         "fields": [
@@ -2989,7 +2994,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration--by--county--year.csv",
       "name": "immigration--by--county--year",
       "schema": {
         "fields": [
@@ -3010,7 +3015,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration--by--municipality--year.csv",
       "name": "immigration--by--municipality--year",
       "schema": {
         "fields": [
@@ -3031,7 +3036,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_employed_aged_20_64--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_employed_aged_20_64--by--basomrade--year.csv",
       "name": "immigration_employed_aged_20_64--by--basomrade--year",
       "schema": {
         "fields": [
@@ -3052,7 +3057,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_employed_aged_20_64--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_employed_aged_20_64--by--county--year.csv",
       "name": "immigration_employed_aged_20_64--by--county--year",
       "schema": {
         "fields": [
@@ -3073,7 +3078,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_employed_aged_20_64--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_employed_aged_20_64--by--municipality--year.csv",
       "name": "immigration_employed_aged_20_64--by--municipality--year",
       "schema": {
         "fields": [
@@ -3094,7 +3099,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_employed_aged_20_64_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_employed_aged_20_64_female--by--basomrade--year.csv",
       "name": "immigration_employed_aged_20_64_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -3115,7 +3120,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_employed_aged_20_64_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_employed_aged_20_64_female--by--county--year.csv",
       "name": "immigration_employed_aged_20_64_female--by--county--year",
       "schema": {
         "fields": [
@@ -3136,7 +3141,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_employed_aged_20_64_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_employed_aged_20_64_female--by--municipality--year.csv",
       "name": "immigration_employed_aged_20_64_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -3157,7 +3162,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_employed_aged_20_64_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_employed_aged_20_64_male--by--basomrade--year.csv",
       "name": "immigration_employed_aged_20_64_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -3178,7 +3183,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_employed_aged_20_64_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_employed_aged_20_64_male--by--county--year.csv",
       "name": "immigration_employed_aged_20_64_male--by--county--year",
       "schema": {
         "fields": [
@@ -3199,7 +3204,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_employed_aged_20_64_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_employed_aged_20_64_male--by--municipality--year.csv",
       "name": "immigration_employed_aged_20_64_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -3220,7 +3225,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_female--by--basomrade--year.csv",
       "name": "immigration_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -3241,7 +3246,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_female--by--county--year.csv",
       "name": "immigration_female--by--county--year",
       "schema": {
         "fields": [
@@ -3262,7 +3267,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_female--by--municipality--year.csv",
       "name": "immigration_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -3283,7 +3288,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_male--by--basomrade--year.csv",
       "name": "immigration_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -3304,7 +3309,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_male--by--county--year.csv",
       "name": "immigration_male--by--county--year",
       "schema": {
         "fields": [
@@ -3325,7 +3330,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_male--by--municipality--year.csv",
       "name": "immigration_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -3346,7 +3351,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_min_3_years_of_higher_education_aged_25_64--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_min_3_years_of_higher_education_aged_25_64--by--basomrade--year.csv",
       "name": "immigration_min_3_years_of_higher_education_aged_25_64--by--basomrade--year",
       "schema": {
         "fields": [
@@ -3367,7 +3372,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_min_3_years_of_higher_education_aged_25_64--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_min_3_years_of_higher_education_aged_25_64--by--county--year.csv",
       "name": "immigration_min_3_years_of_higher_education_aged_25_64--by--county--year",
       "schema": {
         "fields": [
@@ -3388,7 +3393,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_min_3_years_of_higher_education_aged_25_64--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_min_3_years_of_higher_education_aged_25_64--by--municipality--year.csv",
       "name": "immigration_min_3_years_of_higher_education_aged_25_64--by--municipality--year",
       "schema": {
         "fields": [
@@ -3409,7 +3414,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_min_3_years_of_higher_education_aged_25_64_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_min_3_years_of_higher_education_aged_25_64_female--by--basomrade--year.csv",
       "name": "immigration_min_3_years_of_higher_education_aged_25_64_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -3430,7 +3435,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_min_3_years_of_higher_education_aged_25_64_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_min_3_years_of_higher_education_aged_25_64_female--by--county--year.csv",
       "name": "immigration_min_3_years_of_higher_education_aged_25_64_female--by--county--year",
       "schema": {
         "fields": [
@@ -3451,7 +3456,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_min_3_years_of_higher_education_aged_25_64_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_min_3_years_of_higher_education_aged_25_64_female--by--municipality--year.csv",
       "name": "immigration_min_3_years_of_higher_education_aged_25_64_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -3472,7 +3477,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_min_3_years_of_higher_education_aged_25_64_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_min_3_years_of_higher_education_aged_25_64_male--by--basomrade--year.csv",
       "name": "immigration_min_3_years_of_higher_education_aged_25_64_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -3493,7 +3498,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_min_3_years_of_higher_education_aged_25_64_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_min_3_years_of_higher_education_aged_25_64_male--by--county--year.csv",
       "name": "immigration_min_3_years_of_higher_education_aged_25_64_male--by--county--year",
       "schema": {
         "fields": [
@@ -3514,7 +3519,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_min_3_years_of_higher_education_aged_25_64_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_min_3_years_of_higher_education_aged_25_64_male--by--municipality--year.csv",
       "name": "immigration_min_3_years_of_higher_education_aged_25_64_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -3535,7 +3540,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_surplus--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_surplus--by--basomrade--year.csv",
       "name": "immigration_surplus--by--basomrade--year",
       "schema": {
         "fields": [
@@ -3556,7 +3561,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_surplus--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_surplus--by--county--year.csv",
       "name": "immigration_surplus--by--county--year",
       "schema": {
         "fields": [
@@ -3577,7 +3582,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_surplus--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_surplus--by--municipality--year.csv",
       "name": "immigration_surplus--by--municipality--year",
       "schema": {
         "fields": [
@@ -3598,7 +3603,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_surplus_employed_aged_20_64--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_surplus_employed_aged_20_64--by--basomrade--year.csv",
       "name": "immigration_surplus_employed_aged_20_64--by--basomrade--year",
       "schema": {
         "fields": [
@@ -3619,7 +3624,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_surplus_employed_aged_20_64--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_surplus_employed_aged_20_64--by--county--year.csv",
       "name": "immigration_surplus_employed_aged_20_64--by--county--year",
       "schema": {
         "fields": [
@@ -3640,7 +3645,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_surplus_employed_aged_20_64--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_surplus_employed_aged_20_64--by--municipality--year.csv",
       "name": "immigration_surplus_employed_aged_20_64--by--municipality--year",
       "schema": {
         "fields": [
@@ -3661,7 +3666,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_surplus_employed_aged_20_64_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_surplus_employed_aged_20_64_female--by--basomrade--year.csv",
       "name": "immigration_surplus_employed_aged_20_64_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -3682,7 +3687,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_surplus_employed_aged_20_64_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_surplus_employed_aged_20_64_female--by--county--year.csv",
       "name": "immigration_surplus_employed_aged_20_64_female--by--county--year",
       "schema": {
         "fields": [
@@ -3703,7 +3708,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_surplus_employed_aged_20_64_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_surplus_employed_aged_20_64_female--by--municipality--year.csv",
       "name": "immigration_surplus_employed_aged_20_64_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -3724,7 +3729,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_surplus_employed_aged_20_64_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_surplus_employed_aged_20_64_male--by--basomrade--year.csv",
       "name": "immigration_surplus_employed_aged_20_64_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -3745,7 +3750,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_surplus_employed_aged_20_64_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_surplus_employed_aged_20_64_male--by--county--year.csv",
       "name": "immigration_surplus_employed_aged_20_64_male--by--county--year",
       "schema": {
         "fields": [
@@ -3766,7 +3771,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_surplus_employed_aged_20_64_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_surplus_employed_aged_20_64_male--by--municipality--year.csv",
       "name": "immigration_surplus_employed_aged_20_64_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -3787,7 +3792,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_surplus_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_surplus_female--by--basomrade--year.csv",
       "name": "immigration_surplus_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -3808,7 +3813,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_surplus_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_surplus_female--by--county--year.csv",
       "name": "immigration_surplus_female--by--county--year",
       "schema": {
         "fields": [
@@ -3829,7 +3834,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_surplus_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_surplus_female--by--municipality--year.csv",
       "name": "immigration_surplus_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -3850,7 +3855,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_surplus_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_surplus_male--by--basomrade--year.csv",
       "name": "immigration_surplus_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -3871,7 +3876,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_surplus_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_surplus_male--by--county--year.csv",
       "name": "immigration_surplus_male--by--county--year",
       "schema": {
         "fields": [
@@ -3892,7 +3897,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_surplus_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_surplus_male--by--municipality--year.csv",
       "name": "immigration_surplus_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -3913,7 +3918,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_surplus_min_3_years_of_higher_education_aged_25_64--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_surplus_min_3_years_of_higher_education_aged_25_64--by--basomrade--year.csv",
       "name": "immigration_surplus_min_3_years_of_higher_education_aged_25_64--by--basomrade--year",
       "schema": {
         "fields": [
@@ -3934,7 +3939,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_surplus_min_3_years_of_higher_education_aged_25_64--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_surplus_min_3_years_of_higher_education_aged_25_64--by--county--year.csv",
       "name": "immigration_surplus_min_3_years_of_higher_education_aged_25_64--by--county--year",
       "schema": {
         "fields": [
@@ -3955,7 +3960,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_surplus_min_3_years_of_higher_education_aged_25_64--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_surplus_min_3_years_of_higher_education_aged_25_64--by--municipality--year.csv",
       "name": "immigration_surplus_min_3_years_of_higher_education_aged_25_64--by--municipality--year",
       "schema": {
         "fields": [
@@ -3976,7 +3981,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_surplus_min_3_years_of_higher_education_aged_25_64_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_surplus_min_3_years_of_higher_education_aged_25_64_female--by--basomrade--year.csv",
       "name": "immigration_surplus_min_3_years_of_higher_education_aged_25_64_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -3997,7 +4002,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_surplus_min_3_years_of_higher_education_aged_25_64_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_surplus_min_3_years_of_higher_education_aged_25_64_female--by--county--year.csv",
       "name": "immigration_surplus_min_3_years_of_higher_education_aged_25_64_female--by--county--year",
       "schema": {
         "fields": [
@@ -4018,7 +4023,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_surplus_min_3_years_of_higher_education_aged_25_64_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_surplus_min_3_years_of_higher_education_aged_25_64_female--by--municipality--year.csv",
       "name": "immigration_surplus_min_3_years_of_higher_education_aged_25_64_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -4039,7 +4044,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_surplus_min_3_years_of_higher_education_aged_25_64_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_surplus_min_3_years_of_higher_education_aged_25_64_male--by--basomrade--year.csv",
       "name": "immigration_surplus_min_3_years_of_higher_education_aged_25_64_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -4060,7 +4065,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_surplus_min_3_years_of_higher_education_aged_25_64_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_surplus_min_3_years_of_higher_education_aged_25_64_male--by--county--year.csv",
       "name": "immigration_surplus_min_3_years_of_higher_education_aged_25_64_male--by--county--year",
       "schema": {
         "fields": [
@@ -4081,7 +4086,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--immigration_surplus_min_3_years_of_higher_education_aged_25_64_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--immigration_surplus_min_3_years_of_higher_education_aged_25_64_male--by--municipality--year.csv",
       "name": "immigration_surplus_min_3_years_of_higher_education_aged_25_64_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -4102,7 +4107,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--low_income_aged_gt_20--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--low_income_aged_gt_20--by--basomrade--year.csv",
       "name": "low_income_aged_gt_20--by--basomrade--year",
       "schema": {
         "fields": [
@@ -4123,7 +4128,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--low_income_aged_gt_20--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--low_income_aged_gt_20--by--country--year.csv",
       "name": "low_income_aged_gt_20--by--country--year",
       "schema": {
         "fields": [
@@ -4144,7 +4149,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--low_income_aged_gt_20--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--low_income_aged_gt_20--by--county--year.csv",
       "name": "low_income_aged_gt_20--by--county--year",
       "schema": {
         "fields": [
@@ -4165,7 +4170,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--low_income_aged_gt_20--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--low_income_aged_gt_20--by--municipality--year.csv",
       "name": "low_income_aged_gt_20--by--municipality--year",
       "schema": {
         "fields": [
@@ -4186,7 +4191,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--low_income_aged_gt_20_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--low_income_aged_gt_20_female--by--basomrade--year.csv",
       "name": "low_income_aged_gt_20_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -4207,7 +4212,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--low_income_aged_gt_20_female--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--low_income_aged_gt_20_female--by--country--year.csv",
       "name": "low_income_aged_gt_20_female--by--country--year",
       "schema": {
         "fields": [
@@ -4228,7 +4233,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--low_income_aged_gt_20_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--low_income_aged_gt_20_female--by--county--year.csv",
       "name": "low_income_aged_gt_20_female--by--county--year",
       "schema": {
         "fields": [
@@ -4249,7 +4254,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--low_income_aged_gt_20_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--low_income_aged_gt_20_female--by--municipality--year.csv",
       "name": "low_income_aged_gt_20_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -4270,7 +4275,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--low_income_aged_gt_20_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--low_income_aged_gt_20_male--by--basomrade--year.csv",
       "name": "low_income_aged_gt_20_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -4291,7 +4296,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--low_income_aged_gt_20_male--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--low_income_aged_gt_20_male--by--country--year.csv",
       "name": "low_income_aged_gt_20_male--by--country--year",
       "schema": {
         "fields": [
@@ -4312,7 +4317,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--low_income_aged_gt_20_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--low_income_aged_gt_20_male--by--county--year.csv",
       "name": "low_income_aged_gt_20_male--by--county--year",
       "schema": {
         "fields": [
@@ -4333,7 +4338,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--low_income_aged_gt_20_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--low_income_aged_gt_20_male--by--municipality--year.csv",
       "name": "low_income_aged_gt_20_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -4354,7 +4359,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--lower_middle_income_aged_gt_20--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--lower_middle_income_aged_gt_20--by--basomrade--year.csv",
       "name": "lower_middle_income_aged_gt_20--by--basomrade--year",
       "schema": {
         "fields": [
@@ -4375,7 +4380,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--lower_middle_income_aged_gt_20--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--lower_middle_income_aged_gt_20--by--country--year.csv",
       "name": "lower_middle_income_aged_gt_20--by--country--year",
       "schema": {
         "fields": [
@@ -4396,7 +4401,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--lower_middle_income_aged_gt_20--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--lower_middle_income_aged_gt_20--by--county--year.csv",
       "name": "lower_middle_income_aged_gt_20--by--county--year",
       "schema": {
         "fields": [
@@ -4417,7 +4422,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--lower_middle_income_aged_gt_20--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--lower_middle_income_aged_gt_20--by--municipality--year.csv",
       "name": "lower_middle_income_aged_gt_20--by--municipality--year",
       "schema": {
         "fields": [
@@ -4438,7 +4443,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--lower_middle_income_aged_gt_20_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--lower_middle_income_aged_gt_20_female--by--basomrade--year.csv",
       "name": "lower_middle_income_aged_gt_20_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -4459,7 +4464,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--lower_middle_income_aged_gt_20_female--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--lower_middle_income_aged_gt_20_female--by--country--year.csv",
       "name": "lower_middle_income_aged_gt_20_female--by--country--year",
       "schema": {
         "fields": [
@@ -4480,7 +4485,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--lower_middle_income_aged_gt_20_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--lower_middle_income_aged_gt_20_female--by--county--year.csv",
       "name": "lower_middle_income_aged_gt_20_female--by--county--year",
       "schema": {
         "fields": [
@@ -4501,7 +4506,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--lower_middle_income_aged_gt_20_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--lower_middle_income_aged_gt_20_female--by--municipality--year.csv",
       "name": "lower_middle_income_aged_gt_20_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -4522,7 +4527,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--lower_middle_income_aged_gt_20_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--lower_middle_income_aged_gt_20_male--by--basomrade--year.csv",
       "name": "lower_middle_income_aged_gt_20_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -4543,7 +4548,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--lower_middle_income_aged_gt_20_male--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--lower_middle_income_aged_gt_20_male--by--country--year.csv",
       "name": "lower_middle_income_aged_gt_20_male--by--country--year",
       "schema": {
         "fields": [
@@ -4564,7 +4569,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--lower_middle_income_aged_gt_20_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--lower_middle_income_aged_gt_20_male--by--county--year.csv",
       "name": "lower_middle_income_aged_gt_20_male--by--county--year",
       "schema": {
         "fields": [
@@ -4585,7 +4590,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--lower_middle_income_aged_gt_20_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--lower_middle_income_aged_gt_20_male--by--municipality--year.csv",
       "name": "lower_middle_income_aged_gt_20_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -4606,7 +4611,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--mean_income_aged_gt_20--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--mean_income_aged_gt_20--by--basomrade--year.csv",
       "name": "mean_income_aged_gt_20--by--basomrade--year",
       "schema": {
         "fields": [
@@ -4627,7 +4632,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--mean_income_aged_gt_20--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--mean_income_aged_gt_20--by--country--year.csv",
       "name": "mean_income_aged_gt_20--by--country--year",
       "schema": {
         "fields": [
@@ -4648,7 +4653,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--mean_income_aged_gt_20--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--mean_income_aged_gt_20--by--county--year.csv",
       "name": "mean_income_aged_gt_20--by--county--year",
       "schema": {
         "fields": [
@@ -4669,7 +4674,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--mean_income_aged_gt_20--by--gender--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--mean_income_aged_gt_20--by--gender--basomrade--year.csv",
       "name": "mean_income_aged_gt_20--by--gender--basomrade--year",
       "schema": {
         "fields": [
@@ -4694,7 +4699,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--mean_income_aged_gt_20--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--mean_income_aged_gt_20--by--municipality--year.csv",
       "name": "mean_income_aged_gt_20--by--municipality--year",
       "schema": {
         "fields": [
@@ -4715,7 +4720,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--mean_income_aged_gt_20_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--mean_income_aged_gt_20_female--by--basomrade--year.csv",
       "name": "mean_income_aged_gt_20_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -4736,7 +4741,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--mean_income_aged_gt_20_female--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--mean_income_aged_gt_20_female--by--country--year.csv",
       "name": "mean_income_aged_gt_20_female--by--country--year",
       "schema": {
         "fields": [
@@ -4757,7 +4762,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--mean_income_aged_gt_20_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--mean_income_aged_gt_20_female--by--county--year.csv",
       "name": "mean_income_aged_gt_20_female--by--county--year",
       "schema": {
         "fields": [
@@ -4778,7 +4783,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--mean_income_aged_gt_20_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--mean_income_aged_gt_20_female--by--municipality--year.csv",
       "name": "mean_income_aged_gt_20_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -4799,7 +4804,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--mean_income_aged_gt_20_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--mean_income_aged_gt_20_male--by--basomrade--year.csv",
       "name": "mean_income_aged_gt_20_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -4820,7 +4825,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--mean_income_aged_gt_20_male--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--mean_income_aged_gt_20_male--by--country--year.csv",
       "name": "mean_income_aged_gt_20_male--by--country--year",
       "schema": {
         "fields": [
@@ -4841,7 +4846,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--mean_income_aged_gt_20_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--mean_income_aged_gt_20_male--by--county--year.csv",
       "name": "mean_income_aged_gt_20_male--by--county--year",
       "schema": {
         "fields": [
@@ -4862,7 +4867,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--mean_income_aged_gt_20_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--mean_income_aged_gt_20_male--by--municipality--year.csv",
       "name": "mean_income_aged_gt_20_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -4883,7 +4888,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--median_income_aged_gt_20--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--median_income_aged_gt_20--by--basomrade--year.csv",
       "name": "median_income_aged_gt_20--by--basomrade--year",
       "schema": {
         "fields": [
@@ -4904,7 +4909,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--median_income_aged_gt_20--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--median_income_aged_gt_20--by--country--year.csv",
       "name": "median_income_aged_gt_20--by--country--year",
       "schema": {
         "fields": [
@@ -4925,7 +4930,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--median_income_aged_gt_20--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--median_income_aged_gt_20--by--county--year.csv",
       "name": "median_income_aged_gt_20--by--county--year",
       "schema": {
         "fields": [
@@ -4946,7 +4951,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--median_income_aged_gt_20--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--median_income_aged_gt_20--by--municipality--year.csv",
       "name": "median_income_aged_gt_20--by--municipality--year",
       "schema": {
         "fields": [
@@ -4967,7 +4972,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--median_income_aged_gt_20_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--median_income_aged_gt_20_female--by--basomrade--year.csv",
       "name": "median_income_aged_gt_20_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -4988,7 +4993,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--median_income_aged_gt_20_female--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--median_income_aged_gt_20_female--by--country--year.csv",
       "name": "median_income_aged_gt_20_female--by--country--year",
       "schema": {
         "fields": [
@@ -5009,7 +5014,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--median_income_aged_gt_20_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--median_income_aged_gt_20_female--by--county--year.csv",
       "name": "median_income_aged_gt_20_female--by--county--year",
       "schema": {
         "fields": [
@@ -5030,7 +5035,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--median_income_aged_gt_20_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--median_income_aged_gt_20_female--by--municipality--year.csv",
       "name": "median_income_aged_gt_20_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -5051,7 +5056,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--median_income_aged_gt_20_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--median_income_aged_gt_20_male--by--basomrade--year.csv",
       "name": "median_income_aged_gt_20_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -5072,7 +5077,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--median_income_aged_gt_20_male--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--median_income_aged_gt_20_male--by--country--year.csv",
       "name": "median_income_aged_gt_20_male--by--country--year",
       "schema": {
         "fields": [
@@ -5093,7 +5098,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--median_income_aged_gt_20_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--median_income_aged_gt_20_male--by--county--year.csv",
       "name": "median_income_aged_gt_20_male--by--county--year",
       "schema": {
         "fields": [
@@ -5114,7 +5119,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--median_income_aged_gt_20_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--median_income_aged_gt_20_male--by--municipality--year.csv",
       "name": "median_income_aged_gt_20_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -5135,7 +5140,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--missing_data--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--missing_data--by--basomrade--year.csv",
       "name": "missing_data--by--basomrade--year",
       "schema": {
         "fields": [
@@ -5156,7 +5161,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--missing_data--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--missing_data--by--country--year.csv",
       "name": "missing_data--by--country--year",
       "schema": {
         "fields": [
@@ -5177,7 +5182,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--missing_data--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--missing_data--by--county--year.csv",
       "name": "missing_data--by--county--year",
       "schema": {
         "fields": [
@@ -5198,7 +5203,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--missing_data--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--missing_data--by--municipality--year.csv",
       "name": "missing_data--by--municipality--year",
       "schema": {
         "fields": [
@@ -5219,7 +5224,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--missing_data_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--missing_data_female--by--basomrade--year.csv",
       "name": "missing_data_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -5240,7 +5245,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--missing_data_female--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--missing_data_female--by--country--year.csv",
       "name": "missing_data_female--by--country--year",
       "schema": {
         "fields": [
@@ -5261,7 +5266,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--missing_data_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--missing_data_female--by--county--year.csv",
       "name": "missing_data_female--by--county--year",
       "schema": {
         "fields": [
@@ -5282,7 +5287,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--missing_data_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--missing_data_female--by--municipality--year.csv",
       "name": "missing_data_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -5303,7 +5308,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--missing_data_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--missing_data_male--by--basomrade--year.csv",
       "name": "missing_data_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -5324,7 +5329,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--missing_data_male--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--missing_data_male--by--country--year.csv",
       "name": "missing_data_male--by--country--year",
       "schema": {
         "fields": [
@@ -5345,7 +5350,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--missing_data_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--missing_data_male--by--county--year.csv",
       "name": "missing_data_male--by--county--year",
       "schema": {
         "fields": [
@@ -5366,7 +5371,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--missing_data_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--missing_data_male--by--municipality--year.csv",
       "name": "missing_data_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -5387,7 +5392,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_20xx_12_31--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_20xx_12_31--by--basomrade--year.csv",
       "name": "population_20xx_12_31--by--basomrade--year",
       "schema": {
         "fields": [
@@ -5408,7 +5413,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_20xx_12_31--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_20xx_12_31--by--county--year.csv",
       "name": "population_20xx_12_31--by--county--year",
       "schema": {
         "fields": [
@@ -5429,7 +5434,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_20xx_12_31--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_20xx_12_31--by--municipality--year.csv",
       "name": "population_20xx_12_31--by--municipality--year",
       "schema": {
         "fields": [
@@ -5450,7 +5455,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_20xx_12_31_employed_aged_20_64--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_20xx_12_31_employed_aged_20_64--by--basomrade--year.csv",
       "name": "population_20xx_12_31_employed_aged_20_64--by--basomrade--year",
       "schema": {
         "fields": [
@@ -5471,7 +5476,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_20xx_12_31_employed_aged_20_64--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_20xx_12_31_employed_aged_20_64--by--county--year.csv",
       "name": "population_20xx_12_31_employed_aged_20_64--by--county--year",
       "schema": {
         "fields": [
@@ -5492,7 +5497,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_20xx_12_31_employed_aged_20_64--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_20xx_12_31_employed_aged_20_64--by--municipality--year.csv",
       "name": "population_20xx_12_31_employed_aged_20_64--by--municipality--year",
       "schema": {
         "fields": [
@@ -5513,7 +5518,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_20xx_12_31_employed_aged_20_64_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_20xx_12_31_employed_aged_20_64_female--by--basomrade--year.csv",
       "name": "population_20xx_12_31_employed_aged_20_64_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -5534,7 +5539,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_20xx_12_31_employed_aged_20_64_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_20xx_12_31_employed_aged_20_64_female--by--county--year.csv",
       "name": "population_20xx_12_31_employed_aged_20_64_female--by--county--year",
       "schema": {
         "fields": [
@@ -5555,7 +5560,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_20xx_12_31_employed_aged_20_64_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_20xx_12_31_employed_aged_20_64_female--by--municipality--year.csv",
       "name": "population_20xx_12_31_employed_aged_20_64_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -5576,7 +5581,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_20xx_12_31_employed_aged_20_64_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_20xx_12_31_employed_aged_20_64_male--by--basomrade--year.csv",
       "name": "population_20xx_12_31_employed_aged_20_64_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -5597,7 +5602,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_20xx_12_31_employed_aged_20_64_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_20xx_12_31_employed_aged_20_64_male--by--county--year.csv",
       "name": "population_20xx_12_31_employed_aged_20_64_male--by--county--year",
       "schema": {
         "fields": [
@@ -5618,7 +5623,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_20xx_12_31_employed_aged_20_64_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_20xx_12_31_employed_aged_20_64_male--by--municipality--year.csv",
       "name": "population_20xx_12_31_employed_aged_20_64_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -5639,7 +5644,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_20xx_12_31_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_20xx_12_31_female--by--basomrade--year.csv",
       "name": "population_20xx_12_31_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -5660,7 +5665,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_20xx_12_31_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_20xx_12_31_female--by--county--year.csv",
       "name": "population_20xx_12_31_female--by--county--year",
       "schema": {
         "fields": [
@@ -5681,7 +5686,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_20xx_12_31_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_20xx_12_31_female--by--municipality--year.csv",
       "name": "population_20xx_12_31_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -5702,7 +5707,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_20xx_12_31_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_20xx_12_31_male--by--basomrade--year.csv",
       "name": "population_20xx_12_31_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -5723,7 +5728,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_20xx_12_31_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_20xx_12_31_male--by--county--year.csv",
       "name": "population_20xx_12_31_male--by--county--year",
       "schema": {
         "fields": [
@@ -5744,7 +5749,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_20xx_12_31_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_20xx_12_31_male--by--municipality--year.csv",
       "name": "population_20xx_12_31_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -5765,7 +5770,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_25xx_12_31_min_3_years_of_higher_education_aged_25_64--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_25xx_12_31_min_3_years_of_higher_education_aged_25_64--by--basomrade--year.csv",
       "name": "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64--by--basomrade--year",
       "schema": {
         "fields": [
@@ -5786,7 +5791,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_25xx_12_31_min_3_years_of_higher_education_aged_25_64--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_25xx_12_31_min_3_years_of_higher_education_aged_25_64--by--county--year.csv",
       "name": "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64--by--county--year",
       "schema": {
         "fields": [
@@ -5807,7 +5812,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_25xx_12_31_min_3_years_of_higher_education_aged_25_64--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_25xx_12_31_min_3_years_of_higher_education_aged_25_64--by--municipality--year.csv",
       "name": "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64--by--municipality--year",
       "schema": {
         "fields": [
@@ -5828,7 +5833,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_female--by--basomrade--year.csv",
       "name": "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -5849,7 +5854,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_female--by--county--year.csv",
       "name": "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_female--by--county--year",
       "schema": {
         "fields": [
@@ -5870,7 +5875,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_female--by--municipality--year.csv",
       "name": "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -5891,7 +5896,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_male--by--basomrade--year.csv",
       "name": "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -5912,7 +5917,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_male--by--county--year.csv",
       "name": "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_male--by--county--year",
       "schema": {
         "fields": [
@@ -5933,7 +5938,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_male--by--municipality--year.csv",
       "name": "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -5954,7 +5959,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_20_64--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_20_64--by--basomrade--year.csv",
       "name": "population_aged_20_64--by--basomrade--year",
       "schema": {
         "fields": [
@@ -5975,7 +5980,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_20_64--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_20_64--by--country--year.csv",
       "name": "population_aged_20_64--by--country--year",
       "schema": {
         "fields": [
@@ -5996,7 +6001,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_20_64--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_20_64--by--county--year.csv",
       "name": "population_aged_20_64--by--county--year",
       "schema": {
         "fields": [
@@ -6017,7 +6022,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_20_64--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_20_64--by--municipality--year.csv",
       "name": "population_aged_20_64--by--municipality--year",
       "schema": {
         "fields": [
@@ -6038,7 +6043,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_20_64_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_20_64_female--by--basomrade--year.csv",
       "name": "population_aged_20_64_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -6059,7 +6064,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_20_64_female--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_20_64_female--by--country--year.csv",
       "name": "population_aged_20_64_female--by--country--year",
       "schema": {
         "fields": [
@@ -6080,7 +6085,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_20_64_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_20_64_female--by--county--year.csv",
       "name": "population_aged_20_64_female--by--county--year",
       "schema": {
         "fields": [
@@ -6101,7 +6106,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_20_64_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_20_64_female--by--municipality--year.csv",
       "name": "population_aged_20_64_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -6122,7 +6127,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_20_64_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_20_64_male--by--basomrade--year.csv",
       "name": "population_aged_20_64_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -6143,7 +6148,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_20_64_male--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_20_64_male--by--country--year.csv",
       "name": "population_aged_20_64_male--by--country--year",
       "schema": {
         "fields": [
@@ -6164,7 +6169,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_20_64_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_20_64_male--by--county--year.csv",
       "name": "population_aged_20_64_male--by--county--year",
       "schema": {
         "fields": [
@@ -6185,7 +6190,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_20_64_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_20_64_male--by--municipality--year.csv",
       "name": "population_aged_20_64_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -6206,7 +6211,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_25_64--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_25_64--by--basomrade--year.csv",
       "name": "population_aged_25_64--by--basomrade--year",
       "schema": {
         "fields": [
@@ -6227,7 +6232,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_25_64--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_25_64--by--country--year.csv",
       "name": "population_aged_25_64--by--country--year",
       "schema": {
         "fields": [
@@ -6248,7 +6253,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_25_64--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_25_64--by--county--year.csv",
       "name": "population_aged_25_64--by--county--year",
       "schema": {
         "fields": [
@@ -6269,7 +6274,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_25_64--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_25_64--by--municipality--year.csv",
       "name": "population_aged_25_64--by--municipality--year",
       "schema": {
         "fields": [
@@ -6290,7 +6295,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_25_64_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_25_64_female--by--basomrade--year.csv",
       "name": "population_aged_25_64_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -6311,7 +6316,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_25_64_female--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_25_64_female--by--country--year.csv",
       "name": "population_aged_25_64_female--by--country--year",
       "schema": {
         "fields": [
@@ -6332,7 +6337,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_25_64_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_25_64_female--by--county--year.csv",
       "name": "population_aged_25_64_female--by--county--year",
       "schema": {
         "fields": [
@@ -6353,7 +6358,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_25_64_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_25_64_female--by--municipality--year.csv",
       "name": "population_aged_25_64_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -6374,7 +6379,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_25_64_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_25_64_male--by--basomrade--year.csv",
       "name": "population_aged_25_64_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -6395,7 +6400,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_25_64_male--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_25_64_male--by--country--year.csv",
       "name": "population_aged_25_64_male--by--country--year",
       "schema": {
         "fields": [
@@ -6416,7 +6421,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_25_64_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_25_64_male--by--county--year.csv",
       "name": "population_aged_25_64_male--by--county--year",
       "schema": {
         "fields": [
@@ -6437,7 +6442,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_25_64_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_25_64_male--by--municipality--year.csv",
       "name": "population_aged_25_64_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -6458,7 +6463,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_gt_20--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_gt_20--by--basomrade--year.csv",
       "name": "population_aged_gt_20--by--basomrade--year",
       "schema": {
         "fields": [
@@ -6479,7 +6484,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_gt_20--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_gt_20--by--country--year.csv",
       "name": "population_aged_gt_20--by--country--year",
       "schema": {
         "fields": [
@@ -6500,7 +6505,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_gt_20--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_gt_20--by--county--year.csv",
       "name": "population_aged_gt_20--by--county--year",
       "schema": {
         "fields": [
@@ -6521,7 +6526,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_gt_20--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_gt_20--by--municipality--year.csv",
       "name": "population_aged_gt_20--by--municipality--year",
       "schema": {
         "fields": [
@@ -6542,7 +6547,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_gt_20_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_gt_20_female--by--basomrade--year.csv",
       "name": "population_aged_gt_20_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -6563,7 +6568,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_gt_20_female--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_gt_20_female--by--country--year.csv",
       "name": "population_aged_gt_20_female--by--country--year",
       "schema": {
         "fields": [
@@ -6584,7 +6589,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_gt_20_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_gt_20_female--by--county--year.csv",
       "name": "population_aged_gt_20_female--by--county--year",
       "schema": {
         "fields": [
@@ -6605,7 +6610,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_gt_20_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_gt_20_female--by--municipality--year.csv",
       "name": "population_aged_gt_20_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -6626,7 +6631,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_gt_20_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_gt_20_male--by--basomrade--year.csv",
       "name": "population_aged_gt_20_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -6647,7 +6652,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_gt_20_male--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_gt_20_male--by--country--year.csv",
       "name": "population_aged_gt_20_male--by--country--year",
       "schema": {
         "fields": [
@@ -6668,7 +6673,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_gt_20_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_gt_20_male--by--county--year.csv",
       "name": "population_aged_gt_20_male--by--county--year",
       "schema": {
         "fields": [
@@ -6689,7 +6694,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--population_aged_gt_20_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_gt_20_male--by--municipality--year.csv",
       "name": "population_aged_gt_20_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -6710,7 +6715,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--post_secondary_education_min_3_years_aged_25_64--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--post_secondary_education_min_3_years_aged_25_64--by--basomrade--year.csv",
       "name": "post_secondary_education_min_3_years_aged_25_64--by--basomrade--year",
       "schema": {
         "fields": [
@@ -6731,7 +6736,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--post_secondary_education_min_3_years_aged_25_64--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--post_secondary_education_min_3_years_aged_25_64--by--country--year.csv",
       "name": "post_secondary_education_min_3_years_aged_25_64--by--country--year",
       "schema": {
         "fields": [
@@ -6752,7 +6757,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--post_secondary_education_min_3_years_aged_25_64--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--post_secondary_education_min_3_years_aged_25_64--by--county--year.csv",
       "name": "post_secondary_education_min_3_years_aged_25_64--by--county--year",
       "schema": {
         "fields": [
@@ -6773,7 +6778,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--post_secondary_education_min_3_years_aged_25_64--by--gender--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--post_secondary_education_min_3_years_aged_25_64--by--gender--basomrade--year.csv",
       "name": "post_secondary_education_min_3_years_aged_25_64--by--gender--basomrade--year",
       "schema": {
         "fields": [
@@ -6798,7 +6803,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--post_secondary_education_min_3_years_aged_25_64--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--post_secondary_education_min_3_years_aged_25_64--by--municipality--year.csv",
       "name": "post_secondary_education_min_3_years_aged_25_64--by--municipality--year",
       "schema": {
         "fields": [
@@ -6819,7 +6824,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--post_secondary_education_min_3_years_aged_25_64_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--post_secondary_education_min_3_years_aged_25_64_female--by--basomrade--year.csv",
       "name": "post_secondary_education_min_3_years_aged_25_64_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -6840,7 +6845,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--post_secondary_education_min_3_years_aged_25_64_female--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--post_secondary_education_min_3_years_aged_25_64_female--by--country--year.csv",
       "name": "post_secondary_education_min_3_years_aged_25_64_female--by--country--year",
       "schema": {
         "fields": [
@@ -6861,7 +6866,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--post_secondary_education_min_3_years_aged_25_64_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--post_secondary_education_min_3_years_aged_25_64_female--by--county--year.csv",
       "name": "post_secondary_education_min_3_years_aged_25_64_female--by--county--year",
       "schema": {
         "fields": [
@@ -6882,7 +6887,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--post_secondary_education_min_3_years_aged_25_64_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--post_secondary_education_min_3_years_aged_25_64_female--by--municipality--year.csv",
       "name": "post_secondary_education_min_3_years_aged_25_64_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -6903,7 +6908,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--post_secondary_education_min_3_years_aged_25_64_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--post_secondary_education_min_3_years_aged_25_64_male--by--basomrade--year.csv",
       "name": "post_secondary_education_min_3_years_aged_25_64_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -6924,7 +6929,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--post_secondary_education_min_3_years_aged_25_64_male--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--post_secondary_education_min_3_years_aged_25_64_male--by--country--year.csv",
       "name": "post_secondary_education_min_3_years_aged_25_64_male--by--country--year",
       "schema": {
         "fields": [
@@ -6945,7 +6950,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--post_secondary_education_min_3_years_aged_25_64_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--post_secondary_education_min_3_years_aged_25_64_male--by--county--year.csv",
       "name": "post_secondary_education_min_3_years_aged_25_64_male--by--county--year",
       "schema": {
         "fields": [
@@ -6966,7 +6971,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--post_secondary_education_min_3_years_aged_25_64_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--post_secondary_education_min_3_years_aged_25_64_male--by--municipality--year.csv",
       "name": "post_secondary_education_min_3_years_aged_25_64_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -6987,7 +6992,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_emigration--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_emigration--by--basomrade--year.csv",
       "name": "share_emigration--by--basomrade--year",
       "schema": {
         "fields": [
@@ -7008,7 +7013,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_emigration--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_emigration--by--county--year.csv",
       "name": "share_emigration--by--county--year",
       "schema": {
         "fields": [
@@ -7029,7 +7034,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_emigration--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_emigration--by--municipality--year.csv",
       "name": "share_emigration--by--municipality--year",
       "schema": {
         "fields": [
@@ -7050,7 +7055,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_emigration_employed_aged_20_64--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_emigration_employed_aged_20_64--by--basomrade--year.csv",
       "name": "share_emigration_employed_aged_20_64--by--basomrade--year",
       "schema": {
         "fields": [
@@ -7071,7 +7076,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_emigration_employed_aged_20_64--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_emigration_employed_aged_20_64--by--county--year.csv",
       "name": "share_emigration_employed_aged_20_64--by--county--year",
       "schema": {
         "fields": [
@@ -7092,7 +7097,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_emigration_employed_aged_20_64--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_emigration_employed_aged_20_64--by--municipality--year.csv",
       "name": "share_emigration_employed_aged_20_64--by--municipality--year",
       "schema": {
         "fields": [
@@ -7113,7 +7118,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_emigration_employed_aged_20_64_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_emigration_employed_aged_20_64_female--by--basomrade--year.csv",
       "name": "share_emigration_employed_aged_20_64_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -7134,7 +7139,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_emigration_employed_aged_20_64_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_emigration_employed_aged_20_64_female--by--county--year.csv",
       "name": "share_emigration_employed_aged_20_64_female--by--county--year",
       "schema": {
         "fields": [
@@ -7155,7 +7160,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_emigration_employed_aged_20_64_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_emigration_employed_aged_20_64_female--by--municipality--year.csv",
       "name": "share_emigration_employed_aged_20_64_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -7176,7 +7181,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_emigration_employed_aged_20_64_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_emigration_employed_aged_20_64_male--by--basomrade--year.csv",
       "name": "share_emigration_employed_aged_20_64_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -7197,7 +7202,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_emigration_employed_aged_20_64_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_emigration_employed_aged_20_64_male--by--county--year.csv",
       "name": "share_emigration_employed_aged_20_64_male--by--county--year",
       "schema": {
         "fields": [
@@ -7218,7 +7223,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_emigration_employed_aged_20_64_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_emigration_employed_aged_20_64_male--by--municipality--year.csv",
       "name": "share_emigration_employed_aged_20_64_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -7239,7 +7244,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_emigration_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_emigration_female--by--basomrade--year.csv",
       "name": "share_emigration_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -7260,7 +7265,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_emigration_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_emigration_female--by--county--year.csv",
       "name": "share_emigration_female--by--county--year",
       "schema": {
         "fields": [
@@ -7281,7 +7286,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_emigration_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_emigration_female--by--municipality--year.csv",
       "name": "share_emigration_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -7302,7 +7307,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_emigration_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_emigration_male--by--basomrade--year.csv",
       "name": "share_emigration_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -7323,7 +7328,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_emigration_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_emigration_male--by--county--year.csv",
       "name": "share_emigration_male--by--county--year",
       "schema": {
         "fields": [
@@ -7344,7 +7349,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_emigration_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_emigration_male--by--municipality--year.csv",
       "name": "share_emigration_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -7365,7 +7370,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_emigration_min_3_years_of_higher_education_aged_25_64--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_emigration_min_3_years_of_higher_education_aged_25_64--by--basomrade--year.csv",
       "name": "share_emigration_min_3_years_of_higher_education_aged_25_64--by--basomrade--year",
       "schema": {
         "fields": [
@@ -7386,7 +7391,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_emigration_min_3_years_of_higher_education_aged_25_64--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_emigration_min_3_years_of_higher_education_aged_25_64--by--county--year.csv",
       "name": "share_emigration_min_3_years_of_higher_education_aged_25_64--by--county--year",
       "schema": {
         "fields": [
@@ -7407,7 +7412,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_emigration_min_3_years_of_higher_education_aged_25_64--by--gender--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_emigration_min_3_years_of_higher_education_aged_25_64--by--gender--basomrade--year.csv",
       "name": "share_emigration_min_3_years_of_higher_education_aged_25_64--by--gender--basomrade--year",
       "schema": {
         "fields": [
@@ -7432,7 +7437,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_emigration_min_3_years_of_higher_education_aged_25_64--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_emigration_min_3_years_of_higher_education_aged_25_64--by--municipality--year.csv",
       "name": "share_emigration_min_3_years_of_higher_education_aged_25_64--by--municipality--year",
       "schema": {
         "fields": [
@@ -7453,7 +7458,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_emigration_min_3_years_of_higher_education_aged_25_64_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_emigration_min_3_years_of_higher_education_aged_25_64_female--by--basomrade--year.csv",
       "name": "share_emigration_min_3_years_of_higher_education_aged_25_64_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -7474,7 +7479,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_emigration_min_3_years_of_higher_education_aged_25_64_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_emigration_min_3_years_of_higher_education_aged_25_64_female--by--county--year.csv",
       "name": "share_emigration_min_3_years_of_higher_education_aged_25_64_female--by--county--year",
       "schema": {
         "fields": [
@@ -7495,7 +7500,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_emigration_min_3_years_of_higher_education_aged_25_64_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_emigration_min_3_years_of_higher_education_aged_25_64_female--by--municipality--year.csv",
       "name": "share_emigration_min_3_years_of_higher_education_aged_25_64_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -7516,7 +7521,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_emigration_min_3_years_of_higher_education_aged_25_64_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_emigration_min_3_years_of_higher_education_aged_25_64_male--by--basomrade--year.csv",
       "name": "share_emigration_min_3_years_of_higher_education_aged_25_64_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -7537,7 +7542,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_emigration_min_3_years_of_higher_education_aged_25_64_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_emigration_min_3_years_of_higher_education_aged_25_64_male--by--county--year.csv",
       "name": "share_emigration_min_3_years_of_higher_education_aged_25_64_male--by--county--year",
       "schema": {
         "fields": [
@@ -7558,7 +7563,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_emigration_min_3_years_of_higher_education_aged_25_64_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_emigration_min_3_years_of_higher_education_aged_25_64_male--by--municipality--year.csv",
       "name": "share_emigration_min_3_years_of_higher_education_aged_25_64_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -7579,7 +7584,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_immigration--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_immigration--by--basomrade--year.csv",
       "name": "share_immigration--by--basomrade--year",
       "schema": {
         "fields": [
@@ -7600,7 +7605,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_immigration--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_immigration--by--county--year.csv",
       "name": "share_immigration--by--county--year",
       "schema": {
         "fields": [
@@ -7621,7 +7626,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_immigration--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_immigration--by--municipality--year.csv",
       "name": "share_immigration--by--municipality--year",
       "schema": {
         "fields": [
@@ -7642,7 +7647,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_immigration_employed_aged_20_64--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_immigration_employed_aged_20_64--by--basomrade--year.csv",
       "name": "share_immigration_employed_aged_20_64--by--basomrade--year",
       "schema": {
         "fields": [
@@ -7663,7 +7668,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_immigration_employed_aged_20_64--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_immigration_employed_aged_20_64--by--county--year.csv",
       "name": "share_immigration_employed_aged_20_64--by--county--year",
       "schema": {
         "fields": [
@@ -7684,7 +7689,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_immigration_employed_aged_20_64--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_immigration_employed_aged_20_64--by--municipality--year.csv",
       "name": "share_immigration_employed_aged_20_64--by--municipality--year",
       "schema": {
         "fields": [
@@ -7705,7 +7710,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_immigration_employed_aged_20_64_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_immigration_employed_aged_20_64_female--by--basomrade--year.csv",
       "name": "share_immigration_employed_aged_20_64_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -7726,7 +7731,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_immigration_employed_aged_20_64_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_immigration_employed_aged_20_64_female--by--county--year.csv",
       "name": "share_immigration_employed_aged_20_64_female--by--county--year",
       "schema": {
         "fields": [
@@ -7747,7 +7752,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_immigration_employed_aged_20_64_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_immigration_employed_aged_20_64_female--by--municipality--year.csv",
       "name": "share_immigration_employed_aged_20_64_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -7768,7 +7773,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_immigration_employed_aged_20_64_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_immigration_employed_aged_20_64_male--by--basomrade--year.csv",
       "name": "share_immigration_employed_aged_20_64_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -7789,7 +7794,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_immigration_employed_aged_20_64_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_immigration_employed_aged_20_64_male--by--county--year.csv",
       "name": "share_immigration_employed_aged_20_64_male--by--county--year",
       "schema": {
         "fields": [
@@ -7810,7 +7815,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_immigration_employed_aged_20_64_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_immigration_employed_aged_20_64_male--by--municipality--year.csv",
       "name": "share_immigration_employed_aged_20_64_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -7831,7 +7836,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_immigration_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_immigration_female--by--basomrade--year.csv",
       "name": "share_immigration_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -7852,7 +7857,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_immigration_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_immigration_female--by--county--year.csv",
       "name": "share_immigration_female--by--county--year",
       "schema": {
         "fields": [
@@ -7873,7 +7878,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_immigration_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_immigration_female--by--municipality--year.csv",
       "name": "share_immigration_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -7894,7 +7899,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_immigration_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_immigration_male--by--basomrade--year.csv",
       "name": "share_immigration_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -7915,7 +7920,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_immigration_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_immigration_male--by--county--year.csv",
       "name": "share_immigration_male--by--county--year",
       "schema": {
         "fields": [
@@ -7936,7 +7941,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_immigration_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_immigration_male--by--municipality--year.csv",
       "name": "share_immigration_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -7957,7 +7962,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_immigration_min_3_years_of_higher_education_aged_25_64--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_immigration_min_3_years_of_higher_education_aged_25_64--by--basomrade--year.csv",
       "name": "share_immigration_min_3_years_of_higher_education_aged_25_64--by--basomrade--year",
       "schema": {
         "fields": [
@@ -7978,7 +7983,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_immigration_min_3_years_of_higher_education_aged_25_64--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_immigration_min_3_years_of_higher_education_aged_25_64--by--county--year.csv",
       "name": "share_immigration_min_3_years_of_higher_education_aged_25_64--by--county--year",
       "schema": {
         "fields": [
@@ -7999,7 +8004,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_immigration_min_3_years_of_higher_education_aged_25_64--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_immigration_min_3_years_of_higher_education_aged_25_64--by--municipality--year.csv",
       "name": "share_immigration_min_3_years_of_higher_education_aged_25_64--by--municipality--year",
       "schema": {
         "fields": [
@@ -8020,7 +8025,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_immigration_min_3_years_of_higher_education_aged_25_64_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_immigration_min_3_years_of_higher_education_aged_25_64_female--by--basomrade--year.csv",
       "name": "share_immigration_min_3_years_of_higher_education_aged_25_64_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -8041,7 +8046,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_immigration_min_3_years_of_higher_education_aged_25_64_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_immigration_min_3_years_of_higher_education_aged_25_64_female--by--county--year.csv",
       "name": "share_immigration_min_3_years_of_higher_education_aged_25_64_female--by--county--year",
       "schema": {
         "fields": [
@@ -8062,7 +8067,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_immigration_min_3_years_of_higher_education_aged_25_64_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_immigration_min_3_years_of_higher_education_aged_25_64_female--by--municipality--year.csv",
       "name": "share_immigration_min_3_years_of_higher_education_aged_25_64_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -8083,7 +8088,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_immigration_min_3_years_of_higher_education_aged_25_64_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_immigration_min_3_years_of_higher_education_aged_25_64_male--by--basomrade--year.csv",
       "name": "share_immigration_min_3_years_of_higher_education_aged_25_64_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -8104,7 +8109,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_immigration_min_3_years_of_higher_education_aged_25_64_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_immigration_min_3_years_of_higher_education_aged_25_64_male--by--county--year.csv",
       "name": "share_immigration_min_3_years_of_higher_education_aged_25_64_male--by--county--year",
       "schema": {
         "fields": [
@@ -8125,7 +8130,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--share_immigration_min_3_years_of_higher_education_aged_25_64_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--share_immigration_min_3_years_of_higher_education_aged_25_64_male--by--municipality--year.csv",
       "name": "share_immigration_min_3_years_of_higher_education_aged_25_64_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -8146,7 +8151,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--sum_income_aged_gt_20--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--sum_income_aged_gt_20--by--basomrade--year.csv",
       "name": "sum_income_aged_gt_20--by--basomrade--year",
       "schema": {
         "fields": [
@@ -8167,7 +8172,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--sum_income_aged_gt_20--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--sum_income_aged_gt_20--by--country--year.csv",
       "name": "sum_income_aged_gt_20--by--country--year",
       "schema": {
         "fields": [
@@ -8188,7 +8193,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--sum_income_aged_gt_20--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--sum_income_aged_gt_20--by--county--year.csv",
       "name": "sum_income_aged_gt_20--by--county--year",
       "schema": {
         "fields": [
@@ -8209,7 +8214,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--sum_income_aged_gt_20--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--sum_income_aged_gt_20--by--municipality--year.csv",
       "name": "sum_income_aged_gt_20--by--municipality--year",
       "schema": {
         "fields": [
@@ -8230,7 +8235,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--sum_income_aged_gt_20_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--sum_income_aged_gt_20_female--by--basomrade--year.csv",
       "name": "sum_income_aged_gt_20_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -8251,7 +8256,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--sum_income_aged_gt_20_female--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--sum_income_aged_gt_20_female--by--country--year.csv",
       "name": "sum_income_aged_gt_20_female--by--country--year",
       "schema": {
         "fields": [
@@ -8272,7 +8277,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--sum_income_aged_gt_20_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--sum_income_aged_gt_20_female--by--county--year.csv",
       "name": "sum_income_aged_gt_20_female--by--county--year",
       "schema": {
         "fields": [
@@ -8293,7 +8298,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--sum_income_aged_gt_20_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--sum_income_aged_gt_20_female--by--municipality--year.csv",
       "name": "sum_income_aged_gt_20_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -8314,7 +8319,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--sum_income_aged_gt_20_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--sum_income_aged_gt_20_male--by--basomrade--year.csv",
       "name": "sum_income_aged_gt_20_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -8335,7 +8340,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--sum_income_aged_gt_20_male--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--sum_income_aged_gt_20_male--by--country--year.csv",
       "name": "sum_income_aged_gt_20_male--by--country--year",
       "schema": {
         "fields": [
@@ -8356,7 +8361,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--sum_income_aged_gt_20_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--sum_income_aged_gt_20_male--by--county--year.csv",
       "name": "sum_income_aged_gt_20_male--by--county--year",
       "schema": {
         "fields": [
@@ -8377,7 +8382,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--sum_income_aged_gt_20_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--sum_income_aged_gt_20_male--by--municipality--year.csv",
       "name": "sum_income_aged_gt_20_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -8398,7 +8403,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--unemployed_aged_20_64--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--unemployed_aged_20_64--by--basomrade--year.csv",
       "name": "unemployed_aged_20_64--by--basomrade--year",
       "schema": {
         "fields": [
@@ -8419,7 +8424,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--unemployed_aged_20_64--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--unemployed_aged_20_64--by--country--year.csv",
       "name": "unemployed_aged_20_64--by--country--year",
       "schema": {
         "fields": [
@@ -8440,7 +8445,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--unemployed_aged_20_64--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--unemployed_aged_20_64--by--county--year.csv",
       "name": "unemployed_aged_20_64--by--county--year",
       "schema": {
         "fields": [
@@ -8461,7 +8466,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--unemployed_aged_20_64--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--unemployed_aged_20_64--by--municipality--year.csv",
       "name": "unemployed_aged_20_64--by--municipality--year",
       "schema": {
         "fields": [
@@ -8482,7 +8487,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--unemployed_aged_20_64_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--unemployed_aged_20_64_female--by--basomrade--year.csv",
       "name": "unemployed_aged_20_64_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -8503,7 +8508,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--unemployed_aged_20_64_female--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--unemployed_aged_20_64_female--by--country--year.csv",
       "name": "unemployed_aged_20_64_female--by--country--year",
       "schema": {
         "fields": [
@@ -8524,7 +8529,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--unemployed_aged_20_64_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--unemployed_aged_20_64_female--by--county--year.csv",
       "name": "unemployed_aged_20_64_female--by--county--year",
       "schema": {
         "fields": [
@@ -8545,7 +8550,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--unemployed_aged_20_64_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--unemployed_aged_20_64_female--by--municipality--year.csv",
       "name": "unemployed_aged_20_64_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -8566,7 +8571,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--unemployed_aged_20_64_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--unemployed_aged_20_64_male--by--basomrade--year.csv",
       "name": "unemployed_aged_20_64_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -8587,7 +8592,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--unemployed_aged_20_64_male--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--unemployed_aged_20_64_male--by--country--year.csv",
       "name": "unemployed_aged_20_64_male--by--country--year",
       "schema": {
         "fields": [
@@ -8608,7 +8613,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--unemployed_aged_20_64_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--unemployed_aged_20_64_male--by--county--year.csv",
       "name": "unemployed_aged_20_64_male--by--county--year",
       "schema": {
         "fields": [
@@ -8629,7 +8634,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--unemployed_aged_20_64_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--unemployed_aged_20_64_male--by--municipality--year.csv",
       "name": "unemployed_aged_20_64_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -8650,7 +8655,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--upper_middle_income_aged_gt_20--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--upper_middle_income_aged_gt_20--by--basomrade--year.csv",
       "name": "upper_middle_income_aged_gt_20--by--basomrade--year",
       "schema": {
         "fields": [
@@ -8671,7 +8676,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--upper_middle_income_aged_gt_20--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--upper_middle_income_aged_gt_20--by--country--year.csv",
       "name": "upper_middle_income_aged_gt_20--by--country--year",
       "schema": {
         "fields": [
@@ -8692,7 +8697,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--upper_middle_income_aged_gt_20--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--upper_middle_income_aged_gt_20--by--county--year.csv",
       "name": "upper_middle_income_aged_gt_20--by--county--year",
       "schema": {
         "fields": [
@@ -8713,7 +8718,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--upper_middle_income_aged_gt_20--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--upper_middle_income_aged_gt_20--by--municipality--year.csv",
       "name": "upper_middle_income_aged_gt_20--by--municipality--year",
       "schema": {
         "fields": [
@@ -8734,7 +8739,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--upper_middle_income_aged_gt_20_female--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--upper_middle_income_aged_gt_20_female--by--basomrade--year.csv",
       "name": "upper_middle_income_aged_gt_20_female--by--basomrade--year",
       "schema": {
         "fields": [
@@ -8755,7 +8760,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--upper_middle_income_aged_gt_20_female--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--upper_middle_income_aged_gt_20_female--by--country--year.csv",
       "name": "upper_middle_income_aged_gt_20_female--by--country--year",
       "schema": {
         "fields": [
@@ -8776,7 +8781,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--upper_middle_income_aged_gt_20_female--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--upper_middle_income_aged_gt_20_female--by--county--year.csv",
       "name": "upper_middle_income_aged_gt_20_female--by--county--year",
       "schema": {
         "fields": [
@@ -8797,7 +8802,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--upper_middle_income_aged_gt_20_female--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--upper_middle_income_aged_gt_20_female--by--municipality--year.csv",
       "name": "upper_middle_income_aged_gt_20_female--by--municipality--year",
       "schema": {
         "fields": [
@@ -8818,7 +8823,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--upper_middle_income_aged_gt_20_male--by--basomrade--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--upper_middle_income_aged_gt_20_male--by--basomrade--year.csv",
       "name": "upper_middle_income_aged_gt_20_male--by--basomrade--year",
       "schema": {
         "fields": [
@@ -8839,7 +8844,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--upper_middle_income_aged_gt_20_male--by--country--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--upper_middle_income_aged_gt_20_male--by--country--year.csv",
       "name": "upper_middle_income_aged_gt_20_male--by--country--year",
       "schema": {
         "fields": [
@@ -8860,7 +8865,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--upper_middle_income_aged_gt_20_male--by--county--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--upper_middle_income_aged_gt_20_male--by--county--year.csv",
       "name": "upper_middle_income_aged_gt_20_male--by--county--year",
       "schema": {
         "fields": [
@@ -8881,7 +8886,7 @@
       }
     },
     {
-      "path": "ddf--datapoints--upper_middle_income_aged_gt_20_male--by--municipality--year.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--upper_middle_income_aged_gt_20_male--by--municipality--year.csv",
       "name": "upper_middle_income_aged_gt_20_male--by--municipality--year",
       "schema": {
         "fields": [
@@ -8902,7 +8907,7 @@
       }
     },
     {
-      "path": "ddf--entities--basomrade.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--entities--basomrade.csv",
       "name": "basomrade",
       "schema": {
         "fields": [
@@ -8929,7 +8934,7 @@
       }
     },
     {
-      "path": "ddf--entities--country.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--entities--country.csv",
       "name": "country",
       "schema": {
         "fields": [
@@ -8947,7 +8952,7 @@
       }
     },
     {
-      "path": "ddf--entities--county.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--entities--county.csv",
       "name": "county",
       "schema": {
         "fields": [
@@ -8968,7 +8973,7 @@
       }
     },
     {
-      "path": "ddf--entities--county_region.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--entities--county_region.csv",
       "name": "county_region",
       "schema": {
         "fields": [
@@ -8989,7 +8994,7 @@
       }
     },
     {
-      "path": "ddf--entities--gender.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--entities--gender.csv",
       "name": "gender",
       "schema": {
         "fields": [
@@ -9004,7 +9009,7 @@
       }
     },
     {
-      "path": "ddf--entities--municipality.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--entities--municipality.csv",
       "name": "municipality",
       "schema": {
         "fields": [
@@ -9034,7 +9039,7 @@
       }
     },
     {
-      "path": "ddf--entities--tag.csv",
+      "path": "ddf--sodertornsmodellen--src/ddf--entities--tag.csv",
       "name": "tag",
       "schema": {
         "fields": [
@@ -10421,6 +10426,16 @@
       },
       {
         "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "emigration_employed_aged_20_64_male",
+        "resources": [
+          "emigration_employed_aged_20_64_male--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
           "geo",
           "year"
         ],
@@ -10440,16 +10455,6 @@
         "value": "employed_aged_20_64_female",
         "resources": [
           "employed_aged_20_64_female--by--country--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "basomrade",
-          "year"
-        ],
-        "value": "emigration_employed_aged_20_64_male",
-        "resources": [
-          "emigration_employed_aged_20_64_male--by--basomrade--year"
         ]
       },
       {
@@ -11287,6 +11292,16 @@
       },
       {
         "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "immigration_employed_aged_20_64_female",
+        "resources": [
+          "immigration_employed_aged_20_64_female--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
           "geo",
           "year"
         ],
@@ -11305,16 +11320,6 @@
         "value": "immigration_surplus_employed_aged_20_64",
         "resources": [
           "immigration_surplus_employed_aged_20_64--by--county--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "basomrade",
-          "year"
-        ],
-        "value": "immigration_employed_aged_20_64_female",
-        "resources": [
-          "immigration_employed_aged_20_64_female--by--basomrade--year"
         ]
       },
       {
@@ -14275,22 +14280,22 @@
       },
       {
         "primaryKey": [
-          "basomrade",
-          "year"
-        ],
-        "value": "share_immigration_employed_aged_20_64_female",
-        "resources": [
-          "share_immigration_employed_aged_20_64_female--by--basomrade--year"
-        ]
-      },
-      {
-        "primaryKey": [
           "municipality",
           "year"
         ],
         "value": "sum_income_aged_gt_20",
         "resources": [
           "sum_income_aged_gt_20--by--municipality--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "share_immigration_employed_aged_20_64_female",
+        "resources": [
+          "share_immigration_employed_aged_20_64_female--by--basomrade--year"
         ]
       },
       {
@@ -14944,15 +14949,6 @@
       },
       {
         "primaryKey": [
-          "gender"
-        ],
-        "value": "name",
-        "resources": [
-          "gender"
-        ]
-      },
-      {
-        "primaryKey": [
           "basomrade"
         ],
         "value": "name",
@@ -15030,6 +15026,15 @@
         "value": "baskod2010",
         "resources": [
           "basomrade"
+        ]
+      },
+      {
+        "primaryKey": [
+          "gender"
+        ],
+        "value": "name",
+        "resources": [
+          "gender"
         ]
       },
       {
