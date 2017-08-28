@@ -4951,6 +4951,31 @@
       }
     },
     {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--median_income_aged_gt_20--by--gender--basomrade--year.csv",
+      "name": "median_income_aged_gt_20--by--gender--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "median_income_aged_gt_20"
+          },
+          {
+            "name": "gender"
+          }
+        ],
+        "primaryKey": [
+          "gender",
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--sodertornsmodellen--src/ddf--datapoints--median_income_aged_gt_20--by--municipality--year.csv",
       "name": "median_income_aged_gt_20--by--municipality--year",
       "schema": {
@@ -9362,9 +9387,9 @@
           "basomrade",
           "year"
         ],
-        "value": "cumulative_immigration_surplus",
+        "value": "cumulative_immigration_surplus_employed_aged_20_64_female",
         "resources": [
-          "cumulative_immigration_surplus--by--basomrade--year"
+          "cumulative_immigration_surplus_employed_aged_20_64_female--by--basomrade--year"
         ]
       },
       {
@@ -9372,9 +9397,9 @@
           "basomrade",
           "year"
         ],
-        "value": "cumulative_immigration_surplus_employed_aged_20_64_female",
+        "value": "cumulative_immigration_surplus",
         "resources": [
-          "cumulative_immigration_surplus_employed_aged_20_64_female--by--basomrade--year"
+          "cumulative_immigration_surplus--by--basomrade--year"
         ]
       },
       {
@@ -9465,22 +9490,22 @@
       },
       {
         "primaryKey": [
-          "municipality",
-          "year"
-        ],
-        "value": "educational_level_higher_education_max_3_years_aged_25_64",
-        "resources": [
-          "educational_level_higher_education_max_3_years_aged_25_64--by--municipality--year"
-        ]
-      },
-      {
-        "primaryKey": [
           "county",
           "year"
         ],
         "value": "educational_level_higher_education_max_3_years_aged_25_64_female",
         "resources": [
           "educational_level_higher_education_max_3_years_aged_25_64_female--by--county--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "municipality",
+          "year"
+        ],
+        "value": "educational_level_higher_education_max_3_years_aged_25_64",
+        "resources": [
+          "educational_level_higher_education_max_3_years_aged_25_64--by--municipality--year"
         ]
       },
       {
@@ -9538,6 +9563,16 @@
       },
       {
         "primaryKey": [
+          "municipality",
+          "year"
+        ],
+        "value": "educational_level_higher_education_max_3_years_aged_25_64_male",
+        "resources": [
+          "educational_level_higher_education_max_3_years_aged_25_64_male--by--municipality--year"
+        ]
+      },
+      {
+        "primaryKey": [
           "geo",
           "year"
         ],
@@ -9577,16 +9612,6 @@
         "value": "cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_female",
         "resources": [
           "cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_female--by--basomrade--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "municipality",
-          "year"
-        ],
-        "value": "educational_level_higher_education_max_3_years_aged_25_64_male",
-        "resources": [
-          "educational_level_higher_education_max_3_years_aged_25_64_male--by--municipality--year"
         ]
       },
       {
@@ -9687,6 +9712,16 @@
       },
       {
         "primaryKey": [
+          "municipality",
+          "year"
+        ],
+        "value": "educational_level_higher_education_min_3_years_aged_25_64_male",
+        "resources": [
+          "educational_level_higher_education_min_3_years_aged_25_64_male--by--municipality--year"
+        ]
+      },
+      {
+        "primaryKey": [
           "geo",
           "year"
         ],
@@ -9716,16 +9751,6 @@
         "value": "educational_level_pre_secondary_school_aged_25_64",
         "resources": [
           "educational_level_pre_secondary_school_aged_25_64--by--county--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "municipality",
-          "year"
-        ],
-        "value": "educational_level_higher_education_min_3_years_aged_25_64_male",
-        "resources": [
-          "educational_level_higher_education_min_3_years_aged_25_64_male--by--municipality--year"
         ]
       },
       {
@@ -9889,6 +9914,16 @@
       },
       {
         "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "educational_level_higher_education_max_3_years_aged_25_64_male",
+        "resources": [
+          "educational_level_higher_education_max_3_years_aged_25_64_male--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
           "geo",
           "year"
         ],
@@ -9908,16 +9943,6 @@
         "value": "educational_level_secondary_school_aged_25_64_female",
         "resources": [
           "educational_level_secondary_school_aged_25_64_female--by--country--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "basomrade",
-          "year"
-        ],
-        "value": "educational_level_higher_education_max_3_years_aged_25_64_male",
-        "resources": [
-          "educational_level_higher_education_max_3_years_aged_25_64_male--by--basomrade--year"
         ]
       },
       {
@@ -9975,6 +10000,16 @@
       },
       {
         "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "educational_level_higher_education_min_3_years_aged_25_64_female",
+        "resources": [
+          "educational_level_higher_education_min_3_years_aged_25_64_female--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
           "county",
           "year"
         ],
@@ -9988,9 +10023,9 @@
           "basomrade",
           "year"
         ],
-        "value": "educational_level_higher_education_min_3_years_aged_25_64_female",
+        "value": "educational_level_higher_education_min_3_years_aged_25_64_male",
         "resources": [
-          "educational_level_higher_education_min_3_years_aged_25_64_female--by--basomrade--year"
+          "educational_level_higher_education_min_3_years_aged_25_64_male--by--basomrade--year"
         ]
       },
       {
@@ -9998,9 +10033,9 @@
           "basomrade",
           "year"
         ],
-        "value": "educational_level_higher_education_min_3_years_aged_25_64_male",
+        "value": "educational_level_pre_secondary_school_aged_25_64",
         "resources": [
-          "educational_level_higher_education_min_3_years_aged_25_64_male--by--basomrade--year"
+          "educational_level_pre_secondary_school_aged_25_64--by--basomrade--year"
         ]
       },
       {
@@ -10023,16 +10058,6 @@
         "value": "emigration",
         "resources": [
           "emigration--by--county--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "basomrade",
-          "year"
-        ],
-        "value": "educational_level_pre_secondary_school_aged_25_64",
-        "resources": [
-          "educational_level_pre_secondary_school_aged_25_64--by--basomrade--year"
         ]
       },
       {
@@ -10383,16 +10408,6 @@
       },
       {
         "primaryKey": [
-          "basomrade",
-          "year"
-        ],
-        "value": "emigration_employed_aged_20_64_female",
-        "resources": [
-          "emigration_employed_aged_20_64_female--by--basomrade--year"
-        ]
-      },
-      {
-        "primaryKey": [
           "geo",
           "year"
         ],
@@ -10422,6 +10437,16 @@
         "value": "employed_aged_20_64",
         "resources": [
           "employed_aged_20_64--by--county--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "emigration_employed_aged_20_64_female",
+        "resources": [
+          "emigration_employed_aged_20_64_female--by--basomrade--year"
         ]
       },
       {
@@ -10671,22 +10696,22 @@
       },
       {
         "primaryKey": [
-          "county",
-          "year"
-        ],
-        "value": "employment_rate_20_64_male",
-        "resources": [
-          "employment_rate_20_64_male--by--county--year"
-        ]
-      },
-      {
-        "primaryKey": [
           "basomrade",
           "year"
         ],
         "value": "emigration_min_3_years_of_higher_education_aged_25_64_female",
         "resources": [
           "emigration_min_3_years_of_higher_education_aged_25_64_female--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "county",
+          "year"
+        ],
+        "value": "employment_rate_20_64_male",
+        "resources": [
+          "employment_rate_20_64_male--by--county--year"
         ]
       },
       {
@@ -10934,22 +10959,22 @@
       },
       {
         "primaryKey": [
-          "basomrade",
-          "year"
-        ],
-        "value": "employment_rate_20_64_female",
-        "resources": [
-          "employment_rate_20_64_female--by--basomrade--year"
-        ]
-      },
-      {
-        "primaryKey": [
           "municipality",
           "year"
         ],
         "value": "immigration_employed_aged_20_64",
         "resources": [
           "immigration_employed_aged_20_64--by--municipality--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "employment_rate_20_64_female",
+        "resources": [
+          "employment_rate_20_64_female--by--basomrade--year"
         ]
       },
       {
@@ -11366,22 +11391,22 @@
       },
       {
         "primaryKey": [
-          "basomrade",
-          "year"
-        ],
-        "value": "immigration_female",
-        "resources": [
-          "immigration_female--by--basomrade--year"
-        ]
-      },
-      {
-        "primaryKey": [
           "municipality",
           "year"
         ],
         "value": "immigration_surplus_employed_aged_20_64_female",
         "resources": [
           "immigration_surplus_employed_aged_20_64_female--by--municipality--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "immigration_female",
+        "resources": [
+          "immigration_female--by--basomrade--year"
         ]
       },
       {
@@ -12168,6 +12193,16 @@
       },
       {
         "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "low_income_aged_gt_20_male",
+        "resources": [
+          "low_income_aged_gt_20_male--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
           "geo",
           "year"
         ],
@@ -12214,9 +12249,9 @@
           "basomrade",
           "year"
         ],
-        "value": "low_income_aged_gt_20_male",
+        "value": "lower_middle_income_aged_gt_20_female",
         "resources": [
-          "low_income_aged_gt_20_male--by--basomrade--year"
+          "lower_middle_income_aged_gt_20_female--by--basomrade--year"
         ]
       },
       {
@@ -12254,22 +12289,22 @@
       },
       {
         "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "lower_middle_income_aged_gt_20_male",
+        "resources": [
+          "lower_middle_income_aged_gt_20_male--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
           "municipality",
           "year"
         ],
         "value": "median_income_aged_gt_20_male",
         "resources": [
           "median_income_aged_gt_20_male--by--municipality--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "basomrade",
-          "year"
-        ],
-        "value": "lower_middle_income_aged_gt_20_female",
-        "resources": [
-          "lower_middle_income_aged_gt_20_female--by--basomrade--year"
         ]
       },
       {
@@ -12310,9 +12345,9 @@
           "basomrade",
           "year"
         ],
-        "value": "lower_middle_income_aged_gt_20_male",
+        "value": "mean_income_aged_gt_20",
         "resources": [
-          "lower_middle_income_aged_gt_20_male--by--basomrade--year"
+          "mean_income_aged_gt_20--by--basomrade--year"
         ]
       },
       {
@@ -12363,9 +12398,9 @@
           "basomrade",
           "year"
         ],
-        "value": "mean_income_aged_gt_20",
+        "value": "mean_income_aged_gt_20_female",
         "resources": [
-          "mean_income_aged_gt_20--by--basomrade--year"
+          "mean_income_aged_gt_20_female--by--basomrade--year"
         ]
       },
       {
@@ -12413,22 +12448,22 @@
       },
       {
         "primaryKey": [
-          "basomrade",
-          "year"
-        ],
-        "value": "mean_income_aged_gt_20_female",
-        "resources": [
-          "mean_income_aged_gt_20_female--by--basomrade--year"
-        ]
-      },
-      {
-        "primaryKey": [
           "municipality",
           "year"
         ],
         "value": "missing_data_male",
         "resources": [
           "missing_data_male--by--municipality--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "mean_income_aged_gt_20_male",
+        "resources": [
+          "mean_income_aged_gt_20_male--by--basomrade--year"
         ]
       },
       {
@@ -12468,9 +12503,9 @@
           "basomrade",
           "year"
         ],
-        "value": "mean_income_aged_gt_20_male",
+        "value": "median_income_aged_gt_20",
         "resources": [
-          "mean_income_aged_gt_20_male--by--basomrade--year"
+          "median_income_aged_gt_20--by--basomrade--year"
         ]
       },
       {
@@ -12510,9 +12545,9 @@
           "basomrade",
           "year"
         ],
-        "value": "median_income_aged_gt_20",
+        "value": "median_income_aged_gt_20_female",
         "resources": [
-          "median_income_aged_gt_20--by--basomrade--year"
+          "median_income_aged_gt_20_female--by--basomrade--year"
         ]
       },
       {
@@ -12552,9 +12587,9 @@
           "basomrade",
           "year"
         ],
-        "value": "median_income_aged_gt_20_female",
+        "value": "median_income_aged_gt_20_male",
         "resources": [
-          "median_income_aged_gt_20_female--by--basomrade--year"
+          "median_income_aged_gt_20_male--by--basomrade--year"
         ]
       },
       {
@@ -12594,9 +12629,9 @@
           "basomrade",
           "year"
         ],
-        "value": "median_income_aged_gt_20_male",
+        "value": "missing_data",
         "resources": [
-          "median_income_aged_gt_20_male--by--basomrade--year"
+          "missing_data--by--basomrade--year"
         ]
       },
       {
@@ -12636,9 +12671,9 @@
           "basomrade",
           "year"
         ],
-        "value": "missing_data",
+        "value": "missing_data_female",
         "resources": [
-          "missing_data--by--basomrade--year"
+          "missing_data_female--by--basomrade--year"
         ]
       },
       {
@@ -12675,12 +12710,24 @@
       },
       {
         "primaryKey": [
-          "basomrade",
+          "gender",
+          "geo",
           "year"
         ],
-        "value": "missing_data_female",
+        "value": "mean_income_aged_gt_20",
         "resources": [
-          "missing_data_female--by--basomrade--year"
+          "mean_income_aged_gt_20--by--gender--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "gender",
+          "year"
+        ],
+        "value": "mean_income_aged_gt_20",
+        "resources": [
+          "mean_income_aged_gt_20--by--gender--basomrade--year"
         ]
       },
       {
@@ -12707,22 +12754,22 @@
       },
       {
         "primaryKey": [
-          "municipality",
-          "year"
-        ],
-        "value": "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64",
-        "resources": [
-          "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64--by--municipality--year"
-        ]
-      },
-      {
-        "primaryKey": [
           "basomrade",
           "year"
         ],
         "value": "missing_data_male",
         "resources": [
           "missing_data_male--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "municipality",
+          "year"
+        ],
+        "value": "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64",
+        "resources": [
+          "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64--by--municipality--year"
         ]
       },
       {
@@ -12749,34 +12796,22 @@
       },
       {
         "primaryKey": [
-          "gender",
-          "geo",
-          "year"
-        ],
-        "value": "mean_income_aged_gt_20",
-        "resources": [
-          "mean_income_aged_gt_20--by--gender--basomrade--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "basomrade",
-          "gender",
-          "year"
-        ],
-        "value": "mean_income_aged_gt_20",
-        "resources": [
-          "mean_income_aged_gt_20--by--gender--basomrade--year"
-        ]
-      },
-      {
-        "primaryKey": [
           "municipality",
           "year"
         ],
         "value": "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_female",
         "resources": [
           "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_female--by--municipality--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "population_20xx_12_31",
+        "resources": [
+          "population_20xx_12_31--by--basomrade--year"
         ]
       },
       {
@@ -12803,22 +12838,22 @@
       },
       {
         "primaryKey": [
-          "basomrade",
-          "year"
-        ],
-        "value": "population_20xx_12_31",
-        "resources": [
-          "population_20xx_12_31--by--basomrade--year"
-        ]
-      },
-      {
-        "primaryKey": [
           "municipality",
           "year"
         ],
         "value": "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_male",
         "resources": [
           "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_male--by--municipality--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "population_20xx_12_31_employed_aged_20_64",
+        "resources": [
+          "population_20xx_12_31_employed_aged_20_64--by--basomrade--year"
         ]
       },
       {
@@ -12856,22 +12891,22 @@
       },
       {
         "primaryKey": [
-          "basomrade",
-          "year"
-        ],
-        "value": "population_20xx_12_31_employed_aged_20_64",
-        "resources": [
-          "population_20xx_12_31_employed_aged_20_64--by--basomrade--year"
-        ]
-      },
-      {
-        "primaryKey": [
           "municipality",
           "year"
         ],
         "value": "population_aged_20_64",
         "resources": [
           "population_aged_20_64--by--municipality--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "population_20xx_12_31_employed_aged_20_64_female",
+        "resources": [
+          "population_20xx_12_31_employed_aged_20_64_female--by--basomrade--year"
         ]
       },
       {
@@ -12919,12 +12954,24 @@
       },
       {
         "primaryKey": [
-          "basomrade",
+          "gender",
+          "geo",
           "year"
         ],
-        "value": "population_20xx_12_31_employed_aged_20_64_female",
+        "value": "median_income_aged_gt_20",
         "resources": [
-          "population_20xx_12_31_employed_aged_20_64_female--by--basomrade--year"
+          "median_income_aged_gt_20--by--gender--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "gender",
+          "year"
+        ],
+        "value": "median_income_aged_gt_20",
+        "resources": [
+          "median_income_aged_gt_20--by--gender--basomrade--year"
         ]
       },
       {
@@ -13058,6 +13105,16 @@
       },
       {
         "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "population_aged_20_64",
+        "resources": [
+          "population_aged_20_64--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
           "county",
           "year"
         ],
@@ -13074,16 +13131,6 @@
         "value": "population_aged_25_64_female",
         "resources": [
           "population_aged_25_64_female--by--municipality--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "basomrade",
-          "year"
-        ],
-        "value": "population_20xx_12_31_male",
-        "resources": [
-          "population_20xx_12_31_male--by--basomrade--year"
         ]
       },
       {
@@ -13111,22 +13158,22 @@
       },
       {
         "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "population_20xx_12_31_male",
+        "resources": [
+          "population_20xx_12_31_male--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
           "county",
           "year"
         ],
         "value": "population_aged_25_64_male",
         "resources": [
           "population_aged_25_64_male--by--county--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "basomrade",
-          "year"
-        ],
-        "value": "population_aged_20_64",
-        "resources": [
-          "population_aged_20_64--by--basomrade--year"
         ]
       },
       {
@@ -13167,9 +13214,9 @@
           "basomrade",
           "year"
         ],
-        "value": "population_aged_20_64_female",
+        "value": "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64",
         "resources": [
-          "population_aged_20_64_female--by--basomrade--year"
+          "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64--by--basomrade--year"
         ]
       },
       {
@@ -13190,6 +13237,16 @@
         "value": "population_aged_gt_20",
         "resources": [
           "population_aged_gt_20--by--municipality--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_female",
+        "resources": [
+          "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_female--by--basomrade--year"
         ]
       },
       {
@@ -13220,9 +13277,9 @@
           "basomrade",
           "year"
         ],
-        "value": "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64",
+        "value": "population_aged_20_64_female",
         "resources": [
-          "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64--by--basomrade--year"
+          "population_aged_20_64_female--by--basomrade--year"
         ]
       },
       {
@@ -13233,26 +13290,6 @@
         "value": "population_aged_gt_20_female",
         "resources": [
           "population_aged_gt_20_female--by--county--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "basomrade",
-          "year"
-        ],
-        "value": "population_aged_20_64_male",
-        "resources": [
-          "population_aged_20_64_male--by--basomrade--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "municipality",
-          "year"
-        ],
-        "value": "population_aged_gt_20_female",
-        "resources": [
-          "population_aged_gt_20_female--by--municipality--year"
         ]
       },
       {
@@ -13280,6 +13317,16 @@
       },
       {
         "primaryKey": [
+          "municipality",
+          "year"
+        ],
+        "value": "population_aged_gt_20_female",
+        "resources": [
+          "population_aged_gt_20_female--by--municipality--year"
+        ]
+      },
+      {
+        "primaryKey": [
           "county",
           "year"
         ],
@@ -13293,9 +13340,9 @@
           "basomrade",
           "year"
         ],
-        "value": "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_female",
+        "value": "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_male",
         "resources": [
-          "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_female--by--basomrade--year"
+          "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_male--by--basomrade--year"
         ]
       },
       {
@@ -13343,22 +13390,22 @@
       },
       {
         "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "population_aged_20_64_male",
+        "resources": [
+          "population_aged_20_64_male--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
           "municipality",
           "year"
         ],
         "value": "post_secondary_education_min_3_years_aged_25_64",
         "resources": [
           "post_secondary_education_min_3_years_aged_25_64--by--municipality--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "basomrade",
-          "year"
-        ],
-        "value": "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_male",
-        "resources": [
-          "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_male--by--basomrade--year"
         ]
       },
       {
@@ -13575,22 +13622,22 @@
       },
       {
         "primaryKey": [
-          "municipality",
-          "year"
-        ],
-        "value": "share_emigration_employed_aged_20_64_female",
-        "resources": [
-          "share_emigration_employed_aged_20_64_female--by--municipality--year"
-        ]
-      },
-      {
-        "primaryKey": [
           "basomrade",
           "year"
         ],
         "value": "population_aged_gt_20_female",
         "resources": [
           "population_aged_gt_20_female--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "municipality",
+          "year"
+        ],
+        "value": "share_emigration_employed_aged_20_64_female",
+        "resources": [
+          "share_emigration_employed_aged_20_64_female--by--municipality--year"
         ]
       },
       {
@@ -13659,22 +13706,22 @@
       },
       {
         "primaryKey": [
-          "basomrade",
-          "year"
-        ],
-        "value": "post_secondary_education_min_3_years_aged_25_64",
-        "resources": [
-          "post_secondary_education_min_3_years_aged_25_64--by--basomrade--year"
-        ]
-      },
-      {
-        "primaryKey": [
           "municipality",
           "year"
         ],
         "value": "share_emigration_female",
         "resources": [
           "share_emigration_female--by--municipality--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "post_secondary_education_min_3_years_aged_25_64",
+        "resources": [
+          "post_secondary_education_min_3_years_aged_25_64--by--basomrade--year"
         ]
       },
       {
@@ -13921,22 +13968,22 @@
       },
       {
         "primaryKey": [
-          "municipality",
-          "year"
-        ],
-        "value": "share_immigration_employed_aged_20_64",
-        "resources": [
-          "share_immigration_employed_aged_20_64--by--municipality--year"
-        ]
-      },
-      {
-        "primaryKey": [
           "basomrade",
           "year"
         ],
         "value": "share_emigration_female",
         "resources": [
           "share_emigration_female--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "municipality",
+          "year"
+        ],
+        "value": "share_immigration_employed_aged_20_64",
+        "resources": [
+          "share_immigration_employed_aged_20_64--by--municipality--year"
         ]
       },
       {
@@ -14005,26 +14052,6 @@
       },
       {
         "primaryKey": [
-          "basomrade",
-          "year"
-        ],
-        "value": "share_emigration_min_3_years_of_higher_education_aged_25_64",
-        "resources": [
-          "share_emigration_min_3_years_of_higher_education_aged_25_64--by--basomrade--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "municipality",
-          "year"
-        ],
-        "value": "share_immigration_employed_aged_20_64_male",
-        "resources": [
-          "share_immigration_employed_aged_20_64_male--by--municipality--year"
-        ]
-      },
-      {
-        "primaryKey": [
           "gender",
           "geo",
           "year"
@@ -14043,6 +14070,26 @@
         "value": "post_secondary_education_min_3_years_aged_25_64",
         "resources": [
           "post_secondary_education_min_3_years_aged_25_64--by--gender--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "municipality",
+          "year"
+        ],
+        "value": "share_immigration_employed_aged_20_64_male",
+        "resources": [
+          "share_immigration_employed_aged_20_64_male--by--municipality--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "share_emigration_min_3_years_of_higher_education_aged_25_64",
+        "resources": [
+          "share_emigration_min_3_years_of_higher_education_aged_25_64--by--basomrade--year"
         ]
       },
       {
@@ -14185,22 +14232,22 @@
       },
       {
         "primaryKey": [
-          "municipality",
-          "year"
-        ],
-        "value": "share_immigration_min_3_years_of_higher_education_aged_25_64_female",
-        "resources": [
-          "share_immigration_min_3_years_of_higher_education_aged_25_64_female--by--municipality--year"
-        ]
-      },
-      {
-        "primaryKey": [
           "basomrade",
           "year"
         ],
         "value": "share_immigration",
         "resources": [
           "share_immigration--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "municipality",
+          "year"
+        ],
+        "value": "share_immigration_min_3_years_of_higher_education_aged_25_64_female",
+        "resources": [
+          "share_immigration_min_3_years_of_higher_education_aged_25_64_female--by--municipality--year"
         ]
       },
       {
@@ -14280,22 +14327,22 @@
       },
       {
         "primaryKey": [
-          "municipality",
-          "year"
-        ],
-        "value": "sum_income_aged_gt_20",
-        "resources": [
-          "sum_income_aged_gt_20--by--municipality--year"
-        ]
-      },
-      {
-        "primaryKey": [
           "basomrade",
           "year"
         ],
         "value": "share_immigration_employed_aged_20_64_female",
         "resources": [
           "share_immigration_employed_aged_20_64_female--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "municipality",
+          "year"
+        ],
+        "value": "sum_income_aged_gt_20",
+        "resources": [
+          "sum_income_aged_gt_20--by--municipality--year"
         ]
       },
       {
@@ -14406,6 +14453,28 @@
       },
       {
         "primaryKey": [
+          "gender",
+          "geo",
+          "year"
+        ],
+        "value": "share_emigration_min_3_years_of_higher_education_aged_25_64",
+        "resources": [
+          "share_emigration_min_3_years_of_higher_education_aged_25_64--by--gender--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "gender",
+          "year"
+        ],
+        "value": "share_emigration_min_3_years_of_higher_education_aged_25_64",
+        "resources": [
+          "share_emigration_min_3_years_of_higher_education_aged_25_64--by--gender--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
           "municipality",
           "year"
         ],
@@ -14445,28 +14514,6 @@
         "value": "unemployed_aged_20_64",
         "resources": [
           "unemployed_aged_20_64--by--county--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "gender",
-          "geo",
-          "year"
-        ],
-        "value": "share_emigration_min_3_years_of_higher_education_aged_25_64",
-        "resources": [
-          "share_emigration_min_3_years_of_higher_education_aged_25_64--by--gender--basomrade--year"
-        ]
-      },
-      {
-        "primaryKey": [
-          "basomrade",
-          "gender",
-          "year"
-        ],
-        "value": "share_emigration_min_3_years_of_higher_education_aged_25_64",
-        "resources": [
-          "share_emigration_min_3_years_of_higher_education_aged_25_64--by--gender--basomrade--year"
         ]
       },
       {
@@ -14716,16 +14763,6 @@
       },
       {
         "primaryKey": [
-          "municipality",
-          "year"
-        ],
-        "value": "upper_middle_income_aged_gt_20_male",
-        "resources": [
-          "upper_middle_income_aged_gt_20_male--by--municipality--year"
-        ]
-      },
-      {
-        "primaryKey": [
           "basomrade",
           "year"
         ],
@@ -14742,6 +14779,16 @@
         "value": "unemployed_aged_20_64",
         "resources": [
           "unemployed_aged_20_64--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "municipality",
+          "year"
+        ],
+        "value": "upper_middle_income_aged_gt_20_male",
+        "resources": [
+          "upper_middle_income_aged_gt_20_male--by--municipality--year"
         ]
       },
       {
@@ -14769,9 +14816,9 @@
           "basomrade",
           "year"
         ],
-        "value": "sum_income_aged_gt_20_female",
+        "value": "upper_middle_income_aged_gt_20",
         "resources": [
-          "sum_income_aged_gt_20_female--by--basomrade--year"
+          "upper_middle_income_aged_gt_20--by--basomrade--year"
         ]
       },
       {
@@ -14779,9 +14826,9 @@
           "basomrade",
           "year"
         ],
-        "value": "upper_middle_income_aged_gt_20",
+        "value": "sum_income_aged_gt_20_female",
         "resources": [
-          "upper_middle_income_aged_gt_20--by--basomrade--year"
+          "sum_income_aged_gt_20_female--by--basomrade--year"
         ]
       },
       {
@@ -14825,8 +14872,8 @@
           "country",
           "county",
           "county_region",
-          "basomrade",
-          "municipality"
+          "municipality",
+          "basomrade"
         ]
       },
       {
@@ -14945,87 +14992,6 @@
         "value": "is--county_region",
         "resources": [
           "county_region"
-        ]
-      },
-      {
-        "primaryKey": [
-          "basomrade"
-        ],
-        "value": "name",
-        "resources": [
-          "basomrade"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geo"
-        ],
-        "value": "municipality",
-        "resources": [
-          "basomrade"
-        ]
-      },
-      {
-        "primaryKey": [
-          "basomrade"
-        ],
-        "value": "municipality",
-        "resources": [
-          "basomrade"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geo"
-        ],
-        "value": "is--basomrade",
-        "resources": [
-          "basomrade"
-        ]
-      },
-      {
-        "primaryKey": [
-          "basomrade"
-        ],
-        "value": "is--basomrade",
-        "resources": [
-          "basomrade"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geo"
-        ],
-        "value": "size",
-        "resources": [
-          "basomrade"
-        ]
-      },
-      {
-        "primaryKey": [
-          "basomrade"
-        ],
-        "value": "size",
-        "resources": [
-          "basomrade"
-        ]
-      },
-      {
-        "primaryKey": [
-          "geo"
-        ],
-        "value": "baskod2010",
-        "resources": [
-          "basomrade"
-        ]
-      },
-      {
-        "primaryKey": [
-          "basomrade"
-        ],
-        "value": "baskod2010",
-        "resources": [
-          "basomrade"
         ]
       },
       {
@@ -15143,6 +15109,87 @@
         "value": "parent",
         "resources": [
           "tag"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade"
+        ],
+        "value": "name",
+        "resources": [
+          "basomrade"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "municipality",
+        "resources": [
+          "basomrade"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade"
+        ],
+        "value": "municipality",
+        "resources": [
+          "basomrade"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "is--basomrade",
+        "resources": [
+          "basomrade"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade"
+        ],
+        "value": "is--basomrade",
+        "resources": [
+          "basomrade"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "size",
+        "resources": [
+          "basomrade"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade"
+        ],
+        "value": "size",
+        "resources": [
+          "basomrade"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo"
+        ],
+        "value": "baskod2010",
+        "resources": [
+          "basomrade"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade"
+        ],
+        "value": "baskod2010",
+        "resources": [
+          "basomrade"
         ]
       }
     ],
