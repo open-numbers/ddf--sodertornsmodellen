@@ -15,7 +15,7 @@ from ddf_utils.str import to_concept_id
 # In[2]:
 
 # Directories
-out_dir = os.path.join(os.pardir, os.pardir,"ddf--sodertornsmodellen--src")
+out_dir = os.path.join(os.pardir, os.pardir,"")
 src = os.path.join(os.pardir, "source")
 
 # Raw data
