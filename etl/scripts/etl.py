@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[1]:
+# In[135]:
 
 import pandas as pd
 import numpy as np
@@ -12,7 +12,7 @@ from ddf_utils.str import to_concept_id
 
 # ## Files & Dirs
 
-# In[2]:
+# In[136]:
 
 # Directories
 out_dir = os.path.join(os.pardir, os.pardir,"ddf--sodertornsmodellen--src")
@@ -28,7 +28,7 @@ tag_file = os.path.join(src, "tag.xlsx")
 
 # ## Translation dict for column names
 
-# In[23]:
+# In[137]:
 
 column_names = {    
     "År": "year",
@@ -182,7 +182,7 @@ column_names = {
 
 # ## Excel sheets' config
 
-# In[19]:
+# In[138]:
 
 sheet_config = [
     
@@ -233,7 +233,7 @@ sheet_config = [
 
 # ## Helpers
 
-# In[6]:
+# In[139]:
 
 def map_to_id(x):
     if x == str("Stockholms län"):
@@ -244,7 +244,7 @@ def map_to_id(x):
         return to_concept_id(x)
 
 
-# In[7]:
+# In[140]:
 
 def generate_code_dict(df):
     
@@ -260,7 +260,7 @@ def generate_code_dict(df):
 
 # ## Process data
 
-# In[8]:
+# In[141]:
 
 def process_data(data, b_names, column_names, no_headers, sheetname):
 
@@ -303,7 +303,7 @@ def process_data(data, b_names, column_names, no_headers, sheetname):
 
 # ## Entities
 
-# In[9]:
+# In[142]:
 
 def extract_entities_basomraden(data, names):
 
@@ -317,20 +317,23 @@ def extract_entities_basomraden(data, names):
     basomraden = basomraden[["basomrade", "geo", "population_aged_25_64"]]
     basomraden.rename(columns={"geo": "municipality"}, inplace=True)
     basomraden.drop_duplicates("basomrade", inplace=True)
+    print(names.columns)
     names.rename(columns={2010: "basomrade", "namn": "name"}, inplace=True)
     
     # Merge to get name
+    basomraden['basomrade'] = basomraden['basomrade'].astype(str).astype(int)
     basomraden = basomraden.merge(names, how="left", on="basomrade")
-    
+    print(basomraden.head(2))
     # Concatenate code and name as ID
     basomraden["name"] = basomraden["name"].apply(lambda x: "" if pd.isnull(x) else x)
+    
+    
     basomraden["basomrade"] = basomraden["basomrade"].map(str) + " " + basomraden["name"]
     basomraden["name"] = basomraden[["basomrade", "name"]].apply(lambda x: str(x[0]) if x[1] == "" else x[1], axis=1)
     
     basomraden["basomrade"] = basomraden["basomrade"].map(to_concept_id)
     basomraden["is--basomrade"] = "TRUE"
     basomraden["size"] = basomraden["population_aged_25_64"].apply(lambda x: "big" if x > 150 else 'mini')
-    
     #print(pd.DataFrame(basomraden["basomrade"].str.split('_',1).tolist()))
     df = pd.DataFrame(basomraden["basomrade"].str.split('_',1).tolist(),
                                    columns = ['basd','row'])
@@ -339,7 +342,7 @@ def extract_entities_basomraden(data, names):
     return basomraden[["basomrade", "name", "municipality", "is--basomrade", "size", "baskod2010"]]
 
 
-# In[10]:
+# In[143]:
 
 def extract_entities_municipalities(data):
 
@@ -361,7 +364,7 @@ def extract_entities_municipalities(data):
     return muncip
 
 
-# In[11]:
+# In[144]:
 
 def extract_entities_tag():
     tag = pd.read_excel(tag_file)
@@ -370,7 +373,7 @@ def extract_entities_tag():
     
 
 
-# In[12]:
+# In[145]:
 
 def extract_entities_counties(data):
     
@@ -385,7 +388,7 @@ def extract_entities_counties(data):
     return counties
 
 
-# In[13]:
+# In[146]:
 
 def extract_entities_county_region():
     
@@ -394,7 +397,7 @@ def extract_entities_county_region():
     return county_regions
 
 
-# In[14]:
+# In[147]:
 
 def extract_entities_countries():
     
@@ -406,7 +409,7 @@ def extract_entities_countries():
 
 # ## Datapoints
 
-# In[15]:
+# In[148]:
 
 def extract_datapoints(data, basomraden, municipalities, counties, county_regions, countries):
     
@@ -424,7 +427,7 @@ def extract_datapoints(data, basomraden, municipalities, counties, county_region
 
 # ## Concepts
 
-# In[16]:
+# In[149]:
 
 def extract_concepts(measures, column_names):
     
@@ -450,7 +453,7 @@ def extract_concepts(measures, column_names):
     return data
 
 
-# In[17]:
+# In[150]:
 
 def datapoints_by_basomrade_gender():
     """create datapoints by basomrade/gender/year and copy datapoints for
@@ -459,6 +462,7 @@ def datapoints_by_basomrade_gender():
     res = list()
     
     indicators = ["mean_income_aged_gt_20",
+                  "median_income_aged_gt_20",
                   "share_emigration_min_3_years_of_higher_education_aged_25_64",
                   "post_secondary_education_min_3_years_aged_25_64",
                   "employment_rate_20_64"]
@@ -501,22 +505,41 @@ def datapoints_by_basomrade_gender():
     return res
 
 
+# In[151]:
+
+def fixBasomraden(b_names):
+    b_names.rename(columns={2010: "basomrade", "namn": "name"}, inplace=True)
+    b_names['basomrade'] = b_names['basomrade'].astype(str).astype(int)
+
+    names1 = b_names.loc[~b_names['BASKOD2000'].isin(b_names['basomrade'])]
+
+    names1['name'] = names1.groupby(['BASKOD2000'])['name'].transform(lambda x: ' & '.join(x))
+    names1 = names1.drop('basomrade', 1)
+    names1.rename(columns={'BASKOD2000': "basomrade"}, inplace=True)
+    names1 = names1.drop_duplicates()
+
+
+    b_names = b_names.drop('BASKOD2000',1)
+
+    b_names = b_names.append(names1, ignore_index=True)
+    return b_names
+
+
 # ## Main
 
-# In[24]:
+# In[155]:
 
 if __name__ == "__main__":
     
     first_run = True
-    
-    #creatinng global param since some sheets have different vals
-    df_basomraden_all = pd.DataFrame(index=["basomrade"], columns=["basomrade", "name", "municipality", "is--basomrade"])
     
     for config in sheet_config:
         
         # READ DATA
         if (first_run):
             b_names = pd.read_excel(entities_file_1, skiprows=[0,1,2,3,4,5,6], converters={2010: lambda x: str(x)})
+            b_names = fixBasomraden(b_names)
+        
         if (not first_run): 
             del data
         data = pd.read_excel(datapoints_file, sheetname=config["sheetname"],                              skiprows=config["skiprows"], parse_cols=config["parse_cols"])
@@ -549,19 +572,6 @@ if __name__ == "__main__":
         if (first_run):
             code_to_id = generate_code_dict(df_basomraden)
         
-#         df_basomraden = extract_entities_basomraden(data, b_names)
-#         df_basomraden_all = df_basomraden_all.append(df_basomraden)
-#         df_basomraden_all = df_basomraden_all.drop_duplicates().reset_index(drop=True)
-#         print(df_basomraden.count())
-#         print(df_basomraden_all.count())
-        
-#         #print(df_basomraden_all[~df_basomraden_all.isin(df_basomraden)])
-        
-#         code_to_id = generate_code_dict(df_basomraden)
-        
-        #print(data.dtypes)
-        
-        #d<-d[!(d$A=="B" & d$E==0),]
         data = data[~data["basomrade"].isin(['4210450','5630511','5630512','5630513',
                                              '5630514','5630522','5630523','5630524',
                                              '5515121','5515122','5515123','4010150',
