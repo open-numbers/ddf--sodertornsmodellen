@@ -2,7 +2,7 @@ concept,name,concept_type,domain,tags,scales,format,color
 color,,string,,_none,,,
 scales,,string,,_none,,,
 format,,string,,_none,,,
-tag,,tag,,_none,,,
+tag,,entity_domain,,_none,,,
 parent,,string,,_none,,,
 tags,,string,,_none,,,
 geo,Geographic place,entity_domain,,_none,,,
