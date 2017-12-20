@@ -1,0 +1,23 @@
+{
+  "id": "NON_CONCEPT_HEADER",
+  "type": "Non concept header. \n  Each part of any header should be concept (is-- fields are excluded in this case)",
+  "path": "/Users/semio/src/work/Gapminder/airflow/datasets/open-numbers/ddf--sodertornsmodellen/ddf--sodertornsmodellen--src/ddf--entities--tag.csv",
+  "data": "tag"
+},
+{
+  "id": "NON_CONCEPT_HEADER",
+  "type": "Non concept header. \n  Each part of any header should be concept (is-- fields are excluded in this case)",
+  "path": "/Users/semio/src/work/Gapminder/airflow/datasets/open-numbers/ddf--sodertornsmodellen/ddf--sodertornsmodellen--src/ddf--entities--tag.csv",
+  "data": "parent"
+},
+{
+  "id": "DATAPACKAGE_NON_CONCEPT_FIELD",
+  "type": "Non concept primary field in datapackage.json",
+  "path": "/Users/semio/src/work/Gapminder/airflow/datasets/open-numbers/ddf--sodertornsmodellen/ddf--sodertornsmodellen--src/ddf--entities--tag.csv",
+  "data": {
+    "nonConcepts": [
+      "tag",
+      "parent"
+    ]
+  }
+},
