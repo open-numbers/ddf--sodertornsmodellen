@@ -5480,6 +5480,69 @@
       }
     },
     {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--n_rooms_multhab_owned--by--basomrade--year.csv",
+      "name": "n_rooms_multhab_owned--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "n_rooms_multhab_owned"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--n_rooms_multhab_rented--by--basomrade--year.csv",
+      "name": "n_rooms_multhab_rented--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "n_rooms_multhab_rented"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--n_rooms_small_house_owned--by--basomrade--year.csv",
+      "name": "n_rooms_small_house_owned--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "n_rooms_small_house_owned"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_20xx_12_31--by--basomrade--year.csv",
       "name": "population_20xx_12_31--by--basomrade--year",
       "schema": {
@@ -10020,6 +10083,36 @@
           "basomrade",
           "year"
         ],
+        "value": "n_rooms_multhab_owned",
+        "resources": [
+          "n_rooms_multhab_owned--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "n_rooms_multhab_rented",
+        "resources": [
+          "n_rooms_multhab_rented--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "n_rooms_small_house_owned",
+        "resources": [
+          "n_rooms_small_house_owned--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
         "value": "population_20xx_12_31",
         "resources": [
           "population_20xx_12_31--by--basomrade--year"
@@ -13278,6 +13371,36 @@
           "missing_data_male--by--country--year",
           "missing_data_male--by--county--year",
           "missing_data_male--by--municipality--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "n_rooms_multhab_owned",
+        "resources": [
+          "n_rooms_multhab_owned--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "n_rooms_multhab_rented",
+        "resources": [
+          "n_rooms_multhab_rented--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "n_rooms_small_house_owned",
+        "resources": [
+          "n_rooms_small_house_owned--by--basomrade--year"
         ]
       },
       {
