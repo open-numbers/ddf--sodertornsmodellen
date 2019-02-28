@@ -113,6 +113,90 @@
       }
     },
     {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cars_household_w_cars_share--by--basomrade--year.csv",
+      "name": "cars_household_w_cars_share--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "cars_household_w_cars_share"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cars_household_w_cars_total--by--basomrade--year.csv",
+      "name": "cars_household_w_cars_total--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "cars_household_w_cars_total"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cars_per_household--by--basomrade--year.csv",
+      "name": "cars_per_household--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "cars_per_household"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cars_total--by--basomrade--year.csv",
+      "name": "cars_total--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "cars_total"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cumulative_immigration_surplus--by--basomrade--year.csv",
       "name": "cumulative_immigration_surplus--by--basomrade--year",
       "schema": {
@@ -9363,6 +9447,46 @@
           "basomrade",
           "year"
         ],
+        "value": "cars_household_w_cars_share",
+        "resources": [
+          "cars_household_w_cars_share--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "cars_household_w_cars_total",
+        "resources": [
+          "cars_household_w_cars_total--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "cars_per_household",
+        "resources": [
+          "cars_per_household--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "cars_total",
+        "resources": [
+          "cars_total--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
         "value": "cumulative_immigration_surplus",
         "resources": [
           "cumulative_immigration_surplus--by--basomrade--year"
@@ -12471,6 +12595,46 @@
         "value": "andel_hyres",
         "resources": [
           "andel_hyres--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "cars_household_w_cars_share",
+        "resources": [
+          "cars_household_w_cars_share--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "cars_household_w_cars_total",
+        "resources": [
+          "cars_household_w_cars_total--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "cars_per_household",
+        "resources": [
+          "cars_per_household--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "cars_total",
+        "resources": [
+          "cars_total--by--basomrade--year"
         ]
       },
       {
