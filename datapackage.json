@@ -1772,6 +1772,69 @@
       }
     },
     {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--ekbist_18_64_tot--by--basomrade--year.csv",
+      "name": "ekbist_18_64_tot--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ekbist_18_64_tot"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--ekbist_18_64_tot_female--by--basomrade--year.csv",
+      "name": "ekbist_18_64_tot_female--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ekbist_18_64_tot_female"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--ekbist_18_64_tot_male--by--basomrade--year.csv",
+      "name": "ekbist_18_64_tot_male--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ekbist_18_64_tot_male"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--sodertornsmodellen--src/ddf--datapoints--emigration--by--basomrade--year.csv",
       "name": "emigration--by--basomrade--year",
       "schema": {
@@ -9697,6 +9760,36 @@
           "basomrade",
           "year"
         ],
+        "value": "ekbist_18_64_tot",
+        "resources": [
+          "ekbist_18_64_tot--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "ekbist_18_64_tot_female",
+        "resources": [
+          "ekbist_18_64_tot_female--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "ekbist_18_64_tot_male",
+        "resources": [
+          "ekbist_18_64_tot_male--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
         "value": "emigration",
         "resources": [
           "emigration--by--basomrade--year"
@@ -12899,6 +12992,36 @@
           "educational_level_secondary_school_aged_25_64_male--by--country--year",
           "educational_level_secondary_school_aged_25_64_male--by--county--year",
           "educational_level_secondary_school_aged_25_64_male--by--municipality--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "ekbist_18_64_tot",
+        "resources": [
+          "ekbist_18_64_tot--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "ekbist_18_64_tot_female",
+        "resources": [
+          "ekbist_18_64_tot_female--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "ekbist_18_64_tot_male",
+        "resources": [
+          "ekbist_18_64_tot_male--by--basomrade--year"
         ]
       },
       {
