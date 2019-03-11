@@ -45,6 +45,9 @@ cars_household_w_cars_share,"Bilar, andel hushåll med bil"
 n_rooms_multhab_owned,"Rum, lägenhet/bostadsrätt"
 n_rooms_small_house_owned,"Rum, hus"
 n_rooms_multhab_rented,"Rum, lägenhet/hyresrätt"
+ekbist_18_64_tot,"Ekonomiskt bistånd, totalt"
+ekbist_18_64_tot_female,"Ekonomiskt bistånd, kvinnor"
+ekbist_18_64_tot_male,"Ekonomiskt bistånd, män"
 size,
 baskod2010,
 gender,gender
