@@ -38,6 +38,13 @@ employment_rate_20_64,"Sysselsättningsgrad, Totalt"
 post_secondary_education_min_3_years_aged_25_64_male,"Andel med minst 3 år eftergymnasial utbildning, Män"
 post_secondary_education_min_3_years_aged_25_64_female,"Andel med minst 3 år eftergymnasial utbildning, Kvinnor"
 post_secondary_education_min_3_years_aged_25_64,"Andel med minst 3 år eftergymnasial utbildning, Totalt"
+cars_total,"Bilar, totalt"
+cars_per_household,"Bilar per hushåll"
+cars_household_w_cars_total,"Bilar, antal hushåll med bil"
+cars_household_w_cars_share,"Bilar, andel hushåll med bil"
+n_rooms_multhab_owned,"Rum, lägenhet/bostadsrätt"
+n_rooms_small_house_owned,"Rum, hus"
+n_rooms_multhab_rented,"Rum, lägenhet/hyresrätt"
 size,
 baskod2010,
 gender,gender
