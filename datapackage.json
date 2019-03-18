@@ -50,6 +50,48 @@
       }
     },
     {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--access_green_c_lt_300--by--basomrade--year.csv",
+      "name": "access_green_c_lt_300--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "access_green_c_lt_300"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--access_sl_lt_300--by--basomrade--year.csv",
+      "name": "access_sl_lt_300--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "access_sl_lt_300"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--sodertornsmodellen--src/ddf--datapoints--andel_aegender--by--basomrade--year.csv",
       "name": "andel_aegender--by--basomrade--year",
       "schema": {
@@ -759,6 +801,69 @@
         ],
         "primaryKey": [
           "municipality",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--education_year_3_sv--by--basomrade--year.csv",
+      "name": "education_year_3_sv--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "education_year_3_sv"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--education_year_3_sv_female--by--basomrade--year.csv",
+      "name": "education_year_3_sv_female--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "education_year_3_sv_female"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--education_year_3_sv_male--by--basomrade--year.csv",
+      "name": "education_year_3_sv_male--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "education_year_3_sv_male"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
           "year"
         ]
       }
@@ -9480,6 +9585,26 @@
           "basomrade",
           "year"
         ],
+        "value": "access_green_c_lt_300",
+        "resources": [
+          "access_green_c_lt_300--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "access_sl_lt_300",
+        "resources": [
+          "access_sl_lt_300--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
         "value": "andel_aegender",
         "resources": [
           "andel_aegender--by--basomrade--year"
@@ -9633,6 +9758,36 @@
         "value": "cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_male",
         "resources": [
           "cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_male--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "education_year_3_sv",
+        "resources": [
+          "education_year_3_sv--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "education_year_3_sv_female",
+        "resources": [
+          "education_year_3_sv_female--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "education_year_3_sv_male",
+        "resources": [
+          "education_year_3_sv_male--by--basomrade--year"
         ]
       },
       {
@@ -12665,6 +12820,26 @@
           "geo",
           "year"
         ],
+        "value": "access_green_c_lt_300",
+        "resources": [
+          "access_green_c_lt_300--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "access_sl_lt_300",
+        "resources": [
+          "access_sl_lt_300--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
         "value": "andel_aegender",
         "resources": [
           "andel_aegender--by--basomrade--year"
@@ -12836,6 +13011,36 @@
           "cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_male--by--basomrade--year",
           "cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_male--by--county--year",
           "cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_male--by--municipality--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "education_year_3_sv",
+        "resources": [
+          "education_year_3_sv--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "education_year_3_sv_female",
+        "resources": [
+          "education_year_3_sv_female--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "education_year_3_sv_male",
+        "resources": [
+          "education_year_3_sv_male--by--basomrade--year"
         ]
       },
       {
