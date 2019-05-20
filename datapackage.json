@@ -155,6 +155,69 @@
       }
     },
     {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--antal_aegender--by--basomrade--year.csv",
+      "name": "antal_aegender--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "antal_aegender"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--antal_bostadsr--by--basomrade--year.csv",
+      "name": "antal_bostadsr--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "antal_bostadsr"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--antal_hyres--by--basomrade--year.csv",
+      "name": "antal_hyres--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "antal_hyres"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cars_household_w_cars_share--by--basomrade--year.csv",
       "name": "cars_household_w_cars_share--by--basomrade--year",
       "schema": {
@@ -9635,6 +9698,36 @@
           "basomrade",
           "year"
         ],
+        "value": "antal_aegender",
+        "resources": [
+          "antal_aegender--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "antal_bostadsr",
+        "resources": [
+          "antal_bostadsr--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "antal_hyres",
+        "resources": [
+          "antal_hyres--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
         "value": "cars_household_w_cars_share",
         "resources": [
           "cars_household_w_cars_share--by--basomrade--year"
@@ -12863,6 +12956,36 @@
         "value": "andel_hyres",
         "resources": [
           "andel_hyres--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "antal_aegender",
+        "resources": [
+          "antal_aegender--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "antal_bostadsr",
+        "resources": [
+          "antal_bostadsr--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "antal_hyres",
+        "resources": [
+          "antal_hyres--by--basomrade--year"
         ]
       },
       {
