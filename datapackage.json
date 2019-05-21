@@ -197,6 +197,27 @@
       }
     },
     {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--antal_hushall_med_barn--by--basomrade--year.csv",
+      "name": "antal_hushall_med_barn--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "antal_hushall_med_barn"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--sodertornsmodellen--src/ddf--datapoints--antal_hyres--by--basomrade--year.csv",
       "name": "antal_hyres--by--basomrade--year",
       "schema": {
@@ -9886,6 +9907,16 @@
           "basomrade",
           "year"
         ],
+        "value": "antal_hushall_med_barn",
+        "resources": [
+          "antal_hushall_med_barn--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
         "value": "antal_hyres",
         "resources": [
           "antal_hyres--by--basomrade--year"
@@ -13224,6 +13255,16 @@
         "value": "antal_bostadsr",
         "resources": [
           "antal_bostadsr--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "antal_hushall_med_barn",
+        "resources": [
+          "antal_hushall_med_barn--by--basomrade--year"
         ]
       },
       {
