@@ -28,6 +28,12 @@
             "name": "name"
           },
           {
+            "name": "description"
+          },
+          {
+            "name": "description_long"
+          },
+          {
             "name": "concept_type"
           },
           {
@@ -16602,6 +16608,24 @@
           "concept"
         ],
         "value": "concept_type",
+        "resources": [
+          "ddf--concepts"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "description",
+        "resources": [
+          "ddf--concepts"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "description_long",
         "resources": [
           "ddf--concepts"
         ]
