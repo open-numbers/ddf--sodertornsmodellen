@@ -34,6 +34,9 @@
             "name": "description_long"
           },
           {
+            "name": "source"
+          },
+          {
             "name": "concept_type"
           },
           {
@@ -16662,6 +16665,15 @@
           "concept"
         ],
         "value": "scales",
+        "resources": [
+          "ddf--concepts"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "source",
         "resources": [
           "ddf--concepts"
         ]
