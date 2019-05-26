@@ -1,6 +1,6 @@
 {
-  "name": "ddf--sodertornsmodellen",
-  "title": "ddf--sodertornsmodellen",
+  "name": "ddf--sodertornsmodellen-new",
+  "title": "ddf--sodertornsmodellen-new",
   "description": "",
   "version": "0.0.1",
   "language": {
@@ -28,6 +28,15 @@
             "name": "name"
           },
           {
+            "name": "description"
+          },
+          {
+            "name": "description_long"
+          },
+          {
+            "name": "source"
+          },
+          {
             "name": "concept_type"
           },
           {
@@ -47,6 +56,48 @@
           }
         ],
         "primaryKey": "concept"
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--access_green_c_lt_300--by--basomrade--year.csv",
+      "name": "access_green_c_lt_300--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "access_green_c_lt_300"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--access_sl_lt_300--by--basomrade--year.csv",
+      "name": "access_sl_lt_300--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "access_sl_lt_300"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
       }
     },
     {
@@ -104,6 +155,237 @@
           },
           {
             "name": "andel_hyres"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--antal_aegender--by--basomrade--year.csv",
+      "name": "antal_aegender--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "antal_aegender"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--antal_bostadsr--by--basomrade--year.csv",
+      "name": "antal_bostadsr--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "antal_bostadsr"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--antal_hushall_med_barn--by--basomrade--year.csv",
+      "name": "antal_hushall_med_barn--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "antal_hushall_med_barn"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--antal_hushall_totalt--by--basomrade--year.csv",
+      "name": "antal_hushall_totalt--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "antal_hushall_totalt"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--antal_hyres--by--basomrade--year.csv",
+      "name": "antal_hyres--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "antal_hyres"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--antal_hyreshus--by--basomrade--year.csv",
+      "name": "antal_hyreshus--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "antal_hyreshus"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--antal_lght_total--by--basomrade--year.csv",
+      "name": "antal_lght_total--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "antal_lght_total"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cars_household_w_cars_share--by--basomrade--year.csv",
+      "name": "cars_household_w_cars_share--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "cars_household_w_cars_share"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cars_household_w_cars_total--by--basomrade--year.csv",
+      "name": "cars_household_w_cars_total--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "cars_household_w_cars_total"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cars_per_household--by--basomrade--year.csv",
+      "name": "cars_per_household--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "cars_per_household"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--cars_total--by--basomrade--year.csv",
+      "name": "cars_total--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "cars_total"
           }
         ],
         "primaryKey": [
@@ -675,6 +957,69 @@
         ],
         "primaryKey": [
           "municipality",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--education_year_3_sv--by--basomrade--year.csv",
+      "name": "education_year_3_sv--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "education_year_3_sv"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--education_year_3_sv_female--by--basomrade--year.csv",
+      "name": "education_year_3_sv_female--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "education_year_3_sv_female"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--education_year_3_sv_male--by--basomrade--year.csv",
+      "name": "education_year_3_sv_male--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "education_year_3_sv_male"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
           "year"
         ]
       }
@@ -1683,6 +2028,69 @@
         ],
         "primaryKey": [
           "municipality",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--ekbist_18_64_tot--by--basomrade--year.csv",
+      "name": "ekbist_18_64_tot--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ekbist_18_64_tot"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--ekbist_18_64_tot_female--by--basomrade--year.csv",
+      "name": "ekbist_18_64_tot_female--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ekbist_18_64_tot_female"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--ekbist_18_64_tot_male--by--basomrade--year.csv",
+      "name": "ekbist_18_64_tot_male--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "ekbist_18_64_tot_male"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
           "year"
         ]
       }
@@ -5480,6 +5888,69 @@
       }
     },
     {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--n_rooms_multhab_owned--by--basomrade--year.csv",
+      "name": "n_rooms_multhab_owned--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "n_rooms_multhab_owned"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--n_rooms_multhab_rented--by--basomrade--year.csv",
+      "name": "n_rooms_multhab_rented--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "n_rooms_multhab_rented"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--n_rooms_small_house_owned--by--basomrade--year.csv",
+      "name": "n_rooms_small_house_owned--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "n_rooms_small_house_owned"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
       "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_20xx_12_31--by--basomrade--year.csv",
       "name": "population_20xx_12_31--by--basomrade--year",
       "schema": {
@@ -6042,6 +6513,69 @@
         ],
         "primaryKey": [
           "municipality",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_18_64--by--basomrade--year.csv",
+      "name": "population_aged_18_64--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "population_aged_18_64"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_18_64_female--by--basomrade--year.csv",
+      "name": "population_aged_18_64_female--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "population_aged_18_64_female"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_aged_18_64_male--by--basomrade--year.csv",
+      "name": "population_aged_18_64_male--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "population_aged_18_64_male"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
           "year"
         ]
       }
@@ -6798,6 +7332,132 @@
         ],
         "primaryKey": [
           "municipality",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_gte_16--by--basomrade--year.csv",
+      "name": "population_gte_16--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "population_gte_16"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_gte_16_female--by--basomrade--year.csv",
+      "name": "population_gte_16_female--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "population_gte_16_female"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_gte_16_male--by--basomrade--year.csv",
+      "name": "population_gte_16_male--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "population_gte_16_male"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_total--by--basomrade--year.csv",
+      "name": "population_total--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "population_total"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_total_female--by--basomrade--year.csv",
+      "name": "population_total_female--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "population_total_female"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ]
+      }
+    },
+    {
+      "path": "ddf--sodertornsmodellen--src/ddf--datapoints--population_total_male--by--basomrade--year.csv",
+      "name": "population_total_male--by--basomrade--year",
+      "schema": {
+        "fields": [
+          {
+            "name": "basomrade"
+          },
+          {
+            "name": "year"
+          },
+          {
+            "name": "population_total_male"
+          }
+        ],
+        "primaryKey": [
+          "basomrade",
           "year"
         ]
       }
@@ -9207,6 +9867,26 @@
           "basomrade",
           "year"
         ],
+        "value": "access_green_c_lt_300",
+        "resources": [
+          "access_green_c_lt_300--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "access_sl_lt_300",
+        "resources": [
+          "access_sl_lt_300--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
         "value": "andel_aegender",
         "resources": [
           "andel_aegender--by--basomrade--year"
@@ -9230,6 +9910,116 @@
         "value": "andel_hyres",
         "resources": [
           "andel_hyres--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "antal_aegender",
+        "resources": [
+          "antal_aegender--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "antal_bostadsr",
+        "resources": [
+          "antal_bostadsr--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "antal_hushall_med_barn",
+        "resources": [
+          "antal_hushall_med_barn--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "antal_hushall_totalt",
+        "resources": [
+          "antal_hushall_totalt--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "antal_hyres",
+        "resources": [
+          "antal_hyres--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "antal_hyreshus",
+        "resources": [
+          "antal_hyreshus--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "antal_lght_total",
+        "resources": [
+          "antal_lght_total--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "cars_household_w_cars_share",
+        "resources": [
+          "cars_household_w_cars_share--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "cars_household_w_cars_total",
+        "resources": [
+          "cars_household_w_cars_total--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "cars_per_household",
+        "resources": [
+          "cars_per_household--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "cars_total",
+        "resources": [
+          "cars_total--by--basomrade--year"
         ]
       },
       {
@@ -9320,6 +10110,36 @@
         "value": "cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_male",
         "resources": [
           "cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_male--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "education_year_3_sv",
+        "resources": [
+          "education_year_3_sv--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "education_year_3_sv_female",
+        "resources": [
+          "education_year_3_sv_female--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "education_year_3_sv_male",
+        "resources": [
+          "education_year_3_sv_male--by--basomrade--year"
         ]
       },
       {
@@ -9440,6 +10260,36 @@
         "value": "educational_level_secondary_school_aged_25_64_male",
         "resources": [
           "educational_level_secondary_school_aged_25_64_male--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "ekbist_18_64_tot",
+        "resources": [
+          "ekbist_18_64_tot--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "ekbist_18_64_tot_female",
+        "resources": [
+          "ekbist_18_64_tot_female--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "ekbist_18_64_tot_male",
+        "resources": [
+          "ekbist_18_64_tot_male--by--basomrade--year"
         ]
       },
       {
@@ -9957,6 +10807,36 @@
           "basomrade",
           "year"
         ],
+        "value": "n_rooms_multhab_owned",
+        "resources": [
+          "n_rooms_multhab_owned--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "n_rooms_multhab_rented",
+        "resources": [
+          "n_rooms_multhab_rented--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "n_rooms_small_house_owned",
+        "resources": [
+          "n_rooms_small_house_owned--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
         "value": "population_20xx_12_31",
         "resources": [
           "population_20xx_12_31--by--basomrade--year"
@@ -10047,6 +10927,36 @@
           "basomrade",
           "year"
         ],
+        "value": "population_aged_18_64",
+        "resources": [
+          "population_aged_18_64--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "population_aged_18_64_female",
+        "resources": [
+          "population_aged_18_64_female--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "population_aged_18_64_male",
+        "resources": [
+          "population_aged_18_64_male--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
         "value": "population_aged_20_64",
         "resources": [
           "population_aged_20_64--by--basomrade--year"
@@ -10130,6 +11040,66 @@
         "value": "population_aged_gt_20_male",
         "resources": [
           "population_aged_gt_20_male--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "population_gte_16",
+        "resources": [
+          "population_gte_16--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "population_gte_16_female",
+        "resources": [
+          "population_gte_16_female--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "population_gte_16_male",
+        "resources": [
+          "population_gte_16_male--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "population_total",
+        "resources": [
+          "population_total--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "population_total_female",
+        "resources": [
+          "population_total_female--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "basomrade",
+          "year"
+        ],
+        "value": "population_total_male",
+        "resources": [
+          "population_total_male--by--basomrade--year"
         ]
       },
       {
@@ -12262,6 +13232,26 @@
           "geo",
           "year"
         ],
+        "value": "access_green_c_lt_300",
+        "resources": [
+          "access_green_c_lt_300--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "access_sl_lt_300",
+        "resources": [
+          "access_sl_lt_300--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
         "value": "andel_aegender",
         "resources": [
           "andel_aegender--by--basomrade--year"
@@ -12285,6 +13275,116 @@
         "value": "andel_hyres",
         "resources": [
           "andel_hyres--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "antal_aegender",
+        "resources": [
+          "antal_aegender--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "antal_bostadsr",
+        "resources": [
+          "antal_bostadsr--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "antal_hushall_med_barn",
+        "resources": [
+          "antal_hushall_med_barn--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "antal_hushall_totalt",
+        "resources": [
+          "antal_hushall_totalt--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "antal_hyres",
+        "resources": [
+          "antal_hyres--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "antal_hyreshus",
+        "resources": [
+          "antal_hyreshus--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "antal_lght_total",
+        "resources": [
+          "antal_lght_total--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "cars_household_w_cars_share",
+        "resources": [
+          "cars_household_w_cars_share--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "cars_household_w_cars_total",
+        "resources": [
+          "cars_household_w_cars_total--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "cars_per_household",
+        "resources": [
+          "cars_per_household--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "cars_total",
+        "resources": [
+          "cars_total--by--basomrade--year"
         ]
       },
       {
@@ -12393,6 +13493,36 @@
           "cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_male--by--basomrade--year",
           "cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_male--by--county--year",
           "cumulative_immigration_surplus_min_3_years_of_higher_education_aged_25_64_male--by--municipality--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "education_year_3_sv",
+        "resources": [
+          "education_year_3_sv--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "education_year_3_sv_female",
+        "resources": [
+          "education_year_3_sv_female--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "education_year_3_sv_male",
+        "resources": [
+          "education_year_3_sv_male--by--basomrade--year"
         ]
       },
       {
@@ -12549,6 +13679,36 @@
           "educational_level_secondary_school_aged_25_64_male--by--country--year",
           "educational_level_secondary_school_aged_25_64_male--by--county--year",
           "educational_level_secondary_school_aged_25_64_male--by--municipality--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "ekbist_18_64_tot",
+        "resources": [
+          "ekbist_18_64_tot--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "ekbist_18_64_tot_female",
+        "resources": [
+          "ekbist_18_64_tot_female--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "ekbist_18_64_tot_male",
+        "resources": [
+          "ekbist_18_64_tot_male--by--basomrade--year"
         ]
       },
       {
@@ -13192,6 +14352,36 @@
           "geo",
           "year"
         ],
+        "value": "n_rooms_multhab_owned",
+        "resources": [
+          "n_rooms_multhab_owned--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "n_rooms_multhab_rented",
+        "resources": [
+          "n_rooms_multhab_rented--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "n_rooms_small_house_owned",
+        "resources": [
+          "n_rooms_small_house_owned--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
         "value": "population_20xx_12_31",
         "resources": [
           "population_20xx_12_31--by--basomrade--year",
@@ -13293,6 +14483,36 @@
           "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_male--by--basomrade--year",
           "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_male--by--county--year",
           "population_25xx_12_31_min_3_years_of_higher_education_aged_25_64_male--by--municipality--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "population_aged_18_64",
+        "resources": [
+          "population_aged_18_64--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "population_aged_18_64_female",
+        "resources": [
+          "population_aged_18_64_female--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "population_aged_18_64_male",
+        "resources": [
+          "population_aged_18_64_male--by--basomrade--year"
         ]
       },
       {
@@ -13410,6 +14630,66 @@
           "population_aged_gt_20_male--by--country--year",
           "population_aged_gt_20_male--by--county--year",
           "population_aged_gt_20_male--by--municipality--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "population_gte_16",
+        "resources": [
+          "population_gte_16--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "population_gte_16_female",
+        "resources": [
+          "population_gte_16_female--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "population_gte_16_male",
+        "resources": [
+          "population_gte_16_male--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "population_total",
+        "resources": [
+          "population_total--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "population_total_female",
+        "resources": [
+          "population_total_female--by--basomrade--year"
+        ]
+      },
+      {
+        "primaryKey": [
+          "geo",
+          "year"
+        ],
+        "value": "population_total_male",
+        "resources": [
+          "population_total_male--by--basomrade--year"
         ]
       },
       {
@@ -15339,6 +16619,24 @@
         "primaryKey": [
           "concept"
         ],
+        "value": "description",
+        "resources": [
+          "ddf--concepts"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "description_long",
+        "resources": [
+          "ddf--concepts"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
         "value": "domain",
         "resources": [
           "ddf--concepts"
@@ -15367,6 +16665,15 @@
           "concept"
         ],
         "value": "scales",
+        "resources": [
+          "ddf--concepts"
+        ]
+      },
+      {
+        "primaryKey": [
+          "concept"
+        ],
+        "value": "source",
         "resources": [
           "ddf--concepts"
         ]

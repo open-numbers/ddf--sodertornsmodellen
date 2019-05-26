@@ -334,6 +334,7 @@ basomrade,name,municipality,is--basomrade,size,baskod2010
 6420000_taxinge_forsamling,Taxinge församling,0140_nykvarn,TRUE,big,6420000
 3910110_vastra_nasbypark,Västra Näsbypark,0160_taby,TRUE,big,3910110
 3910120_ornstigen,Örnstigen,0160_taby,TRUE,big,3910120
+1110210_wenner_gren_center,Wenner Gren Center,0180_stockholm,TRUE,mini,1110210
 3910130_nasbyparks_centrum,Näsbyparks centrum,0160_taby,TRUE,big,3910130
 3910140_nasby_slott,Näsby slott,0160_taby,TRUE,big,3910140
 3910170_ostra_nasbypark,Östra Näsbypark,0160_taby,TRUE,big,3910170
@@ -437,7 +438,6 @@ basomrade,name,municipality,is--basomrade,size,baskod2010
 1110111_brunnsgatan_n,Brunnsgatan N,0180_stockholm,TRUE,big,1110111
 1110112_brunnsgatan_s,Brunnsgatan S,0180_stockholm,TRUE,big,1110112
 1110120_johannes_kyrka,Johannes Kyrka,0180_stockholm,TRUE,big,1110120
-1110210_wenner_gren_center,Wenner Gren Center,0180_stockholm,TRUE,big,1110210
 1110220_vanadislunden,Vanadislunden,0180_stockholm,TRUE,big,1110220
 1110230_surbrunnsomradet,Surbrunnsområdet,0180_stockholm,TRUE,big,1110230
 1110240_norra_real,Norra Real,0180_stockholm,TRUE,big,1110240
